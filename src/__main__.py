@@ -1,5 +1,5 @@
 """
-CLI: `python -m src` (daily) or `python -m src --backfill` (one-time history build).
+CLI: `python -m src` (daily scanner) or `python -m src --backfill` (one-time history build).
 """
 
 from __future__ import annotations
@@ -9,7 +9,7 @@ import json
 import os
 from pathlib import Path
 
-from . import fetch, pipeline
+from . import currency_strength, fetch, scanner
 
 
 def load_pairs(path: Path) -> list[dict]:
@@ -27,7 +27,9 @@ def load_pairs(path: Path) -> list[dict]:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Forex daily signals pipeline")
+    ap = argparse.ArgumentParser(
+        description="Forex observational scanner: refresh EODHD cache and write forex_scans.json",
+    )
     ap.add_argument("--backfill", action="store_true",
                     help="Fetch extended history per pair before running.")
     ap.add_argument("--backfill-years", type=int, default=None,
@@ -50,12 +52,18 @@ def main() -> None:
             print(f"Done with {len(failures)} failures.")
         return
 
-    pipeline.run(
-        pairs=pairs,
-        cache_dir=cache_dir,
-        out_dir=out_dir,
-        do_backfill=False,
-    )
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    print(f"Refreshing {len(pairs)} pairs from EODHD...")
+    failures = fetch.refresh_universe(pairs, cache_dir)
+    if failures:
+        print(f"  {len(failures)} failures: {failures}")
+
+    payload, skipped = scanner.run_scanner(pairs, cache_dir)
+    if payload["universe_size"] == 0:
+        raise SystemExit("No pairs with sufficient cache. Run backfill first.")
+
+    payload["currency_strength"] = currency_strength.build_currency_strength(payload)
+    scanner.export_forex_scans(payload, out_dir, skipped)
 
 
 if __name__ == "__main__":

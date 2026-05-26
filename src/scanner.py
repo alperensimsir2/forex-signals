@@ -1021,24 +1021,14 @@ def print_summary(payload: dict, skipped: list[str]) -> None:
         print(f"  - {note}")
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser(description="Forex technical condition scanner")
-    ap.add_argument("--pairs", default="forex_pairs.json")
-    ap.add_argument("--cache-dir", default=os.environ.get("CACHE_DIR", "cache"))
-    ap.add_argument("--out-dir", default=os.environ.get("OUT_DIR", "out"))
-    args = ap.parse_args()
-
-    pairs = json.loads(Path(args.pairs).read_text(encoding="utf-8"))
-    out_path = Path(args.out_dir) / "forex_scans.json"
-
-    print(f"Scanner: cache {Path(args.cache_dir).resolve()}")
-    payload, skipped = run_scanner(pairs, Path(args.cache_dir))
-
-    if payload["universe_size"] == 0:
-        raise SystemExit("No pairs with sufficient cache. Run backfill first.")
-
-    payload["currency_strength"] = currency_strength.build_currency_strength(payload)
-
+def export_forex_scans(
+    payload: dict,
+    out_dir: Path,
+    skipped: list[str] | None = None,
+) -> Path:
+    """Write forex_scans.json and print the same summaries as the scanner CLI."""
+    skipped = skipped or []
+    out_path = out_dir / "forex_scans.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
@@ -1051,6 +1041,26 @@ def main() -> None:
         f"Base scans: {len(payload['scans'])}  |  Composites: {n_comp}  |  "
         f"Pairs indexed: {len(payload['pairs'])}"
     )
+    return out_path
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="Forex technical condition scanner")
+    ap.add_argument("--pairs", default="forex_pairs.json")
+    ap.add_argument("--cache-dir", default=os.environ.get("CACHE_DIR", "cache"))
+    ap.add_argument("--out-dir", default=os.environ.get("OUT_DIR", "out"))
+    args = ap.parse_args()
+
+    pairs = json.loads(Path(args.pairs).read_text(encoding="utf-8"))
+
+    print(f"Scanner: cache {Path(args.cache_dir).resolve()}")
+    payload, skipped = run_scanner(pairs, Path(args.cache_dir))
+
+    if payload["universe_size"] == 0:
+        raise SystemExit("No pairs with sufficient cache. Run backfill first.")
+
+    payload["currency_strength"] = currency_strength.build_currency_strength(payload)
+    export_forex_scans(payload, Path(args.out_dir), skipped)
 
 
 if __name__ == "__main__":
