@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "signals-forex.json (home-screen payload, v1.0.0)",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "signals"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "trade_date": {"type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "universe_size": {"type": "integer", "minimum": 0},
+    "strategy_trade_count_52w": {"type": "integer", "minimum": 0},
+    "strategy_avg_hold_days": {"type": ["number", "null"]},
+    "strategy_avg_gain_pct": {"type": ["number", "null"]},
+    "strategy_avg_peak_gain_pct": {"type": ["number", "null"], "minimum": 0.0},
+    "strategy_success_rate_52w": {"type": ["number", "null"], "minimum": 0.0, "maximum": 1.0},
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "display_symbol",
+          "category",
+          "close",
+          "change_pct",
+          "change_pips",
+          "pip_size",
+          "signal"
+        ],
+        "properties": {
+          "symbol": {"type": "string"},
+          "display_symbol": {"type": "string"},
+          "category": {"type": "string", "enum": ["major", "cross"]},
+          "close": {"type": ["number", "null"]},
+          "change_pct": {"type": ["number", "null"]},
+          "change_pips": {"type": ["number", "null"]},
+          "pip_size": {"type": "number", "enum": [0.0001, 0.01]},
+          "signal": {"type": ["string", "null"], "enum": ["BUY", "SELL", null]},
+          "signal_source": {"type": ["string", "null"], "enum": ["primary", "secondary", null]},
+          "signal_started_date": {
+            "type": ["string", "null"],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "signal_trading_days": {"type": ["integer", "null"], "minimum": 0},
+          "position_strength": {
+            "type": ["string", "null"],
+            "enum": ["Strong", "Moderate", "Close to flipping", null]
+          },
+          "active_peak_gain_pct": {"type": ["number", "null"], "minimum": 0.0},
+          "sparkline": {
+            "type": "array",
+            "items": {"type": "number"}
+          },
+          "trade_count_52w": {"type": "integer", "minimum": 0},
+          "avg_hold_days": {"type": ["number", "null"]},
+          "avg_gain_pct": {"type": ["number", "null"]},
+          "avg_peak_gain_pct": {"type": ["number", "null"], "minimum": 0.0},
+          "success_rate_52w": {"type": ["number", "null"], "minimum": 0.0, "maximum": 1.0}
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
