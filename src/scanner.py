@@ -19,9 +19,9 @@ from typing import Callable
 import numpy as np
 import pandas as pd
 
-from . import currency_strength, fetch, indicators as ind
+from . import currency_strength, fetch, indicators as ind, pips
 
-SCHEMA_VERSION = "1.3.0"
+SCHEMA_VERSION = "1.3.1"  # pairs[]: EOD fallback rate, change_pips, change_pct, rate_asof
 MIN_BARS = 220
 EMA_FAST = 12
 EMA_SLOW = 26
@@ -210,6 +210,40 @@ def _pullback_3bar_down_at(x: pd.DataFrame, end: int) -> bool:
         return False
     sma = float(sma)
     return c0 > c1 > c2 and c0 < sma
+
+
+def _eod_rate_display(close: float, symbol: str) -> float:
+    decimals = 3 if "JPY" in symbol.upper() else 5
+    return round(close, decimals)
+
+
+def _pair_eod_fallback(
+    symbol: str,
+    indf: pd.DataFrame,
+    rate_asof: str,
+) -> dict[str, float | str | None]:
+    """EOD close-based fallback pricing for pairs[] (offline; live rates overlay later)."""
+    latest_close = float(indf["close"].iloc[-1])
+    rate = _eod_rate_display(latest_close, symbol)
+    if len(indf) < 2:
+        return {
+            "rate": rate,
+            "change_pips": None,
+            "change_pct": None,
+            "rate_asof": rate_asof,
+        }
+    prior_close = float(indf["close"].iloc[-2])
+    change_pips = pips.change_pips(latest_close, prior_close, symbol)
+    if prior_close == 0:
+        change_pct = None
+    else:
+        change_pct = round((latest_close - prior_close) / prior_close * 100, 2)
+    return {
+        "rate": rate,
+        "change_pips": change_pips,
+        "change_pct": change_pct,
+        "rate_asof": rate_asof,
+    }
 
 
 def evaluate_conditions(x: pd.DataFrame) -> dict[str, bool]:
@@ -877,8 +911,12 @@ def run_scanner(
             skipped.append(display)
             continue
         pair_conditions[display] = cond
-        pair_meta[display] = {"symbol": sym, "category": pair["category"]}
         td = pd.Timestamp(indf["date"].iloc[-1]).strftime("%Y-%m-%d")
+        pair_meta[display] = {
+            "symbol": sym,
+            "category": pair["category"],
+            **_pair_eod_fallback(sym, indf, td),
+        }
         if trade_date is None or td > trade_date:
             trade_date = td
 
@@ -939,6 +977,10 @@ def run_scanner(
             "display_symbol": d,
             "symbol": pair_meta[d]["symbol"],
             "category": pair_meta[d]["category"],
+            "rate": pair_meta[d]["rate"],
+            "change_pips": pair_meta[d]["change_pips"],
+            "change_pct": pair_meta[d]["change_pct"],
+            "rate_asof": pair_meta[d]["rate_asof"],
             "scan_ids": sorted(pair_to_scans[d]),
             "scan_count": len(pair_to_scans[d]),
         }
