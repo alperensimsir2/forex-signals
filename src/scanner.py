@@ -19,7 +19,7 @@ from typing import Callable
 import numpy as np
 import pandas as pd
 
-from . import currency_strength, fetch, indicators as ind, pips
+from . import currency_strength, fetch, indicators as ind, pips, per_pair_export
 
 SCHEMA_VERSION = "1.3.1"  # pairs[]: EOD fallback rate, change_pips, change_pct, rate_asof
 MIN_BARS = 220
@@ -1103,6 +1103,9 @@ def main() -> None:
 
     payload["currency_strength"] = currency_strength.build_currency_strength(payload)
     export_forex_scans(payload, Path(args.out_dir), skipped)
+    per_pair_export.export_per_pair_files(
+        payload, pairs, Path(args.cache_dir), Path(args.out_dir),
+    )
 
 
 if __name__ == "__main__":

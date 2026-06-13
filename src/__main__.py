@@ -9,7 +9,7 @@ import json
 import os
 from pathlib import Path
 
-from . import currency_strength, fetch, scanner
+from . import currency_strength, fetch, per_pair_export, scanner
 
 
 def load_pairs(path: Path) -> list[dict]:
@@ -64,6 +64,7 @@ def main() -> None:
 
     payload["currency_strength"] = currency_strength.build_currency_strength(payload)
     scanner.export_forex_scans(payload, out_dir, skipped)
+    per_pair_export.export_per_pair_files(payload, pairs, cache_dir, out_dir)
 
 
 if __name__ == "__main__":
