@@ -1,23 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "EUR/USD",
   "symbol": "EURUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-21",
-      "close": 1.1803
-    },
-    {
-      "date": "2025-09-22",
-      "close": 1.1815
-    },
-    {
-      "date": "2025-09-23",
-      "close": 1.1738
-    },
     {
       "date": "2025-09-24",
       "close": 1.1666
@@ -1044,18 +1032,30 @@
     },
     {
       "date": "2026-06-12",
-      "close": 1.1565
+      "close": 1.1569
+    },
+    {
+      "date": "2026-06-14",
+      "close": 1.1575
+    },
+    {
+      "date": "2026-06-15",
+      "close": 1.1591
+    },
+    {
+      "date": "2026-06-16",
+      "close": 1.159
     }
   ],
   "scan_ids": [
-    "bearish_harami",
-    "nr4",
+    "inside_day",
+    "inverted_hammer",
+    "shooting_star",
     "sma200_below",
     "sma20_near",
-    "sma50_below",
     "sma50_falling",
-    "sma9_near",
-    "tweezer_top"
+    "sma50_near",
+    "sma9_near"
   ],
   "scan_count": 8,
   "composites_matched": []

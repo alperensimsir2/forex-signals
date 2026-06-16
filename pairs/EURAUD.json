@@ -1,19 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "EUR/AUD",
   "symbol": "EURAUD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-06-16",
-      "close": 1.7722
-    },
-    {
-      "date": "2025-06-17",
-      "close": 1.7728
-    },
     {
       "date": "2025-06-18",
       "close": 1.7639
@@ -1044,21 +1036,28 @@
     },
     {
       "date": "2026-06-12",
-      "close": 1.6423
+      "close": 1.6418
+    },
+    {
+      "date": "2026-06-15",
+      "close": 1.639
+    },
+    {
+      "date": "2026-06-16",
+      "close": 1.6409
     }
   ],
   "scan_ids": [
-    "lh_ll",
+    "atr_contraction",
+    "inside_day",
     "nr4",
     "nr7",
-    "pullback_3bar_uptrend",
     "sma200_below",
     "sma20_above",
     "sma50_falling",
     "sma50_near",
-    "sma9_above",
-    "tweezer_bottom"
+    "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

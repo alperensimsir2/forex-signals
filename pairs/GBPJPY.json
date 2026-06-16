@@ -1,23 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-13",
-      "close": 200.085
-    },
-    {
-      "date": "2025-08-14",
-      "close": 199.975
-    },
-    {
-      "date": "2025-08-15",
-      "close": 199.485
-    },
     {
       "date": "2025-08-17",
       "close": 199.43
@@ -1044,20 +1032,31 @@
     },
     {
       "date": "2026-06-12",
-      "close": 214.78
+      "close": 214.825
+    },
+    {
+      "date": "2026-06-14",
+      "close": 214.47
+    },
+    {
+      "date": "2026-06-15",
+      "close": 215.075
+    },
+    {
+      "date": "2026-06-16",
+      "close": 214.71
     }
   ],
   "scan_ids": [
     "bb_squeeze",
-    "bullish_engulfing",
-    "hh_hl",
-    "nr4",
+    "bearish_engulfing",
+    "inside_day",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }

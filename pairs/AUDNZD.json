@@ -1,23 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "AUD/NZD",
   "symbol": "AUDNZD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-14",
-      "close": 1.0976
-    },
-    {
-      "date": "2025-08-15",
-      "close": 1.0988
-    },
-    {
-      "date": "2025-08-17",
-      "close": 1.0989
-    },
     {
       "date": "2025-08-18",
       "close": 1.0963
@@ -1044,18 +1032,30 @@
     },
     {
       "date": "2026-06-12",
-      "close": 1.2072
+      "close": 1.2079
+    },
+    {
+      "date": "2026-06-14",
+      "close": 1.208
+    },
+    {
+      "date": "2026-06-15",
+      "close": 1.2145
+    },
+    {
+      "date": "2026-06-16",
+      "close": 1.2145
     }
   ],
   "scan_ids": [
-    "doji",
-    "evening_star",
-    "inside_day",
+    "atr_contraction",
+    "hh_hl",
+    "higher_highs_3",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_below",
+    "sma9_near",
     "tweezer_top"
   ],
   "scan_count": 9,

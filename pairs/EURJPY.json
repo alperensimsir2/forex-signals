@@ -1,23 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "EUR/JPY",
   "symbol": "EURJPY",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-17",
-      "close": 172.36
-    },
-    {
-      "date": "2025-08-18",
-      "close": 172.44
-    },
-    {
-      "date": "2025-08-19",
-      "close": 172.01
-    },
     {
       "date": "2025-08-20",
       "close": 171.66
@@ -1045,19 +1033,31 @@
     {
       "date": "2026-06-12",
       "close": 185.365
+    },
+    {
+      "date": "2026-06-14",
+      "close": 185.444
+    },
+    {
+      "date": "2026-06-15",
+      "close": 185.596
+    },
+    {
+      "date": "2026-06-16",
+      "close": 185.57
     }
   ],
   "scan_ids": [
-    "doji",
-    "hh_hl",
+    "atr_contraction",
+    "lh_ll",
     "nr4",
-    "price_cross_above_sma20",
-    "pullback_3bar_downtrend",
+    "nr7",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_near"
+    "sma9_near",
+    "tweezer_bottom"
   ],
   "scan_count": 10,
   "composites_matched": []

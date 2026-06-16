@@ -1,23 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "GBP/CAD",
   "symbol": "GBPCAD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-14",
-      "close": 1.8699
-    },
-    {
-      "date": "2025-08-15",
-      "close": 1.8729
-    },
-    {
-      "date": "2025-08-17",
-      "close": 1.8717
-    },
     {
       "date": "2025-08-18",
       "close": 1.864
@@ -1044,20 +1032,33 @@
     },
     {
       "date": "2026-06-12",
-      "close": 1.8754
+      "close": 1.8757
+    },
+    {
+      "date": "2026-06-14",
+      "close": 1.8744
+    },
+    {
+      "date": "2026-06-15",
+      "close": 1.8768
+    },
+    {
+      "date": "2026-06-16",
+      "close": 1.8763
     }
   ],
   "scan_ids": [
-    "bb_breakout_up",
-    "hh_hl",
-    "higher_highs_3",
+    "atr_contraction",
+    "doji",
+    "inside_day",
     "sma200_above",
     "sma20_above",
     "sma50_above",
     "sma50_rising",
     "sma9_above",
-    "stoch_overbought"
+    "stoch_overbought",
+    "stoch_overbought_turning_down"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }

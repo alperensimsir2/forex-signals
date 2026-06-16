@@ -1,19 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "NZD/CHF",
   "symbol": "NZDCHF",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-14",
-      "close": 0.4779
-    },
-    {
-      "date": "2025-08-15",
-      "close": 0.4776
-    },
     {
       "date": "2025-08-17",
       "close": 0.4781
@@ -1044,19 +1036,30 @@
     },
     {
       "date": "2026-06-12",
-      "close": 0.4648
+      "close": 0.465
+    },
+    {
+      "date": "2026-06-14",
+      "close": 0.4644
+    },
+    {
+      "date": "2026-06-15",
+      "close": 0.4619
     }
   ],
   "scan_ids": [
-    "hh_hl",
-    "morning_star",
-    "nr4",
+    "evening_star",
+    "price_cross_below_sma20",
+    "price_cross_below_sma50",
+    "rsi_cross_below_50",
     "sma200_above",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
-    "sma9_near"
+    "sma9_cross_below_sma20",
+    "sma9_near",
+    "tweezer_top"
   ],
-  "scan_count": 8,
+  "scan_count": 11,
   "composites_matched": []
 }

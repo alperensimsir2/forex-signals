@@ -1,23 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "USD/CHF",
   "symbol": "USDCHF",
   "category": "major",
   "history": [
-    {
-      "date": "2025-08-10",
-      "close": 0.8068
-    },
-    {
-      "date": "2025-08-11",
-      "close": 0.8126
-    },
-    {
-      "date": "2025-08-12",
-      "close": 0.8066
-    },
     {
       "date": "2025-08-13",
       "close": 0.8052
@@ -1044,20 +1032,30 @@
     },
     {
       "date": "2026-06-12",
-      "close": 0.7969
+      "close": 0.7972
+    },
+    {
+      "date": "2026-06-14",
+      "close": 0.7956
+    },
+    {
+      "date": "2026-06-15",
+      "close": 0.7945
+    },
+    {
+      "date": "2026-06-16",
+      "close": 0.7944
     }
   ],
   "scan_ids": [
-    "lh_ll",
-    "lower_lows_3",
-    "nr4",
+    "inside_day",
+    "pullback_3bar_uptrend",
     "sma200_above",
-    "sma20_above",
+    "sma20_near",
     "sma50_above",
     "sma50_rising",
-    "sma9_near",
-    "stoch_overbought"
+    "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 7,
   "composites_matched": []
 }

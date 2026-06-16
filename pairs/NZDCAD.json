@@ -1,19 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "NZD/CAD",
   "symbol": "NZDCAD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-14",
-      "close": 0.8176
-    },
-    {
-      "date": "2025-08-15",
-      "close": 0.8184
-    },
     {
       "date": "2025-08-17",
       "close": 0.8187
@@ -1044,20 +1036,26 @@
     },
     {
       "date": "2026-06-12",
-      "close": 0.816
+      "close": 0.8161
+    },
+    {
+      "date": "2026-06-14",
+      "close": 0.8169
+    },
+    {
+      "date": "2026-06-15",
+      "close": 0.8138
     }
   ],
   "scan_ids": [
-    "hammer",
-    "hh_hl",
-    "higher_highs_3",
-    "nr4",
+    "price_cross_below_sma20",
     "sma200_above",
     "sma20_near",
-    "sma50_above",
+    "sma50_near",
     "sma50_rising",
-    "sma9_above"
+    "sma9_near",
+    "tweezer_top"
   ],
-  "scan_count": 9,
+  "scan_count": 7,
   "composites_matched": []
 }

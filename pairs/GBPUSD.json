@@ -1,19 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-14T00:19:15Z",
-  "trade_date": "2026-06-13",
+  "generated_at": "2026-06-16T02:05:47Z",
+  "trade_date": "2026-06-16",
   "display_symbol": "GBP/USD",
   "symbol": "GBPUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-22",
-      "close": 1.3514
-    },
-    {
-      "date": "2025-09-23",
-      "close": 1.3524
-    },
     {
       "date": "2025-09-24",
       "close": 1.3449
@@ -1045,19 +1037,28 @@
     {
       "date": "2026-06-12",
       "close": 1.3407
+    },
+    {
+      "date": "2026-06-14",
+      "close": 1.3449
+    },
+    {
+      "date": "2026-06-15",
+      "close": 1.3445
     }
   ],
   "scan_ids": [
     "bearish_harami",
-    "inside_day",
-    "macd_bull_cross",
+    "hh_hl",
+    "higher_highs_3",
     "nr4",
-    "sma200_below",
+    "nr7",
+    "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_near"
+    "sma9_above"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }
