@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "NZD/JPY",
   "symbol": "NZDJPY",
@@ -1044,12 +1044,12 @@
     },
     {
       "date": "2026-06-16",
-      "close": 93.13
+      "close": 93.06
     }
   ],
   "scan_ids": [
-    "atr_contraction",
-    "inside_day",
+    "lh_ll",
+    "lower_lows_3",
     "sma200_above",
     "sma20_below",
     "sma50_falling",

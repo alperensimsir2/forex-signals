@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "AUD/CAD",
   "symbol": "AUDCAD",
@@ -1044,14 +1044,14 @@
     },
     {
       "date": "2026-06-16",
-      "close": 0.9883
+      "close": 0.9878
     }
   ],
   "scan_ids": [
-    "doji",
     "ema_fast_cross_above_slow",
-    "inside_day",
+    "lh_ll",
     "macd_zero_cross_up",
+    "pullback_3bar_uptrend",
     "sma200_above",
     "sma20_near",
     "sma50_near",

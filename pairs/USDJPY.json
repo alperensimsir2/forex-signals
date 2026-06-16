@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "USD/JPY",
   "symbol": "USDJPY",
@@ -1044,21 +1044,20 @@
     },
     {
       "date": "2026-06-16",
-      "close": 160.13
+      "close": 160.25
     }
   ],
   "scan_ids": [
     "atr_contraction",
+    "bearish_harami",
     "inside_day",
-    "nr4",
-    "nr7",
     "sma200_above",
     "sma20_near",
-    "sma50_near",
+    "sma50_above",
     "sma50_rising",
     "sma9_near",
     "tweezer_top"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "NZD/CAD",
   "symbol": "NZDCAD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-17",
-      "close": 0.8187
-    },
     {
       "date": "2025-08-18",
       "close": 0.8174
@@ -1044,18 +1040,25 @@
     },
     {
       "date": "2026-06-15",
-      "close": 0.8138
+      "close": 0.8148
+    },
+    {
+      "date": "2026-06-16",
+      "close": 0.8136
     }
   ],
   "scan_ids": [
+    "evening_star",
+    "lh_ll",
+    "lower_lows_3",
     "price_cross_below_sma20",
+    "pullback_3bar_uptrend",
     "sma200_above",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
-    "sma9_near",
-    "tweezer_top"
+    "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 10,
   "composites_matched": []
 }

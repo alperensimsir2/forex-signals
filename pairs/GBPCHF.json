@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "GBP/CHF",
   "symbol": "GBPCHF",
@@ -1044,17 +1044,18 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.0653
+      "close": 1.0654
     }
   ],
   "scan_ids": [
     "inside_day",
+    "shooting_star",
     "sma200_above",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 6,
+  "scan_count": 7,
   "composites_matched": []
 }

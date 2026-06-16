@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "EUR/CHF",
   "symbol": "EURCHF",
@@ -1050,8 +1050,6 @@
   "scan_ids": [
     "inside_day",
     "inverted_hammer",
-    "nr4",
-    "nr7",
     "shooting_star",
     "sma200_below",
     "sma20_near",
@@ -1060,6 +1058,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 11,
+  "scan_count": 9,
   "composites_matched": []
 }

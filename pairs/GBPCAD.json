@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "GBP/CAD",
   "symbol": "GBPCAD",
@@ -1044,12 +1044,11 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.8763
+      "close": 1.8772
     }
   ],
   "scan_ids": [
     "atr_contraction",
-    "doji",
     "inside_day",
     "sma200_above",
     "sma20_above",
@@ -1059,6 +1058,6 @@
     "stoch_overbought",
     "stoch_overbought_turning_down"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

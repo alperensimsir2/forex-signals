@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -1044,7 +1044,7 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.3993
+      "close": 1.4012
     }
   ],
   "scan_ids": [
@@ -1056,9 +1056,8 @@
     "sma50_above",
     "sma50_rising",
     "sma9_near",
-    "stoch_overbought",
-    "tweezer_top"
+    "stoch_overbought"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

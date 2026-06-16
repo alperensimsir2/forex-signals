@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T02:05:47Z",
+  "generated_at": "2026-06-16T06:55:00Z",
   "trade_date": "2026-06-16",
   "display_symbol": "EUR/NZD",
   "symbol": "EURNZD",
@@ -1044,15 +1044,15 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.9925
+      "close": 1.9922
     }
   ],
   "scan_ids": [
     "hh_hl",
+    "inverted_hammer",
     "morning_star",
-    "nr4",
-    "nr7",
     "price_cross_above_sma50",
+    "shooting_star",
     "sma200_below",
     "sma20_above",
     "sma50_falling",
