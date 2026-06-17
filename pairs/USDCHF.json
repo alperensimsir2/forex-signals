@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "USD/CHF",
   "symbol": "USDCHF",
@@ -1044,11 +1044,11 @@
     },
     {
       "date": "2026-06-17",
-      "close": 0.7924
+      "close": 0.7918
     }
   ],
   "scan_ids": [
-    "inside_day",
+    "lh_ll",
     "macd_bear_cross",
     "pullback_3bar_uptrend",
     "sma200_above",

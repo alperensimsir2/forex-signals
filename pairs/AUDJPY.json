@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "AUD/JPY",
   "symbol": "AUDJPY",
@@ -1044,15 +1044,13 @@
     },
     {
       "date": "2026-06-17",
-      "close": 113.31
+      "close": 113.15
     }
   ],
   "scan_ids": [
     "atr_contraction",
     "composite_trend_pullback_short",
     "inside_day",
-    "nr4",
-    "nr7",
     "rsi_cross_below_50",
     "sma200_above",
     "sma20_near",
@@ -1060,7 +1058,7 @@
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 11,
+  "scan_count": 9,
   "composites_matched": [
     "composite_trend_pullback_short"
   ]

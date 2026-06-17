@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "EUR/USD",
   "symbol": "EURUSD",
@@ -1044,7 +1044,7 @@
     },
     {
       "date": "2026-06-17",
-      "close": 1.161
+      "close": 1.1611
     }
   ],
   "scan_ids": [
@@ -1056,7 +1056,7 @@
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_near"
+    "sma9_above"
   ],
   "scan_count": 9,
   "composites_matched": []

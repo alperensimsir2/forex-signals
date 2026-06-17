@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "CAD/JPY",
   "symbol": "CADJPY",
@@ -1044,20 +1044,19 @@
     },
     {
       "date": "2026-06-17",
-      "close": 114.55
+      "close": 114.47
     }
   ],
   "scan_ids": [
     "atr_contraction",
+    "evening_star",
     "inside_day",
-    "nr4",
-    "nr7",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }

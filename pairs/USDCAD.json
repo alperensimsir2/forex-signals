@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -1044,11 +1044,10 @@
     },
     {
       "date": "2026-06-17",
-      "close": 1.3991
+      "close": 1.3998
     }
   ],
   "scan_ids": [
-    "bearish_harami",
     "inside_day",
     "rsi_overbought",
     "sma200_above",
@@ -1058,6 +1057,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }

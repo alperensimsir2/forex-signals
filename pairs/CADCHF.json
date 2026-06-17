@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "CAD/CHF",
   "symbol": "CADCHF",
@@ -1044,22 +1044,19 @@
     },
     {
       "date": "2026-06-17",
-      "close": 0.5661
+      "close": 0.5655
     }
   ],
   "scan_ids": [
     "lh_ll",
     "lower_lows_3",
-    "nr4",
-    "nr7",
     "sma200_below",
     "sma20_below",
     "sma50_below",
     "sma50_falling",
     "sma9_below",
-    "stoch_oversold",
-    "tweezer_bottom"
+    "stoch_oversold"
   ],
-  "scan_count": 11,
+  "scan_count": 8,
   "composites_matched": []
 }

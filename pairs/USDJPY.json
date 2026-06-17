@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "USD/JPY",
   "symbol": "USDJPY",
@@ -1044,16 +1044,15 @@
     },
     {
       "date": "2026-06-17",
-      "close": 160.37
+      "close": 160.27
     }
   ],
   "scan_ids": [
     "atr_contraction",
-    "bearish_harami",
+    "evening_star",
     "inside_day",
     "nr4",
     "nr7",
-    "shooting_star",
     "sma200_above",
     "sma20_near",
     "sma50_above",
@@ -1062,6 +1061,6 @@
     "stoch_overbought",
     "tweezer_top"
   ],
-  "scan_count": 13,
+  "scan_count": 12,
   "composites_matched": []
 }

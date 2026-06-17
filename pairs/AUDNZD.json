@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "AUD/NZD",
   "symbol": "AUDNZD",
@@ -1044,14 +1044,15 @@
     },
     {
       "date": "2026-06-17",
-      "close": 1.2111
+      "close": 1.2122
     }
   ],
   "scan_ids": [
     "atr_contraction",
-    "doji",
     "inside_day",
     "inverted_hammer",
+    "nr4",
+    "nr7",
     "shooting_star",
     "sma200_above",
     "sma20_near",
@@ -1059,6 +1060,6 @@
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 11,
   "composites_matched": []
 }

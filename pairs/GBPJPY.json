@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T01:59:26Z",
+  "generated_at": "2026-06-17T06:31:52Z",
   "trade_date": "2026-06-17",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
@@ -1044,16 +1044,13 @@
     },
     {
       "date": "2026-06-17",
-      "close": 215.31
+      "close": 215.21
     }
   ],
   "scan_ids": [
-    "atr_contraction",
     "bearish_harami",
     "hh_hl",
     "higher_highs_3",
-    "nr4",
-    "nr7",
     "sma200_above",
     "sma20_near",
     "sma50_near",
@@ -1062,6 +1059,6 @@
     "stoch_overbought",
     "tweezer_top"
   ],
-  "scan_count": 13,
+  "scan_count": 10,
   "composites_matched": []
 }
