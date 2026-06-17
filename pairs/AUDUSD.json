@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "AUD/USD",
   "symbol": "AUDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-08-31",
-      "close": 0.6543
-    },
     {
       "date": "2025-09-01",
       "close": 0.6557
@@ -1044,18 +1040,27 @@
     },
     {
       "date": "2026-06-16",
-      "close": 0.7052
+      "close": 0.7068
+    },
+    {
+      "date": "2026-06-17",
+      "close": 0.7068
     }
   ],
   "scan_ids": [
-    "bearish_harami",
+    "atr_contraction",
     "inside_day",
+    "inverted_hammer",
+    "macd_bull_cross",
+    "nr4",
+    "nr7",
+    "shooting_star",
     "sma200_above",
-    "sma20_below",
+    "sma20_near",
     "sma50_below",
     "sma50_falling",
     "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 12,
   "composites_matched": []
 }

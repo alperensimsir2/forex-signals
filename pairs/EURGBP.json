@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "EUR/GBP",
   "symbol": "EURGBP",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-18",
-      "close": 0.8635
-    },
     {
       "date": "2025-08-19",
       "close": 0.8634
@@ -1044,13 +1040,17 @@
     },
     {
       "date": "2026-06-16",
-      "close": 0.864
+      "close": 0.8646
+    },
+    {
+      "date": "2026-06-17",
+      "close": 0.8646
     }
   ],
   "scan_ids": [
     "atr_contraction",
+    "bb_squeeze",
     "inside_day",
-    "macd_bull_cross",
     "sma200_below",
     "sma20_near",
     "sma50_falling",

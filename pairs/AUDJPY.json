@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "AUD/JPY",
   "symbol": "AUDJPY",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-18",
-      "close": 95.995
-    },
     {
       "date": "2025-08-19",
       "close": 95.31
@@ -1044,13 +1040,19 @@
     },
     {
       "date": "2026-06-16",
-      "close": 113.01
+      "close": 113.41
+    },
+    {
+      "date": "2026-06-17",
+      "close": 113.31
     }
   ],
   "scan_ids": [
     "atr_contraction",
-    "bearish_harami",
+    "composite_trend_pullback_short",
     "inside_day",
+    "nr4",
+    "nr7",
     "rsi_cross_below_50",
     "sma200_above",
     "sma20_near",
@@ -1058,6 +1060,8 @@
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 9,
-  "composites_matched": []
+  "scan_count": 11,
+  "composites_matched": [
+    "composite_trend_pullback_short"
+  ]
 }

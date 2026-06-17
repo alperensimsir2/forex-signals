@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "USD/CHF",
   "symbol": "USDCHF",
   "category": "major",
   "history": [
-    {
-      "date": "2025-08-13",
-      "close": 0.8052
-    },
     {
       "date": "2025-08-14",
       "close": 0.8076
@@ -1044,17 +1040,23 @@
     },
     {
       "date": "2026-06-16",
-      "close": 0.7953
+      "close": 0.7932
+    },
+    {
+      "date": "2026-06-17",
+      "close": 0.7924
     }
   ],
   "scan_ids": [
+    "inside_day",
+    "macd_bear_cross",
+    "pullback_3bar_uptrend",
     "sma200_above",
-    "sma20_above",
-    "sma50_above",
+    "sma20_near",
+    "sma50_near",
     "sma50_rising",
-    "sma9_near",
-    "tweezer_top"
+    "sma9_below"
   ],
-  "scan_count": 6,
+  "scan_count": 8,
   "composites_matched": []
 }

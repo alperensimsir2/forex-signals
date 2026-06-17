@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "NZD/JPY",
   "symbol": "NZDJPY",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-18",
-      "close": 87.565
-    },
     {
       "date": "2025-08-19",
       "close": 87.025
@@ -1044,18 +1040,24 @@
     },
     {
       "date": "2026-06-16",
-      "close": 93.06
+      "close": 93.57
+    },
+    {
+      "date": "2026-06-17",
+      "close": 93.53
     }
   ],
   "scan_ids": [
-    "lh_ll",
-    "lower_lows_3",
+    "atr_contraction",
+    "bearish_harami",
+    "doji",
+    "inside_day",
     "sma200_above",
-    "sma20_below",
+    "sma20_near",
     "sma50_falling",
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 9,
   "composites_matched": []
 }

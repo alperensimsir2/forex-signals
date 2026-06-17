@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "EUR/USD",
   "symbol": "EURUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-24",
-      "close": 1.1666
-    },
     {
       "date": "2025-09-25",
       "close": 1.17
@@ -1044,18 +1040,24 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.1578
+      "close": 1.1609
+    },
+    {
+      "date": "2026-06-17",
+      "close": 1.161
     }
   ],
   "scan_ids": [
-    "bearish_harami",
     "inside_day",
+    "inverted_hammer",
+    "pullback_3bar_downtrend",
+    "shooting_star",
     "sma200_below",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 9,
   "composites_matched": []
 }

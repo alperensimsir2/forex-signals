@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "GBP/CHF",
   "symbol": "GBPCHF",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-17",
-      "close": 1.0914
-    },
     {
       "date": "2025-08-18",
       "close": 1.0905
@@ -1044,12 +1040,16 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.0654
+      "close": 1.065
+    },
+    {
+      "date": "2026-06-17",
+      "close": 1.064
     }
   ],
   "scan_ids": [
     "inside_day",
-    "shooting_star",
+    "pullback_3bar_uptrend",
     "sma200_above",
     "sma20_near",
     "sma50_near",

@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "GBP/NZD",
   "symbol": "GBPNZD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-09-22",
-      "close": 2.3033
-    },
     {
       "date": "2025-09-23",
       "close": 2.309
@@ -1044,19 +1040,24 @@
     },
     {
       "date": "2026-06-16",
-      "close": 2.3052
+      "close": 2.3019
+    },
+    {
+      "date": "2026-06-17",
+      "close": 2.3029
     }
   ],
   "scan_ids": [
     "atr_contraction",
-    "hh_hl",
+    "inside_day",
     "morning_star",
+    "nr4",
     "sma200_above",
     "sma20_above",
+    "sma50_falling",
     "sma50_near",
-    "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 9,
   "composites_matched": []
 }

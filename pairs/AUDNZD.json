@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "AUD/NZD",
   "symbol": "AUDNZD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-18",
-      "close": 1.0963
-    },
     {
       "date": "2025-08-19",
       "close": 1.0952
@@ -1044,19 +1040,25 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.214
+      "close": 1.2121
+    },
+    {
+      "date": "2026-06-17",
+      "close": 1.2111
     }
   ],
   "scan_ids": [
+    "atr_contraction",
     "doji",
-    "hh_hl",
-    "higher_highs_3",
+    "inside_day",
+    "inverted_hammer",
+    "shooting_star",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 10,
   "composites_matched": []
 }

@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "EUR/JPY",
   "symbol": "EURJPY",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-20",
-      "close": 171.66
-    },
     {
       "date": "2025-08-21",
       "close": 172.2
@@ -1044,18 +1040,25 @@
     },
     {
       "date": "2026-06-16",
-      "close": 185.546
+      "close": 185.71
+    },
+    {
+      "date": "2026-06-17",
+      "close": 186.191
     }
   ],
   "scan_ids": [
-    "atr_contraction",
-    "lh_ll",
+    "hh_hl",
+    "higher_highs_3",
+    "nr4",
+    "nr7",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_near"
+    "sma9_above",
+    "tweezer_top"
   ],
-  "scan_count": 7,
+  "scan_count": 10,
   "composites_matched": []
 }

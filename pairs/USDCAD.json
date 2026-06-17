@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-08-18",
-      "close": 1.3803
-    },
     {
       "date": "2025-08-19",
       "close": 1.3868
@@ -1044,12 +1040,16 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.4012
+      "close": 1.3995
+    },
+    {
+      "date": "2026-06-17",
+      "close": 1.3991
     }
   ],
   "scan_ids": [
-    "hh_hl",
-    "higher_highs_3",
+    "bearish_harami",
+    "inside_day",
     "rsi_overbought",
     "sma200_above",
     "sma20_above",

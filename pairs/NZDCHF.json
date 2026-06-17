@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "NZD/CHF",
   "symbol": "NZDCHF",
   "category": "cross",
@@ -1044,7 +1044,7 @@
     },
     {
       "date": "2026-06-16",
-      "close": 0.4618
+      "close": 0.462
     }
   ],
   "scan_ids": [
@@ -1055,7 +1055,7 @@
     "sma20_near",
     "sma50_near",
     "sma50_rising",
-    "sma9_below"
+    "sma9_near"
   ],
   "scan_count": 8,
   "composites_matched": []

@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-16T06:55:00Z",
-  "trade_date": "2026-06-16",
+  "generated_at": "2026-06-17T01:59:26Z",
+  "trade_date": "2026-06-17",
   "display_symbol": "EUR/NZD",
   "symbol": "EURNZD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-09-09",
-      "close": 1.9752
-    },
     {
       "date": "2025-09-10",
       "close": 1.969
@@ -1044,21 +1040,24 @@
     },
     {
       "date": "2026-06-16",
-      "close": 1.9922
+      "close": 1.9891
+    },
+    {
+      "date": "2026-06-17",
+      "close": 1.9916
     }
   ],
   "scan_ids": [
-    "hh_hl",
-    "inverted_hammer",
-    "morning_star",
-    "price_cross_above_sma50",
-    "shooting_star",
+    "atr_contraction",
+    "inside_day",
+    "nr4",
+    "nr7",
     "sma200_below",
     "sma20_above",
     "sma50_falling",
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }
