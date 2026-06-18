@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T06:31:52Z",
-  "trade_date": "2026-06-17",
+  "generated_at": "2026-06-18T02:00:42Z",
+  "trade_date": "2026-06-18",
   "display_symbol": "NZD/CAD",
   "symbol": "NZDCAD",
   "category": "cross",
@@ -1044,21 +1044,22 @@
     },
     {
       "date": "2026-06-17",
-      "close": 0.815
+      "close": 0.816
     }
   ],
   "scan_ids": [
-    "bearish_harami",
-    "inside_day",
-    "nr4",
-    "nr7",
-    "price_cross_below_sma20",
+    "doji",
+    "lh_ll",
+    "lower_lows_3",
+    "macd_bull_cross",
+    "morning_star",
     "sma200_above",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
-    "sma9_near"
+    "sma9_near",
+    "tweezer_bottom"
   ],
-  "scan_count": 10,
+  "scan_count": 11,
   "composites_matched": []
 }

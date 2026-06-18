@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T06:31:52Z",
-  "trade_date": "2026-06-17",
+  "generated_at": "2026-06-18T02:00:42Z",
+  "trade_date": "2026-06-18",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-18",
-      "close": 199.7
-    },
     {
       "date": "2025-08-19",
       "close": 199.23
@@ -1044,21 +1040,22 @@
     },
     {
       "date": "2026-06-17",
-      "close": 215.21
+      "close": 213.55
+    },
+    {
+      "date": "2026-06-18",
+      "close": 213.84
     }
   ],
   "scan_ids": [
-    "bearish_harami",
-    "hh_hl",
-    "higher_highs_3",
+    "inside_day",
+    "nr4",
     "sma200_above",
     "sma20_near",
+    "sma50_falling",
     "sma50_near",
-    "sma50_rising",
-    "sma9_near",
-    "stoch_overbought",
-    "tweezer_top"
+    "sma9_below"
   ],
-  "scan_count": 10,
+  "scan_count": 7,
   "composites_matched": []
 }

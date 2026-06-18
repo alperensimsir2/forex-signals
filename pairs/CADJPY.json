@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T06:31:52Z",
-  "trade_date": "2026-06-17",
+  "generated_at": "2026-06-18T02:00:42Z",
+  "trade_date": "2026-06-18",
   "display_symbol": "CAD/JPY",
   "symbol": "CADJPY",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-18",
-      "close": 107.135
-    },
     {
       "date": "2025-08-19",
       "close": 106.49
@@ -1044,18 +1040,22 @@
     },
     {
       "date": "2026-06-17",
-      "close": 114.47
+      "close": 113.925
+    },
+    {
+      "date": "2026-06-18",
+      "close": 113.94
     }
   ],
   "scan_ids": [
-    "atr_contraction",
-    "evening_star",
     "inside_day",
+    "nr4",
     "sma200_above",
-    "sma20_near",
+    "sma20_below",
+    "sma50_below",
     "sma50_falling",
-    "sma50_near",
-    "sma9_near"
+    "sma9_below",
+    "stoch_oversold"
   ],
   "scan_count": 8,
   "composites_matched": []

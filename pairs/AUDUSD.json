@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T06:31:52Z",
-  "trade_date": "2026-06-17",
+  "generated_at": "2026-06-18T02:00:42Z",
+  "trade_date": "2026-06-18",
   "display_symbol": "AUD/USD",
   "symbol": "AUDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-01",
-      "close": 0.6557
-    },
     {
       "date": "2025-09-02",
       "close": 0.6519
@@ -1044,12 +1040,16 @@
     },
     {
       "date": "2026-06-17",
-      "close": 0.706
+      "close": 0.7015
+    },
+    {
+      "date": "2026-06-18",
+      "close": 0.7029
     }
   ],
   "scan_ids": [
-    "atr_contraction",
     "inside_day",
+    "nr4",
     "sma200_above",
     "sma20_below",
     "sma50_below",

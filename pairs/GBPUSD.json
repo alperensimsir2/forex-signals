@@ -1,23 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-17T06:31:52Z",
-  "trade_date": "2026-06-17",
+  "generated_at": "2026-06-18T02:00:42Z",
+  "trade_date": "2026-06-18",
   "display_symbol": "GBP/USD",
   "symbol": "GBPUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-24",
-      "close": 1.3449
-    },
-    {
-      "date": "2025-09-25",
-      "close": 1.3335
-    },
-    {
-      "date": "2025-09-26",
-      "close": 1.3399
-    },
     {
       "date": "2025-09-27",
       "close": 1.3399
@@ -1028,15 +1016,15 @@
     },
     {
       "date": "2026-06-10",
-      "close": 1.3369
+      "close": 1.3372
     },
     {
       "date": "2026-06-11",
-      "close": 1.3417
+      "close": 1.3362
     },
     {
       "date": "2026-06-12",
-      "close": 1.3407
+      "close": 1.3414
     },
     {
       "date": "2026-06-14",
@@ -1044,21 +1032,34 @@
     },
     {
       "date": "2026-06-15",
-      "close": 1.3445
+      "close": 1.345
+    },
+    {
+      "date": "2026-06-16",
+      "close": 1.3416
+    },
+    {
+      "date": "2026-06-17",
+      "close": 1.3426
+    },
+    {
+      "date": "2026-06-18",
+      "close": 1.3315
     }
   ],
   "scan_ids": [
-    "bearish_harami",
-    "hh_hl",
-    "higher_highs_3",
+    "lh_ll",
+    "lower_lows_3",
     "nr4",
     "nr7",
-    "sma200_above",
-    "sma20_near",
+    "price_cross_below_sma20",
+    "rsi_cross_below_50",
+    "sma200_below",
+    "sma20_below",
+    "sma50_below",
     "sma50_falling",
-    "sma50_near",
-    "sma9_above"
+    "sma9_below"
   ],
-  "scan_count": 10,
+  "scan_count": 11,
   "composites_matched": []
 }
