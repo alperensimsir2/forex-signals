@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T02:00:42Z",
+  "generated_at": "2026-06-18T06:14:52Z",
   "trade_date": "2026-06-18",
   "display_symbol": "AUD/CHF",
   "symbol": "AUDCHF",
@@ -1044,20 +1044,23 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.5611
+      "close": 0.5617
     }
   ],
   "scan_ids": [
-    "atr_contraction",
     "bb_squeeze",
-    "inside_day",
+    "hh_hl",
+    "morning_star",
     "nr4",
+    "price_cross_above_sma20",
+    "pullback_3bar_downtrend",
+    "rsi_cross_above_50",
     "sma200_above",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 12,
   "composites_matched": []
 }

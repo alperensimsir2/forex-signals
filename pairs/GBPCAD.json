@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T02:00:42Z",
+  "generated_at": "2026-06-18T06:14:52Z",
   "trade_date": "2026-06-18",
   "display_symbol": "GBP/CAD",
   "symbol": "GBPCAD",
@@ -1044,11 +1044,10 @@
     },
     {
       "date": "2026-06-18",
-      "close": 1.8763
+      "close": 1.8771
     }
   ],
   "scan_ids": [
-    "atr_contraction",
     "inside_day",
     "nr4",
     "sma200_above",
@@ -1058,6 +1057,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }

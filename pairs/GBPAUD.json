@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T02:00:42Z",
+  "generated_at": "2026-06-18T06:14:52Z",
   "trade_date": "2026-06-18",
   "display_symbol": "GBP/AUD",
   "symbol": "GBPAUD",
@@ -1044,22 +1044,21 @@
     },
     {
       "date": "2026-06-18",
-      "close": 1.8935
+      "close": 1.8913
     }
   ],
   "scan_ids": [
     "evening_star",
     "inside_day",
+    "macd_bear_cross",
     "nr4",
-    "nr7",
     "pullback_3bar_uptrend",
-    "shooting_star",
     "sma200_below",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
     "sma9_below"
   ],
-  "scan_count": 11,
+  "scan_count": 10,
   "composites_matched": []
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T02:00:42Z",
+  "generated_at": "2026-06-18T06:14:52Z",
   "trade_date": "2026-06-18",
   "display_symbol": "EUR/AUD",
   "symbol": "EURAUD",
@@ -1044,13 +1044,14 @@
     },
     {
       "date": "2026-06-18",
-      "close": 1.6385
+      "close": 1.6376
     }
   ],
   "scan_ids": [
     "atr_contraction",
     "evening_star",
-    "inside_day",
+    "lh_ll",
+    "lower_lows_3",
     "nr4",
     "nr7",
     "pullback_3bar_uptrend",
@@ -1058,8 +1059,7 @@
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_near",
-    "tweezer_bottom"
+    "sma9_near"
   ],
   "scan_count": 12,
   "composites_matched": []

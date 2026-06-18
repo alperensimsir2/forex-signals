@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T02:00:42Z",
+  "generated_at": "2026-06-18T06:14:52Z",
   "trade_date": "2026-06-18",
   "display_symbol": "NZD/JPY",
   "symbol": "NZDJPY",
@@ -1044,12 +1044,11 @@
     },
     {
       "date": "2026-06-18",
-      "close": 93.0
+      "close": 93.01
     }
   ],
   "scan_ids": [
     "inside_day",
-    "marubozu_bullish",
     "nr4",
     "sma200_above",
     "sma20_below",
@@ -1057,6 +1056,6 @@
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 7,
   "composites_matched": []
 }

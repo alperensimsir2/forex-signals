@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T02:00:42Z",
+  "generated_at": "2026-06-18T06:14:52Z",
   "trade_date": "2026-06-18",
   "display_symbol": "AUD/NZD",
   "symbol": "AUDNZD",
@@ -1044,14 +1044,13 @@
     },
     {
       "date": "2026-06-18",
-      "close": 1.2146
+      "close": 1.2135
     }
   ],
   "scan_ids": [
     "bearish_harami",
     "inside_day",
     "nr4",
-    "nr7",
     "price_cross_below_sma50",
     "sma200_above",
     "sma20_near",
@@ -1060,6 +1059,6 @@
     "sma9_cross_above_sma20",
     "sma9_near"
   ],
-  "scan_count": 11,
+  "scan_count": 10,
   "composites_matched": []
 }

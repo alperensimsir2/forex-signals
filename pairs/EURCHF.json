@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T02:00:42Z",
+  "generated_at": "2026-06-18T06:14:52Z",
   "trade_date": "2026-06-18",
   "display_symbol": "EUR/CHF",
   "symbol": "EURCHF",
@@ -1044,21 +1044,18 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.9196
+      "close": 0.92
     }
   ],
   "scan_ids": [
-    "evening_star",
     "inside_day",
     "nr4",
-    "nr7",
-    "pullback_3bar_uptrend",
     "sma200_below",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 7,
   "composites_matched": []
 }

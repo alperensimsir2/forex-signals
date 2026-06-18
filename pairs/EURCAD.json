@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T02:00:42Z",
+  "generated_at": "2026-06-18T06:14:52Z",
   "trade_date": "2026-06-18",
   "display_symbol": "EUR/CAD",
   "symbol": "EURCAD",
@@ -1044,10 +1044,11 @@
     },
     {
       "date": "2026-06-18",
-      "close": 1.6237
+      "close": 1.6246
     }
   ],
   "scan_ids": [
+    "bullish_engulfing",
     "inside_day",
     "nr4",
     "sma200_above",
@@ -1057,6 +1058,6 @@
     "sma9_above",
     "stoch_overbought"
   ],
-  "scan_count": 8,
+  "scan_count": 9,
   "composites_matched": []
 }
