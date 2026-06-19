@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T06:35:13Z",
+  "generated_at": "2026-06-19T20:06:41Z",
   "trade_date": "2026-06-19",
   "display_symbol": "EUR/CHF",
   "symbol": "EURCHF",
@@ -1044,20 +1044,19 @@
     },
     {
       "date": "2026-06-19",
-      "close": 0.9235
+      "close": 0.9254
     }
   ],
   "scan_ids": [
     "hh_hl",
     "higher_highs_3",
-    "nr4",
     "sma200_above",
     "sma20_above",
-    "sma50_near",
+    "sma50_above",
     "sma50_rising",
-    "sma9_near",
+    "sma9_above",
     "stoch_overbought"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }

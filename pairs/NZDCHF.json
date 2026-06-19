@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T06:35:13Z",
+  "generated_at": "2026-06-19T20:06:41Z",
   "trade_date": "2026-06-19",
   "display_symbol": "NZD/CHF",
   "symbol": "NZDCHF",
@@ -1048,11 +1048,9 @@
     }
   ],
   "scan_ids": [
-    "doji",
     "inside_day",
     "inverted_hammer",
     "nr4",
-    "nr7",
     "shooting_star",
     "sma200_above",
     "sma20_near",
@@ -1060,6 +1058,6 @@
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 11,
+  "scan_count": 9,
   "composites_matched": []
 }

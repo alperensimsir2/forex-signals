@@ -1,31 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T06:35:13Z",
+  "generated_at": "2026-06-19T20:06:41Z",
   "trade_date": "2026-06-19",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-21",
-      "close": 0.5851
-    },
-    {
-      "date": "2025-09-22",
-      "close": 0.5867
-    },
-    {
-      "date": "2025-09-23",
-      "close": 0.5858
-    },
-    {
-      "date": "2025-09-24",
-      "close": 0.5857
-    },
-    {
-      "date": "2025-09-25",
-      "close": 0.5817
-    },
     {
       "date": "2025-09-26",
       "close": 0.5763
@@ -1028,37 +1008,56 @@
     },
     {
       "date": "2026-06-08",
-      "close": 0.581
-    },
-    {
-      "date": "2026-06-09",
-      "close": 0.5817
-    },
-    {
-      "date": "2026-06-10",
       "close": 0.5797
     },
     {
+      "date": "2026-06-09",
+      "close": 0.5804
+    },
+    {
+      "date": "2026-06-10",
+      "close": 0.5808
+    },
+    {
       "date": "2026-06-11",
-      "close": 0.5837
+      "close": 0.5794
     },
     {
       "date": "2026-06-12",
-      "close": 0.5834
+      "close": 0.5833
+    },
+    {
+      "date": "2026-06-15",
+      "close": 0.5855
+    },
+    {
+      "date": "2026-06-16",
+      "close": 0.5828
+    },
+    {
+      "date": "2026-06-17",
+      "close": 0.5831
+    },
+    {
+      "date": "2026-06-18",
+      "close": 0.5775
+    },
+    {
+      "date": "2026-06-19",
+      "close": 0.5743
     }
   ],
   "scan_ids": [
-    "bearish_harami",
-    "doji",
-    "hh_hl",
-    "higher_highs_3",
-    "nr4",
+    "evening_star",
+    "lh_ll",
+    "lower_lows_3",
     "sma200_below",
-    "sma20_below",
+    "sma20_extended_below",
     "sma50_below",
     "sma50_falling",
-    "sma9_near"
+    "sma9_extended_below",
+    "stoch_oversold"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T06:35:13Z",
+  "generated_at": "2026-06-19T20:06:41Z",
   "trade_date": "2026-06-19",
   "display_symbol": "AUD/USD",
   "symbol": "AUDUSD",
@@ -1044,10 +1044,11 @@
     },
     {
       "date": "2026-06-19",
-      "close": 0.6991
+      "close": 0.7012
     }
   ],
   "scan_ids": [
+    "doji",
     "lh_ll",
     "nr4",
     "sma200_above",
@@ -1057,6 +1058,6 @@
     "sma9_below",
     "stoch_oversold"
   ],
-  "scan_count": 8,
+  "scan_count": 9,
   "composites_matched": []
 }

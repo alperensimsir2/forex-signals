@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T06:35:13Z",
+  "generated_at": "2026-06-19T20:06:41Z",
   "trade_date": "2026-06-19",
   "display_symbol": "AUD/NZD",
   "symbol": "AUDNZD",
@@ -1044,7 +1044,7 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.2207
+      "close": 1.2208
     }
   ],
   "scan_ids": [
@@ -1052,15 +1052,13 @@
     "hh_hl",
     "higher_highs_3",
     "macd_zero_cross_up",
-    "nr4",
     "sma200_above",
     "sma20_above",
     "sma50_near",
     "sma50_rising",
     "sma9_above",
-    "stoch_overbought",
-    "three_white_soldiers"
+    "stoch_overbought"
   ],
-  "scan_count": 12,
+  "scan_count": 10,
   "composites_matched": []
 }
