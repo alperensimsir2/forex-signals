@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "EUR/NZD",
   "symbol": "EURNZD",
@@ -1044,16 +1044,13 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.9927
+      "close": 1.9939
     }
   ],
   "scan_ids": [
     "atr_contraction",
-    "hammer",
     "hh_hl",
     "morning_star",
-    "nr4",
-    "nr7",
     "sma200_below",
     "sma20_above",
     "sma50_falling",
@@ -1061,6 +1058,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 12,
+  "scan_count": 9,
   "composites_matched": []
 }

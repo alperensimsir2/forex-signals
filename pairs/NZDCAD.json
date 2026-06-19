@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "NZD/CAD",
   "symbol": "NZDCAD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-20",
-      "close": 0.8079
-    },
     {
       "date": "2025-08-21",
       "close": 0.8094
@@ -1044,19 +1040,24 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.8131
+      "close": 0.8134
+    },
+    {
+      "date": "2026-06-19",
+      "close": 0.8103
     }
   ],
   "scan_ids": [
-    "doji",
-    "hh_hl",
-    "pullback_3bar_uptrend",
+    "lh_ll",
+    "nr4",
+    "price_cross_below_sma50",
+    "rsi_cross_below_50",
     "sma200_above",
-    "sma20_near",
+    "sma20_below",
     "sma50_near",
     "sma50_rising",
-    "sma9_near"
+    "sma9_below"
   ],
-  "scan_count": 8,
+  "scan_count": 9,
   "composites_matched": []
 }

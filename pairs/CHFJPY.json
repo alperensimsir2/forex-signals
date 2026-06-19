@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "CHF/JPY",
   "symbol": "CHFJPY",
@@ -1044,11 +1044,13 @@
     },
     {
       "date": "2026-06-19",
-      "close": 200.1
+      "close": 199.49
     }
   ],
   "scan_ids": [
-    "inside_day",
+    "donchian_low_20",
+    "lh_ll",
+    "lower_lows_3",
     "nr4",
     "sma200_above",
     "sma20_below",
@@ -1057,6 +1059,6 @@
     "sma9_below",
     "stoch_oversold"
   ],
-  "scan_count": 8,
+  "scan_count": 10,
   "composites_matched": []
 }

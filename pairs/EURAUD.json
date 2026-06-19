@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "EUR/AUD",
   "symbol": "EURAUD",
@@ -1044,16 +1044,16 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.6351
+      "close": 1.632
     }
   ],
   "scan_ids": [
-    "bullish_harami",
     "lh_ll",
     "lower_lows_3",
     "nr4",
     "nr7",
-    "rsi_cross_above_50",
+    "price_cross_below_sma20",
+    "price_cross_below_sma50",
     "sma200_below",
     "sma20_cross_above_sma50",
     "sma20_near",

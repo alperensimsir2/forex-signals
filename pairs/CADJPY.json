@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "CAD/JPY",
   "symbol": "CADJPY",
@@ -1044,14 +1044,14 @@
     },
     {
       "date": "2026-06-19",
-      "close": 113.88
+      "close": 113.99
     }
   ],
   "scan_ids": [
+    "bearish_harami",
     "inside_day",
     "nr4",
-    "price_cross_below_sma200",
-    "sma200_below",
+    "sma200_above",
     "sma20_below",
     "sma50_below",
     "sma50_falling",

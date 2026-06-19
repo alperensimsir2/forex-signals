@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "GBP/NZD",
   "symbol": "GBPNZD",
@@ -1044,13 +1044,12 @@
     },
     {
       "date": "2026-06-19",
-      "close": 2.2958
+      "close": 2.3013
     }
   ],
   "scan_ids": [
     "atr_contraction",
     "inside_day",
-    "nr4",
     "sma200_above",
     "sma20_near",
     "sma50_near",
@@ -1058,6 +1057,6 @@
     "sma9_near",
     "tweezer_bottom"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }

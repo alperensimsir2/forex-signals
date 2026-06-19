@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "USD/JPY",
   "symbol": "USDJPY",
@@ -1044,19 +1044,23 @@
     },
     {
       "date": "2026-06-19",
-      "close": 161.08
+      "close": 161.37
     }
   ],
   "scan_ids": [
-    "bearish_harami",
+    "bb_breakout_up",
+    "doji",
     "inside_day",
     "nr4",
+    "rsi_overbought",
     "sma200_above",
     "sma20_above",
     "sma50_above",
     "sma50_rising",
-    "sma9_above"
+    "sma9_above",
+    "stoch_overbought",
+    "stoch_overbought_turning_down"
   ],
-  "scan_count": 8,
+  "scan_count": 12,
   "composites_matched": []
 }

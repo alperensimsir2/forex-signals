@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "EUR/CAD",
   "symbol": "EURCAD",
@@ -1044,18 +1044,20 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.6205
+      "close": 1.6167
     }
   ],
   "scan_ids": [
-    "inside_day",
+    "lh_ll",
+    "lower_lows_3",
     "nr4",
+    "pullback_3bar_uptrend",
     "sma200_above",
     "sma20_near",
-    "sma50_above",
+    "sma50_near",
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 9,
   "composites_matched": []
 }

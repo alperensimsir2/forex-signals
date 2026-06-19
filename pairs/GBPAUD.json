@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "GBP/AUD",
   "symbol": "GBPAUD",
@@ -1044,10 +1044,11 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.8822
+      "close": 1.8827
     }
   ],
   "scan_ids": [
+    "doji",
     "inside_day",
     "nr4",
     "nr7",
@@ -1057,6 +1058,6 @@
     "sma50_rising",
     "sma9_below"
   ],
-  "scan_count": 8,
+  "scan_count": 9,
   "composites_matched": []
 }

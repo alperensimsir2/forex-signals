@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "AUD/JPY",
   "symbol": "AUDJPY",
@@ -1044,7 +1044,7 @@
     },
     {
       "date": "2026-06-19",
-      "close": 112.91
+      "close": 112.83
     }
   ],
   "scan_ids": [

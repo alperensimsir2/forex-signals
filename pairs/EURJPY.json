@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T02:12:39Z",
+  "generated_at": "2026-06-19T06:35:13Z",
   "trade_date": "2026-06-19",
   "display_symbol": "EUR/JPY",
   "symbol": "EURJPY",
@@ -1044,20 +1044,21 @@
     },
     {
       "date": "2026-06-19",
-      "close": 184.604
+      "close": 184.476
     }
   ],
   "scan_ids": [
     "evening_star",
-    "inside_day",
+    "lh_ll",
+    "lower_lows_3",
     "macd_bear_cross",
-    "nr4",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_below"
+    "sma9_below",
+    "tweezer_bottom"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }
