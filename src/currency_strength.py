@@ -42,7 +42,16 @@ def pair_lean_from_scans(
     lean_index: dict[str, str],
 ) -> tuple[str, int, int, int]:
     """
-    Net bullish vs bearish matching scans.
+    Net-margin lean from bullish vs bearish matching scans. Only scans whose lean is
+    "bullish" or "bearish" count; neutral scans (doji, inside_day, NR4, etc.) never
+    contribute to either side.
+
+    Rule (net = bullish - bearish):
+      no directional scans                -> "neutral"
+      net >= +2                           -> "bullish"
+      net <= -2                           -> "bearish"
+      net in {-1, 0, +1}                  -> "mixed"   (a slim margin isn't decisive)
+
     Returns (pair_lean, bullish_count, bearish_count, neutral_count).
     """
     bullish = bearish = neutral = 0
@@ -55,15 +64,22 @@ def pair_lean_from_scans(
         else:
             neutral += 1
     net = bullish - bearish
-    if net > 0:
-        return "bullish", bullish, bearish, neutral
-    if net < 0:
-        return "bearish", bullish, bearish, neutral
-    return "neutral", bullish, bearish, neutral
+    if bullish == 0 and bearish == 0:
+        pair_lean = "neutral"
+    elif net >= 2:
+        pair_lean = "bullish"
+    elif net <= -2:
+        pair_lean = "bearish"
+    else:
+        pair_lean = "mixed"
+    return pair_lean, bullish, bearish, neutral
 
 
 def pair_contributions(pair_lean: str) -> tuple[int, int]:
-    """(base_contribution, quote_contribution) for base/quote currencies."""
+    """
+    (base_contribution, quote_contribution) for base/quote currencies.
+    Only decisive pairs move the needle; "mixed" and "neutral" both contribute 0.
+    """
     if pair_lean == "bullish":
         return 1, -1
     if pair_lean == "bearish":
@@ -159,9 +175,12 @@ def build_currency_strength(payload: dict) -> dict[str, Any]:
 
     return {
         "methodology": (
-            "Technical strength from current scan/composite leans per pair: "
-            "net bullish scans -> pair leans bullish (base +1, quote -1); "
-            "net bearish -> base -1, quote +1; tied -> neutral (0). "
+            "Technical strength from current scan/composite leans per pair using a "
+            "net-margin rule (net = bullish_scan_count - bearish_scan_count): "
+            "net >= +2 -> pair leans bullish (base +1, quote -1); "
+            "net <= -2 -> bearish (base -1, quote +1); "
+            "net in {-1,0,+1} -> mixed (0); no directional scans -> neutral (0). "
+            "Only bullish/bearish scans count; neutral scans never contribute. "
             "Normalized = technical_strength_score / pairs_involved."
         ),
         "snapshot_note": (
@@ -177,11 +196,17 @@ def build_currency_strength(payload: dict) -> dict[str, Any]:
 
 
 def _sign_logic_verification(pair_rows: list[dict[str, Any]]) -> dict[str, Any]:
-    """Pick a non-neutral pair (prefer EUR/JPY) and document base/quote contributions."""
+    """Pick a directional pair (prefer EUR/JPY) and document base/quote contributions."""
+    def is_directional(r: dict[str, Any]) -> bool:
+        return r["pair_lean"] in ("bullish", "bearish")
+
     preferred = "EUR/JPY"
-    row = next((r for r in pair_rows if r["display_symbol"] == preferred), None)
-    if row is None or row["pair_lean"] == "neutral":
-        row = next((r for r in pair_rows if r["pair_lean"] != "neutral"), None)
+    row = next(
+        (r for r in pair_rows if r["display_symbol"] == preferred and is_directional(r)),
+        None,
+    )
+    if row is None:
+        row = next((r for r in pair_rows if is_directional(r)), None)
     if row is None:
         row = pair_rows[0] if pair_rows else None
     if row is None:
@@ -196,6 +221,9 @@ def _sign_logic_verification(pair_rows: list[dict[str, Any]]) -> dict[str, Any]:
     elif lean == "bearish":
         rule = "bearish pair: base -1, quote +1"
         expected = {base: -1, quote: 1}
+    elif lean == "mixed":
+        rule = "mixed pair: base 0, quote 0"
+        expected = {base: 0, quote: 0}
     else:
         rule = "neutral pair: base 0, quote 0"
         expected = {base: 0, quote: 0}
