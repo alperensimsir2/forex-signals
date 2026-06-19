@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "EUR/CHF",
   "symbol": "EURCHF",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-20",
-      "close": 0.9404
-    },
     {
       "date": "2025-08-21",
       "close": 0.9368
@@ -1044,18 +1040,24 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.92
+      "close": 0.9221
+    },
+    {
+      "date": "2026-06-19",
+      "close": 0.9221
     }
   ],
   "scan_ids": [
     "inside_day",
+    "inverted_hammer",
     "nr4",
-    "sma200_below",
+    "shooting_star",
+    "sma200_above",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 9,
   "composites_matched": []
 }

@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "AUD/USD",
   "symbol": "AUDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-02",
-      "close": 0.6519
-    },
     {
       "date": "2025-09-03",
       "close": 0.6545
@@ -1044,7 +1040,11 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.7033
+      "close": 0.7015
+    },
+    {
+      "date": "2026-06-19",
+      "close": 0.701
     }
   ],
   "scan_ids": [
@@ -1054,8 +1054,9 @@
     "sma20_below",
     "sma50_below",
     "sma50_falling",
-    "sma9_near"
+    "sma9_below",
+    "stoch_oversold"
   ],
-  "scan_count": 7,
+  "scan_count": 8,
   "composites_matched": []
 }

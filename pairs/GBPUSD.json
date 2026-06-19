@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "GBP/USD",
   "symbol": "GBPUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-27",
-      "close": 1.3399
-    },
     {
       "date": "2025-09-28",
       "close": 1.3407
@@ -1044,22 +1040,28 @@
     },
     {
       "date": "2026-06-18",
-      "close": 1.3312
+      "close": 1.3301
+    },
+    {
+      "date": "2026-06-19",
+      "close": 1.3195
     }
   ],
   "scan_ids": [
+    "bb_breakout_down",
+    "donchian_low_20",
+    "evening_star",
     "lh_ll",
     "lower_lows_3",
     "nr4",
     "nr7",
-    "price_cross_below_sma20",
-    "rsi_cross_below_50",
+    "rsi_oversold",
     "sma200_below",
     "sma20_below",
     "sma50_below",
     "sma50_falling",
-    "sma9_below"
+    "sma9_extended_below"
   ],
-  "scan_count": 11,
+  "scan_count": 13,
   "composites_matched": []
 }

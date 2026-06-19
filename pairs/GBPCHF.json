@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "GBP/CHF",
   "symbol": "GBPCHF",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-19",
-      "close": 1.0898
-    },
     {
       "date": "2025-08-20",
       "close": 1.0821
@@ -1044,13 +1040,15 @@
     },
     {
       "date": "2026-06-18",
-      "close": 1.063
+      "close": 1.0628
+    },
+    {
+      "date": "2026-06-19",
+      "close": 1.0623
     }
   ],
   "scan_ids": [
-    "doji",
     "inside_day",
-    "macd_bear_cross",
     "nr4",
     "pullback_3bar_uptrend",
     "sma200_above",
@@ -1059,6 +1057,6 @@
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 8,
   "composites_matched": []
 }

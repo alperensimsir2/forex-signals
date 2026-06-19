@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "USD/JPY",
   "symbol": "USDJPY",
   "category": "major",
   "history": [
-    {
-      "date": "2025-09-24",
-      "close": 148.7809
-    },
     {
       "date": "2025-09-25",
       "close": 149.8732
@@ -1044,23 +1040,23 @@
     },
     {
       "date": "2026-06-18",
-      "close": 160.59
+      "close": 161.38
+    },
+    {
+      "date": "2026-06-19",
+      "close": 161.08
     }
   ],
   "scan_ids": [
     "bearish_harami",
-    "doji",
     "inside_day",
-    "macd_bull_cross",
     "nr4",
-    "nr7",
     "sma200_above",
-    "sma20_near",
+    "sma20_above",
     "sma50_above",
     "sma50_rising",
-    "sma9_near",
-    "stoch_overbought"
+    "sma9_above"
   ],
-  "scan_count": 12,
+  "scan_count": 8,
   "composites_matched": []
 }

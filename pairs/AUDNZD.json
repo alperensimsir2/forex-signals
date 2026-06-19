@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "AUD/NZD",
   "symbol": "AUDNZD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-20",
-      "close": 1.1049
-    },
     {
       "date": "2025-08-21",
       "close": 1.1036
@@ -1044,21 +1040,27 @@
     },
     {
       "date": "2026-06-18",
-      "close": 1.2135
+      "close": 1.2189
+    },
+    {
+      "date": "2026-06-19",
+      "close": 1.2177
     }
   ],
   "scan_ids": [
-    "bearish_harami",
-    "inside_day",
+    "doji",
+    "ema_fast_cross_above_slow",
+    "hh_hl",
+    "higher_highs_3",
+    "macd_zero_cross_up",
     "nr4",
-    "price_cross_below_sma50",
     "sma200_above",
-    "sma20_near",
+    "sma20_above",
     "sma50_falling",
     "sma50_near",
-    "sma9_cross_above_sma20",
-    "sma9_near"
+    "sma9_above",
+    "stoch_overbought"
   ],
-  "scan_count": 10,
+  "scan_count": 12,
   "composites_matched": []
 }

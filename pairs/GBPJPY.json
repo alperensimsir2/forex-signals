@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-19",
-      "close": 199.23
-    },
     {
       "date": "2025-08-20",
       "close": 198.27
@@ -1044,18 +1040,27 @@
     },
     {
       "date": "2026-06-18",
-      "close": 213.7
+      "close": 213.12
+    },
+    {
+      "date": "2026-06-19",
+      "close": 212.67
     }
   ],
   "scan_ids": [
+    "bb_breakout_down",
+    "ema_fast_cross_below_slow",
     "inside_day",
+    "macd_zero_cross_down",
     "nr4",
     "sma200_above",
-    "sma20_near",
+    "sma20_below",
     "sma50_falling",
     "sma50_near",
-    "sma9_below"
+    "sma9_below",
+    "sma9_cross_below_sma20",
+    "stoch_oversold"
   ],
-  "scan_count": 7,
+  "scan_count": 12,
   "composites_matched": []
 }

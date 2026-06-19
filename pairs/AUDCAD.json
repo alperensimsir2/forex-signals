@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "AUD/CAD",
   "symbol": "AUDCAD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-09-30",
-      "close": 0.9155
-    },
     {
       "date": "2025-10-01",
       "close": 0.9204
@@ -1044,19 +1040,25 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.9919
+      "close": 0.9897
+    },
+    {
+      "date": "2026-06-19",
+      "close": 0.991
     }
   ],
   "scan_ids": [
-    "hh_hl",
-    "higher_highs_3",
+    "doji",
+    "inside_day",
+    "nr4",
     "sma200_above",
-    "sma20_above",
+    "sma20_near",
     "sma50_near",
     "sma50_rising",
     "sma9_above",
+    "sma9_cross_above_sma20",
     "stoch_overbought"
   ],
-  "scan_count": 8,
+  "scan_count": 10,
   "composites_matched": []
 }

@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "CAD/CHF",
   "symbol": "CADCHF",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-20",
-      "close": 0.5796
-    },
     {
       "date": "2025-08-21",
       "close": 0.5815
@@ -1044,19 +1040,27 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.5662
+      "close": 0.5693
+    },
+    {
+      "date": "2026-06-19",
+      "close": 0.5689
     }
   ],
   "scan_ids": [
+    "bearish_harami",
     "inside_day",
     "nr4",
     "nr7",
+    "price_cross_below_sma20",
+    "shooting_star",
     "sma200_below",
     "sma20_near",
-    "sma50_below",
     "sma50_falling",
-    "sma9_below"
+    "sma50_near",
+    "sma9_cross_below_sma20",
+    "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 12,
   "composites_matched": []
 }

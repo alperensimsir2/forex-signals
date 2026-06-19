@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "EUR/GBP",
   "symbol": "EURGBP",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-08-20",
-      "close": 0.8658
-    },
     {
       "date": "2025-08-21",
       "close": 0.8653
@@ -1044,21 +1040,29 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.8653
+      "close": 0.8677
+    },
+    {
+      "date": "2026-06-19",
+      "close": 0.8675
     }
   ],
   "scan_ids": [
-    "atr_contraction",
-    "bb_squeeze",
-    "inside_day",
+    "ema_fast_cross_above_slow",
+    "hh_hl",
+    "higher_highs_3",
+    "inverted_hammer",
+    "macd_zero_cross_up",
     "nr4",
-    "price_cross_above_sma50",
+    "shooting_star",
     "sma200_below",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_near"
+    "sma9_above",
+    "stoch_overbought",
+    "tweezer_top"
   ],
-  "scan_count": 10,
+  "scan_count": 14,
   "composites_matched": []
 }

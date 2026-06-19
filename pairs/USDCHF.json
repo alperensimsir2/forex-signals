@@ -1,15 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-18T06:14:52Z",
-  "trade_date": "2026-06-18",
+  "generated_at": "2026-06-19T02:12:39Z",
+  "trade_date": "2026-06-19",
   "display_symbol": "USD/CHF",
   "symbol": "USDCHF",
   "category": "major",
   "history": [
-    {
-      "date": "2025-08-15",
-      "close": 0.8065
-    },
     {
       "date": "2025-08-17",
       "close": 0.8054
@@ -1044,18 +1040,22 @@
     },
     {
       "date": "2026-06-18",
-      "close": 0.7989
+      "close": 0.8048
+    },
+    {
+      "date": "2026-06-19",
+      "close": 0.8047
     }
   ],
   "scan_ids": [
-    "bearish_harami",
     "inside_day",
     "nr4",
     "sma200_above",
     "sma20_above",
     "sma50_above",
     "sma50_rising",
-    "sma9_near"
+    "sma9_above",
+    "stoch_overbought"
   ],
   "scan_count": 8,
   "composites_matched": []
