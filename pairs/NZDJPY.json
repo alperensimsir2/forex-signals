@@ -1,6 +1,6 @@
 {
-  "schema_version": "2.0.0",
-  "generated_at": "2026-06-20T02:12:45Z",
+  "schema_version": "2.1.0",
+  "generated_at": "2026-06-20T05:23:33Z",
   "trade_date": "2026-06-19",
   "display_symbol": "NZD/JPY",
   "symbol": "NZDJPY",
@@ -22,7 +22,9 @@
       "macd_hist": -0.169585,
       "bb_upper": 88.804,
       "bb_middle": 87.436,
-      "bb_lower": 86.068
+      "bb_lower": 86.068,
+      "stoch_k": 20.406661,
+      "stoch_d": 27.673048
     },
     {
       "date": "2025-08-22",
@@ -40,7 +42,9 @@
       "macd_hist": -0.172228,
       "bb_upper": 88.768,
       "bb_middle": 87.34,
-      "bb_lower": 85.912
+      "bb_lower": 85.912,
+      "stoch_k": 20.981087,
+      "stoch_d": 23.501721
     },
     {
       "date": "2025-08-24",
@@ -58,7 +62,9 @@
       "macd_hist": -0.167955,
       "bb_upper": 88.559,
       "bb_middle": 87.207,
-      "bb_lower": 85.856
+      "bb_lower": 85.856,
+      "stoch_k": 25.118203,
+      "stoch_d": 22.168651
     },
     {
       "date": "2025-08-25",
@@ -76,7 +82,9 @@
       "macd_hist": -0.134938,
       "bb_upper": 88.564,
       "bb_middle": 87.17,
-      "bb_lower": 85.775
+      "bb_lower": 85.775,
+      "stoch_k": 26.477541,
+      "stoch_d": 24.192277
     },
     {
       "date": "2025-08-26",
@@ -94,7 +102,9 @@
       "macd_hist": -0.107026,
       "bb_upper": 88.574,
       "bb_middle": 87.139,
-      "bb_lower": 85.703
+      "bb_lower": 85.703,
+      "stoch_k": 28.605201,
+      "stoch_d": 26.733649
     },
     {
       "date": "2025-08-27",
@@ -112,7 +122,9 @@
       "macd_hist": -0.083533,
       "bb_upper": 88.586,
       "bb_middle": 87.112,
-      "bb_lower": 85.638
+      "bb_lower": 85.638,
+      "stoch_k": 31.205674,
+      "stoch_d": 28.762805
     },
     {
       "date": "2025-08-28",
@@ -130,7 +142,9 @@
       "macd_hist": -0.055236,
       "bb_upper": 88.581,
       "bb_middle": 87.078,
-      "bb_lower": 85.575
+      "bb_lower": 85.575,
+      "stoch_k": 31.382979,
+      "stoch_d": 30.397951
     },
     {
       "date": "2025-08-29",
@@ -148,7 +162,9 @@
       "macd_hist": -0.026561,
       "bb_upper": 88.548,
       "bb_middle": 87.034,
-      "bb_lower": 85.52
+      "bb_lower": 85.52,
+      "stoch_k": 33.782101,
+      "stoch_d": 32.123585
     },
     {
       "date": "2025-08-31",
@@ -166,7 +182,9 @@
       "macd_hist": -0.00324,
       "bb_upper": 88.471,
       "bb_middle": 86.976,
-      "bb_lower": 85.481
+      "bb_lower": 85.481,
+      "stoch_k": 39.521226,
+      "stoch_d": 34.895435
     },
     {
       "date": "2025-09-01",
@@ -184,7 +202,9 @@
       "macd_hist": 0.03657,
       "bb_upper": 88.327,
       "bb_middle": 86.918,
-      "bb_lower": 85.509
+      "bb_lower": 85.509,
+      "stoch_k": 49.360154,
+      "stoch_d": 40.887827
     },
     {
       "date": "2025-09-02",
@@ -202,7 +222,9 @@
       "macd_hist": 0.072419,
       "bb_upper": 88.215,
       "bb_middle": 86.876,
-      "bb_lower": 85.538
+      "bb_lower": 85.538,
+      "stoch_k": 59.754224,
+      "stoch_d": 49.545201
     },
     {
       "date": "2025-09-03",
@@ -220,7 +242,9 @@
       "macd_hist": 0.096083,
       "bb_upper": 88.072,
       "bb_middle": 86.831,
-      "bb_lower": 85.59
+      "bb_lower": 85.59,
+      "stoch_k": 67.741935,
+      "stoch_d": 58.952104
     },
     {
       "date": "2025-09-04",
@@ -238,7 +262,9 @@
       "macd_hist": 0.092462,
       "bb_upper": 87.872,
       "bb_middle": 86.769,
-      "bb_lower": 85.667
+      "bb_lower": 85.667,
+      "stoch_k": 70.129984,
+      "stoch_d": 65.875381
     },
     {
       "date": "2025-09-05",
@@ -256,7 +282,9 @@
       "macd_hist": 0.092459,
       "bb_upper": 87.63,
       "bb_middle": 86.71,
-      "bb_lower": 85.789
+      "bb_lower": 85.789,
+      "stoch_k": 70.814042,
+      "stoch_d": 69.561987
     },
     {
       "date": "2025-09-07",
@@ -274,7 +302,9 @@
       "macd_hist": 0.111425,
       "bb_upper": 87.587,
       "bb_middle": 86.698,
-      "bb_lower": 85.81
+      "bb_lower": 85.81,
+      "stoch_k": 75.886198,
+      "stoch_d": 72.276741
     },
     {
       "date": "2025-09-08",
@@ -292,7 +322,9 @@
       "macd_hist": 0.146138,
       "bb_upper": 87.681,
       "bb_middle": 86.721,
-      "bb_lower": 85.761
+      "bb_lower": 85.761,
+      "stoch_k": 83.030493,
+      "stoch_d": 76.576911
     },
     {
       "date": "2025-09-09",
@@ -310,7 +342,9 @@
       "macd_hist": 0.146448,
       "bb_upper": 87.719,
       "bb_middle": 86.733,
-      "bb_lower": 85.746
+      "bb_lower": 85.746,
+      "stoch_k": 85.253643,
+      "stoch_d": 81.390111
     },
     {
       "date": "2025-09-10",
@@ -328,7 +362,9 @@
       "macd_hist": 0.153882,
       "bb_upper": 87.725,
       "bb_middle": 86.734,
-      "bb_lower": 85.743
+      "bb_lower": 85.743,
+      "stoch_k": 84.997795,
+      "stoch_d": 84.427311
     },
     {
       "date": "2025-09-11",
@@ -346,7 +382,9 @@
       "macd_hist": 0.174933,
       "bb_upper": 87.907,
       "bb_middle": 86.78,
-      "bb_lower": 85.654
+      "bb_lower": 85.654,
+      "stoch_k": 86.957935,
+      "stoch_d": 85.736458
     },
     {
       "date": "2025-09-12",
@@ -364,7 +402,9 @@
       "macd_hist": 0.179084,
       "bb_upper": 88.028,
       "bb_middle": 86.888,
-      "bb_lower": 85.748
+      "bb_lower": 85.748,
+      "stoch_k": 91.329498,
+      "stoch_d": 87.761743
     },
     {
       "date": "2025-09-14",
@@ -382,7 +422,9 @@
       "macd_hist": 0.162764,
       "bb_upper": 88.137,
       "bb_middle": 86.962,
-      "bb_lower": 85.786
+      "bb_lower": 85.786,
+      "stoch_k": 90.17968,
+      "stoch_d": 89.489038
     },
     {
       "date": "2025-09-15",
@@ -400,7 +442,9 @@
       "macd_hist": 0.158348,
       "bb_upper": 88.262,
       "bb_middle": 87.051,
-      "bb_lower": 85.841
+      "bb_lower": 85.841,
+      "stoch_k": 88.982355,
+      "stoch_d": 90.163844
     },
     {
       "date": "2025-09-16",
@@ -418,7 +462,9 @@
       "macd_hist": 0.127121,
       "bb_upper": 88.293,
       "bb_middle": 87.13,
-      "bb_lower": 85.966
+      "bb_lower": 85.966,
+      "stoch_k": 83.355124,
+      "stoch_d": 87.50572
     },
     {
       "date": "2025-09-17",
@@ -436,7 +482,9 @@
       "macd_hist": 0.097349,
       "bb_upper": 88.33,
       "bb_middle": 87.191,
-      "bb_lower": 86.051
+      "bb_lower": 86.051,
+      "stoch_k": 79.344267,
+      "stoch_d": 83.893915
     },
     {
       "date": "2025-09-18",
@@ -454,7 +502,9 @@
       "macd_hist": 0.03377,
       "bb_upper": 88.303,
       "bb_middle": 87.223,
-      "bb_lower": 86.143
+      "bb_lower": 86.143,
+      "stoch_k": 58.179959,
+      "stoch_d": 73.62645
     },
     {
       "date": "2025-09-19",
@@ -472,7 +522,9 @@
       "macd_hist": -0.033064,
       "bb_upper": 88.274,
       "bb_middle": 87.239,
-      "bb_lower": 86.203
+      "bb_lower": 86.203,
+      "stoch_k": 38.067061,
+      "stoch_d": 58.530429
     },
     {
       "date": "2025-09-21",
@@ -490,7 +542,9 @@
       "macd_hist": -0.068365,
       "bb_upper": 88.249,
       "bb_middle": 87.254,
-      "bb_lower": 86.258
+      "bb_lower": 86.258,
+      "stoch_k": 21.26439,
+      "stoch_d": 39.17047
     },
     {
       "date": "2025-09-22",
@@ -508,7 +562,9 @@
       "macd_hist": -0.093382,
       "bb_upper": 88.236,
       "bb_middle": 87.261,
-      "bb_lower": 86.285
+      "bb_lower": 86.285,
+      "stoch_k": 15.976331,
+      "stoch_d": 25.102594
     },
     {
       "date": "2025-09-23",
@@ -526,7 +582,9 @@
       "macd_hist": -0.116174,
       "bb_upper": 88.242,
       "bb_middle": 87.258,
-      "bb_lower": 86.275
+      "bb_lower": 86.275,
+      "stoch_k": 14.557521,
+      "stoch_d": 17.266081
     },
     {
       "date": "2025-09-24",
@@ -544,7 +602,9 @@
       "macd_hist": -0.11888,
       "bb_upper": 88.26,
       "bb_middle": 87.243,
-      "bb_lower": 86.227
+      "bb_lower": 86.227,
+      "stoch_k": 13.17685,
+      "stoch_d": 14.570234
     },
     {
       "date": "2025-09-25",
@@ -562,7 +622,9 @@
       "macd_hist": -0.126452,
       "bb_upper": 88.294,
       "bb_middle": 87.211,
-      "bb_lower": 86.128
+      "bb_lower": 86.128,
+      "stoch_k": 11.897354,
+      "stoch_d": 13.210575
     },
     {
       "date": "2025-09-26",
@@ -580,7 +642,9 @@
       "macd_hist": -0.12969,
       "bb_upper": 88.329,
       "bb_middle": 87.174,
-      "bb_lower": 86.018
+      "bb_lower": 86.018,
+      "stoch_k": 10.730203,
+      "stoch_d": 11.934802
     },
     {
       "date": "2025-09-28",
@@ -598,7 +662,9 @@
       "macd_hist": -0.136126,
       "bb_upper": 88.378,
       "bb_middle": 87.139,
-      "bb_lower": 85.9
+      "bb_lower": 85.9,
+      "stoch_k": 5.601998,
+      "stoch_d": 9.409851
     },
     {
       "date": "2025-09-29",
@@ -616,7 +682,9 @@
       "macd_hist": -0.15062,
       "bb_upper": 88.454,
       "bb_middle": 87.087,
-      "bb_lower": 85.72
+      "bb_lower": 85.72,
+      "stoch_k": 2.87876,
+      "stoch_d": 6.403654
     },
     {
       "date": "2025-09-30",
@@ -634,7 +702,9 @@
       "macd_hist": -0.158213,
       "bb_upper": 88.509,
       "bb_middle": 87.012,
-      "bb_lower": 85.515
+      "bb_lower": 85.515,
+      "stoch_k": 2.091538,
+      "stoch_d": 3.524099
     },
     {
       "date": "2025-10-01",
@@ -652,7 +722,9 @@
       "macd_hist": -0.163275,
       "bb_upper": 88.511,
       "bb_middle": 86.908,
-      "bb_lower": 85.306
+      "bb_lower": 85.306,
+      "stoch_k": 4.889592,
+      "stoch_d": 3.28663
     },
     {
       "date": "2025-10-02",
@@ -670,7 +742,9 @@
       "macd_hist": -0.148562,
       "bb_upper": 88.5,
       "bb_middle": 86.823,
-      "bb_lower": 85.145
+      "bb_lower": 85.145,
+      "stoch_k": 8.930382,
+      "stoch_d": 5.303837
     },
     {
       "date": "2025-10-03",
@@ -688,7 +762,9 @@
       "macd_hist": -0.108168,
       "bb_upper": 88.419,
       "bb_middle": 86.743,
-      "bb_lower": 85.067
+      "bb_lower": 85.067,
+      "stoch_k": 16.944838,
+      "stoch_d": 10.254937
     },
     {
       "date": "2025-10-05",
@@ -706,7 +782,9 @@
       "macd_hist": -0.018766,
       "bb_upper": 88.267,
       "bb_middle": 86.689,
-      "bb_lower": 85.11
+      "bb_lower": 85.11,
+      "stoch_k": 41.924562,
+      "stoch_d": 22.599927
     },
     {
       "date": "2025-10-06",
@@ -724,7 +802,9 @@
       "macd_hist": 0.104366,
       "bb_upper": 88.249,
       "bb_middle": 86.684,
-      "bb_lower": 85.12
+      "bb_lower": 85.12,
+      "stoch_k": 70.486111,
+      "stoch_d": 43.118504
     },
     {
       "date": "2025-10-07",
@@ -742,7 +822,9 @@
       "macd_hist": 0.193765,
       "bb_upper": 88.318,
       "bb_middle": 86.7,
-      "bb_lower": 85.083
+      "bb_lower": 85.083,
+      "stoch_k": 94.030733,
+      "stoch_d": 68.813802
     },
     {
       "date": "2025-10-08",
@@ -760,7 +842,9 @@
       "macd_hist": 0.258487,
       "bb_upper": 88.402,
       "bb_middle": 86.718,
-      "bb_lower": 85.034
+      "bb_lower": 85.034,
+      "stoch_k": 99.586288,
+      "stoch_d": 88.034377
     },
     {
       "date": "2025-10-09",
@@ -778,7 +862,9 @@
       "macd_hist": 0.260366,
       "bb_upper": 88.449,
       "bb_middle": 86.73,
-      "bb_lower": 85.012
+      "bb_lower": 85.012,
+      "stoch_k": 93.362009,
+      "stoch_d": 95.659677
     },
     {
       "date": "2025-10-10",
@@ -796,7 +882,9 @@
       "macd_hist": 0.155473,
       "bb_upper": 88.336,
       "bb_middle": 86.672,
-      "bb_lower": 85.008
+      "bb_lower": 85.008,
+      "stoch_k": 72.530864,
+      "stoch_d": 88.493054
     },
     {
       "date": "2025-10-12",
@@ -814,7 +902,9 @@
       "macd_hist": 0.124416,
       "bb_upper": 88.348,
       "bb_middle": 86.678,
-      "bb_lower": 85.008
+      "bb_lower": 85.008,
+      "stoch_k": 58.127572,
+      "stoch_d": 74.673482
     },
     {
       "date": "2025-10-13",
@@ -832,7 +922,9 @@
       "macd_hist": 0.100457,
       "bb_upper": 88.389,
       "bb_middle": 86.704,
-      "bb_lower": 85.018
+      "bb_lower": 85.018,
+      "stoch_k": 50.257202,
+      "stoch_d": 60.305213
     },
     {
       "date": "2025-10-14",
@@ -850,7 +942,9 @@
       "macd_hist": 0.05517,
       "bb_upper": 88.392,
       "bb_middle": 86.706,
-      "bb_lower": 85.02
+      "bb_lower": 85.02,
+      "stoch_k": 53.395062,
+      "stoch_d": 53.926612
     },
     {
       "date": "2025-10-15",
@@ -868,7 +962,9 @@
       "macd_hist": 0.002275,
       "bb_upper": 88.385,
       "bb_middle": 86.696,
-      "bb_lower": 85.006
+      "bb_lower": 85.006,
+      "stoch_k": 46.244856,
+      "stoch_d": 49.965706
     },
     {
       "date": "2025-10-16",
@@ -886,7 +982,9 @@
       "macd_hist": -0.053899,
       "bb_upper": 88.384,
       "bb_middle": 86.677,
-      "bb_lower": 84.969
+      "bb_lower": 84.969,
+      "stoch_k": 35.133745,
+      "stoch_d": 44.924554
     },
     {
       "date": "2025-10-17",
@@ -904,7 +1002,9 @@
       "macd_hist": -0.076513,
       "bb_upper": 88.378,
       "bb_middle": 86.661,
-      "bb_lower": 84.944
+      "bb_lower": 84.944,
+      "stoch_k": 29.702279,
+      "stoch_d": 37.02696
     },
     {
       "date": "2025-10-19",
@@ -922,7 +1022,9 @@
       "macd_hist": -0.088219,
       "bb_upper": 88.377,
       "bb_middle": 86.653,
-      "bb_lower": 84.93
+      "bb_lower": 84.93,
+      "stoch_k": 27.460905,
+      "stoch_d": 30.765643
     },
     {
       "date": "2025-10-20",
@@ -940,7 +1042,9 @@
       "macd_hist": -0.067066,
       "bb_upper": 88.384,
       "bb_middle": 86.668,
-      "bb_lower": 84.953
+      "bb_lower": 84.953,
+      "stoch_k": 32.666667,
+      "stoch_d": 29.943284
     },
     {
       "date": "2025-10-21",
@@ -958,7 +1062,9 @@
       "macd_hist": -0.010319,
       "bb_upper": 88.437,
       "bb_middle": 86.724,
-      "bb_lower": 85.011
+      "bb_lower": 85.011,
+      "stoch_k": 42.564103,
+      "stoch_d": 34.230558
     },
     {
       "date": "2025-10-22",
@@ -976,7 +1082,9 @@
       "macd_hist": 0.026858,
       "bb_upper": 88.468,
       "bb_middle": 86.794,
-      "bb_lower": 85.121
+      "bb_lower": 85.121,
+      "stoch_k": 52.820513,
+      "stoch_d": 42.683761
     },
     {
       "date": "2025-10-23",
@@ -994,7 +1102,9 @@
       "macd_hist": 0.081028,
       "bb_upper": 88.539,
       "bb_middle": 86.896,
-      "bb_lower": 85.253
+      "bb_lower": 85.253,
+      "stoch_k": 64.410256,
+      "stoch_d": 53.264957
     },
     {
       "date": "2025-10-24",
@@ -1012,7 +1122,9 @@
       "macd_hist": 0.119852,
       "bb_upper": 88.582,
       "bb_middle": 87.013,
-      "bb_lower": 85.443
+      "bb_lower": 85.443,
+      "stoch_k": 71.076923,
+      "stoch_d": 62.769231
     },
     {
       "date": "2025-10-26",
@@ -1030,7 +1142,9 @@
       "macd_hist": 0.154406,
       "bb_upper": 88.648,
       "bb_middle": 87.136,
-      "bb_lower": 85.625
+      "bb_lower": 85.625,
+      "stoch_k": 81.420496,
+      "stoch_d": 72.302559
     },
     {
       "date": "2025-10-27",
@@ -1048,7 +1162,9 @@
       "macd_hist": 0.171357,
       "bb_upper": 88.729,
       "bb_middle": 87.246,
-      "bb_lower": 85.764
+      "bb_lower": 85.764,
+      "stoch_k": 87.274842,
+      "stoch_d": 79.924087
     },
     {
       "date": "2025-10-28",
@@ -1066,7 +1182,9 @@
       "macd_hist": 0.155894,
       "bb_upper": 88.803,
       "bb_middle": 87.3,
-      "bb_lower": 85.798
+      "bb_lower": 85.798,
+      "stoch_k": 88.977636,
+      "stoch_d": 85.890992
     },
     {
       "date": "2025-10-29",
@@ -1084,7 +1202,9 @@
       "macd_hist": 0.142585,
       "bb_upper": 88.827,
       "bb_middle": 87.309,
-      "bb_lower": 85.791
+      "bb_lower": 85.791,
+      "stoch_k": 87.859425,
+      "stoch_d": 88.037301
     },
     {
       "date": "2025-10-30",
@@ -1102,7 +1222,9 @@
       "macd_hist": 0.154932,
       "bb_upper": 88.899,
       "bb_middle": 87.329,
-      "bb_lower": 85.758
+      "bb_lower": 85.758,
+      "stoch_k": 87.462955,
+      "stoch_d": 88.100005
     },
     {
       "date": "2025-10-31",
@@ -1120,7 +1242,9 @@
       "macd_hist": 0.130667,
       "bb_upper": 88.861,
       "bb_middle": 87.318,
-      "bb_lower": 85.774
+      "bb_lower": 85.774,
+      "stoch_k": 86.496425,
+      "stoch_d": 87.272935
     },
     {
       "date": "2025-11-02",
@@ -1138,7 +1262,9 @@
       "macd_hist": 0.099106,
       "bb_upper": 88.873,
       "bb_middle": 87.322,
-      "bb_lower": 85.771
+      "bb_lower": 85.771,
+      "stoch_k": 83.47619,
+      "stoch_d": 85.811857
     },
     {
       "date": "2025-11-03",
@@ -1156,7 +1282,9 @@
       "macd_hist": 0.069825,
       "bb_upper": 88.927,
       "bb_middle": 87.398,
-      "bb_lower": 85.869
+      "bb_lower": 85.869,
+      "stoch_k": 77.0389,
+      "stoch_d": 82.337172
     },
     {
       "date": "2025-11-04",
@@ -1174,7 +1302,9 @@
       "macd_hist": -0.036423,
       "bb_upper": 88.931,
       "bb_middle": 87.376,
-      "bb_lower": 85.821
+      "bb_lower": 85.821,
+      "stoch_k": 58.86385,
+      "stoch_d": 73.126313
     },
     {
       "date": "2025-11-05",
@@ -1192,7 +1322,9 @@
       "macd_hist": -0.069112,
       "bb_upper": 88.934,
       "bb_middle": 87.38,
-      "bb_lower": 85.827
+      "bb_lower": 85.827,
+      "stoch_k": 47.184837,
+      "stoch_d": 61.029196
     },
     {
       "date": "2025-11-06",
@@ -1210,7 +1342,9 @@
       "macd_hist": -0.154974,
       "bb_upper": 88.97,
       "bb_middle": 87.352,
-      "bb_lower": 85.733
+      "bb_lower": 85.733,
+      "stoch_k": 26.340591,
+      "stoch_d": 44.129759
     },
     {
       "date": "2025-11-07",
@@ -1228,7 +1362,9 @@
       "macd_hist": -0.19624,
       "bb_upper": 88.98,
       "bb_middle": 87.344,
-      "bb_lower": 85.709
+      "bb_lower": 85.709,
+      "stoch_k": 22.769502,
+      "stoch_d": 32.09831
     },
     {
       "date": "2025-11-09",
@@ -1246,7 +1382,9 @@
       "macd_hist": -0.201519,
       "bb_upper": 88.946,
       "bb_middle": 87.364,
-      "bb_lower": 85.783
+      "bb_lower": 85.783,
+      "stoch_k": 15.880947,
+      "stoch_d": 21.66368
     },
     {
       "date": "2025-11-10",
@@ -1264,7 +1402,9 @@
       "macd_hist": -0.161488,
       "bb_upper": 88.907,
       "bb_middle": 87.403,
-      "bb_lower": 85.899
+      "bb_lower": 85.899,
+      "stoch_k": 26.182432,
+      "stoch_d": 21.61096
     },
     {
       "date": "2025-11-11",
@@ -1282,7 +1422,9 @@
       "macd_hist": -0.120315,
       "bb_upper": 88.857,
       "bb_middle": 87.45,
-      "bb_lower": 86.043
+      "bb_lower": 86.043,
+      "stoch_k": 35.698198,
+      "stoch_d": 25.920526
     },
     {
       "date": "2025-11-12",
@@ -1300,7 +1442,9 @@
       "macd_hist": -0.050955,
       "bb_upper": 88.863,
       "bb_middle": 87.507,
-      "bb_lower": 86.152
+      "bb_lower": 86.152,
+      "stoch_k": 49.774775,
+      "stoch_d": 37.218468
     },
     {
       "date": "2025-11-13",
@@ -1318,7 +1462,9 @@
       "macd_hist": -0.028713,
       "bb_upper": 88.866,
       "bb_middle": 87.515,
-      "bb_lower": 86.165
+      "bb_lower": 86.165,
+      "stoch_k": 53.716216,
+      "stoch_d": 46.396396
     },
     {
       "date": "2025-11-14",
@@ -1336,7 +1482,9 @@
       "macd_hist": 0.012994,
       "bb_upper": 88.893,
       "bb_middle": 87.543,
-      "bb_lower": 86.194
+      "bb_lower": 86.194,
+      "stoch_k": 60.867117,
+      "stoch_d": 54.786036
     },
     {
       "date": "2025-11-16",
@@ -1354,7 +1502,9 @@
       "macd_hist": 0.030223,
       "bb_upper": 88.889,
       "bb_middle": 87.54,
-      "bb_lower": 86.192
+      "bb_lower": 86.192,
+      "stoch_k": 62.376976,
+      "stoch_d": 58.98677
     },
     {
       "date": "2025-11-17",
@@ -1372,7 +1522,9 @@
       "macd_hist": 0.049325,
       "bb_upper": 88.885,
       "bb_middle": 87.539,
-      "bb_lower": 86.192
+      "bb_lower": 86.192,
+      "stoch_k": 71.462257,
+      "stoch_d": 64.902117
     },
     {
       "date": "2025-11-18",
@@ -1390,7 +1542,9 @@
       "macd_hist": 0.06817,
       "bb_upper": 88.865,
       "bb_middle": 87.531,
-      "bb_lower": 86.197
+      "bb_lower": 86.197,
+      "stoch_k": 77.932547,
+      "stoch_d": 70.590593
     },
     {
       "date": "2025-11-19",
@@ -1408,7 +1562,9 @@
       "macd_hist": 0.080284,
       "bb_upper": 88.846,
       "bb_middle": 87.525,
-      "bb_lower": 86.203
+      "bb_lower": 86.203,
+      "stoch_k": 85.936088,
+      "stoch_d": 78.44363
     },
     {
       "date": "2025-11-20",
@@ -1426,7 +1582,9 @@
       "macd_hist": 0.074599,
       "bb_upper": 88.844,
       "bb_middle": 87.524,
-      "bb_lower": 86.204
+      "bb_lower": 86.204,
+      "stoch_k": 82.752612,
+      "stoch_d": 82.207082
     },
     {
       "date": "2025-11-21",
@@ -1444,7 +1602,9 @@
       "macd_hist": 0.056928,
       "bb_upper": 88.817,
       "bb_middle": 87.512,
-      "bb_lower": 86.207
+      "bb_lower": 86.207,
+      "stoch_k": 75.894204,
+      "stoch_d": 81.527634
     },
     {
       "date": "2025-11-23",
@@ -1462,7 +1622,9 @@
       "macd_hist": 0.048177,
       "bb_upper": 88.716,
       "bb_middle": 87.481,
-      "bb_lower": 86.247
+      "bb_lower": 86.247,
+      "stoch_k": 67.61427,
+      "stoch_d": 75.420362
     },
     {
       "date": "2025-11-24",
@@ -1480,7 +1642,9 @@
       "macd_hist": 0.048875,
       "bb_upper": 88.698,
       "bb_middle": 87.476,
-      "bb_lower": 86.253
+      "bb_lower": 86.253,
+      "stoch_k": 68.533906,
+      "stoch_d": 70.680793
     },
     {
       "date": "2025-11-25",
@@ -1498,7 +1662,9 @@
       "macd_hist": 0.024715,
       "bb_upper": 88.659,
       "bb_middle": 87.46,
-      "bb_lower": 86.26
+      "bb_lower": 86.26,
+      "stoch_k": 67.321483,
+      "stoch_d": 67.82322
     },
     {
       "date": "2025-11-26",
@@ -1516,7 +1682,9 @@
       "macd_hist": 0.099462,
       "bb_upper": 88.924,
       "bb_middle": 87.518,
-      "bb_lower": 86.112
+      "bb_lower": 86.112,
+      "stoch_k": 77.633401,
+      "stoch_d": 71.16293
     },
     {
       "date": "2025-11-27",
@@ -1534,7 +1702,9 @@
       "macd_hist": 0.16409,
       "bb_upper": 89.283,
       "bb_middle": 87.659,
-      "bb_lower": 86.035
+      "bb_lower": 86.035,
+      "stoch_k": 86.802952,
+      "stoch_d": 77.252612
     },
     {
       "date": "2025-11-28",
@@ -1552,7 +1722,9 @@
       "macd_hist": 0.194363,
       "bb_upper": 89.593,
       "bb_middle": 87.773,
-      "bb_lower": 85.954
+      "bb_lower": 85.954,
+      "stoch_k": 98.632625,
+      "stoch_d": 87.689659
     },
     {
       "date": "2025-11-30",
@@ -1570,7 +1742,9 @@
       "macd_hist": 0.194373,
       "bb_upper": 89.75,
       "bb_middle": 87.935,
-      "bb_lower": 86.12
+      "bb_lower": 86.12,
+      "stoch_k": 96.452548,
+      "stoch_d": 93.962708
     },
     {
       "date": "2025-12-01",
@@ -1588,7 +1762,9 @@
       "macd_hist": 0.155826,
       "bb_upper": 89.785,
       "bb_middle": 88.072,
-      "bb_lower": 86.359
+      "bb_lower": 86.359,
+      "stoch_k": 88.529051,
+      "stoch_d": 94.538075
     },
     {
       "date": "2025-12-02",
@@ -1606,7 +1782,9 @@
       "macd_hist": 0.142959,
       "bb_upper": 89.864,
       "bb_middle": 88.217,
-      "bb_lower": 86.57
+      "bb_lower": 86.57,
+      "stoch_k": 86.543716,
+      "stoch_d": 90.508438
     },
     {
       "date": "2025-12-03",
@@ -1624,7 +1802,9 @@
       "macd_hist": 0.13856,
       "bb_upper": 90.014,
       "bb_middle": 88.347,
-      "bb_lower": 86.681
+      "bb_lower": 86.681,
+      "stoch_k": 88.400323,
+      "stoch_d": 87.824363
     },
     {
       "date": "2025-12-04",
@@ -1642,7 +1822,9 @@
       "macd_hist": 0.107155,
       "bb_upper": 90.087,
       "bb_middle": 88.458,
-      "bb_lower": 86.828
+      "bb_lower": 86.828,
+      "stoch_k": 91.3565,
+      "stoch_d": 88.766846
     },
     {
       "date": "2025-12-05",
@@ -1660,7 +1842,9 @@
       "macd_hist": 0.100112,
       "bb_upper": 90.243,
       "bb_middle": 88.556,
-      "bb_lower": 86.868
+      "bb_lower": 86.868,
+      "stoch_k": 93.655076,
+      "stoch_d": 91.1373
     },
     {
       "date": "2025-12-07",
@@ -1678,7 +1862,9 @@
       "macd_hist": 0.087419,
       "bb_upper": 90.346,
       "bb_middle": 88.673,
-      "bb_lower": 87.0
+      "bb_lower": 87.0,
+      "stoch_k": 93.74069,
+      "stoch_d": 92.917422
     },
     {
       "date": "2025-12-08",
@@ -1696,7 +1882,9 @@
       "macd_hist": 0.090796,
       "bb_upper": 90.516,
       "bb_middle": 88.786,
-      "bb_lower": 87.056
+      "bb_lower": 87.056,
+      "stoch_k": 98.36199,
+      "stoch_d": 95.252585
     },
     {
       "date": "2025-12-09",
@@ -1714,7 +1902,9 @@
       "macd_hist": 0.123965,
       "bb_upper": 90.782,
       "bb_middle": 88.936,
-      "bb_lower": 87.091
+      "bb_lower": 87.091,
+      "stoch_k": 97.461459,
+      "stoch_d": 96.521379
     },
     {
       "date": "2025-12-10",
@@ -1732,7 +1922,9 @@
       "macd_hist": 0.13709,
       "bb_upper": 91.022,
       "bb_middle": 89.082,
-      "bb_lower": 87.143
+      "bb_lower": 87.143,
+      "stoch_k": 96.846008,
+      "stoch_d": 97.556486
     },
     {
       "date": "2025-12-11",
@@ -1750,7 +1942,9 @@
       "macd_hist": 0.109529,
       "bb_upper": 91.154,
       "bb_middle": 89.202,
-      "bb_lower": 87.25
+      "bb_lower": 87.25,
+      "stoch_k": 92.373937,
+      "stoch_d": 95.560468
     },
     {
       "date": "2025-12-12",
@@ -1768,7 +1962,9 @@
       "macd_hist": 0.085741,
       "bb_upper": 91.275,
       "bb_middle": 89.322,
-      "bb_lower": 87.369
+      "bb_lower": 87.369,
+      "stoch_k": 87.268615,
+      "stoch_d": 92.162853
     },
     {
       "date": "2025-12-14",
@@ -1786,7 +1982,9 @@
       "macd_hist": 0.046225,
       "bb_upper": 91.316,
       "bb_middle": 89.437,
-      "bb_lower": 87.558
+      "bb_lower": 87.558,
+      "stoch_k": 77.943345,
+      "stoch_d": 85.861966
     },
     {
       "date": "2025-12-15",
@@ -1804,7 +2002,9 @@
       "macd_hist": -0.019371,
       "bb_upper": 91.248,
       "bb_middle": 89.534,
-      "bb_lower": 87.82
+      "bb_lower": 87.82,
+      "stoch_k": 63.970588,
+      "stoch_d": 76.394183
     },
     {
       "date": "2025-12-16",
@@ -1822,7 +2022,9 @@
       "macd_hist": -0.082515,
       "bb_upper": 91.144,
       "bb_middle": 89.613,
-      "bb_lower": 88.082
+      "bb_lower": 88.082,
+      "stoch_k": 47.54902,
+      "stoch_d": 63.154318
     },
     {
       "date": "2025-12-17",
@@ -1840,7 +2042,9 @@
       "macd_hist": -0.094994,
       "bb_upper": 91.051,
       "bb_middle": 89.706,
-      "bb_lower": 88.361
+      "bb_lower": 88.361,
+      "stoch_k": 41.509074,
+      "stoch_d": 51.009561
     },
     {
       "date": "2025-12-18",
@@ -1858,7 +2062,9 @@
       "macd_hist": -0.107393,
       "bb_upper": 90.779,
       "bb_middle": 89.812,
-      "bb_lower": 88.845
+      "bb_lower": 88.845,
+      "stoch_k": 41.561185,
+      "stoch_d": 43.53976
     },
     {
       "date": "2025-12-19",
@@ -1876,7 +2082,9 @@
       "macd_hist": -0.052159,
       "bb_upper": 90.911,
       "bb_middle": 89.894,
-      "bb_lower": 88.878
+      "bb_lower": 88.878,
+      "stoch_k": 63.640204,
+      "stoch_d": 48.903488
     },
     {
       "date": "2025-12-21",
@@ -1894,7 +2102,9 @@
       "macd_hist": -0.035804,
       "bb_upper": 90.991,
       "bb_middle": 89.945,
-      "bb_lower": 88.899
+      "bb_lower": 88.899,
+      "stoch_k": 74.198968,
+      "stoch_d": 59.800119
     },
     {
       "date": "2025-12-22",
@@ -1912,7 +2122,9 @@
       "macd_hist": -0.001519,
       "bb_upper": 91.145,
       "bb_middle": 90.017,
-      "bb_lower": 88.888
+      "bb_lower": 88.888,
+      "stoch_k": 90.641789,
+      "stoch_d": 76.16032
     },
     {
       "date": "2025-12-23",
@@ -1930,7 +2142,9 @@
       "macd_hist": 0.032001,
       "bb_upper": 91.331,
       "bb_middle": 90.107,
-      "bb_lower": 88.882
+      "bb_lower": 88.882,
+      "stoch_k": 91.449429,
+      "stoch_d": 85.430062
     },
     {
       "date": "2025-12-24",
@@ -1948,7 +2162,9 @@
       "macd_hist": 0.028431,
       "bb_upper": 91.382,
       "bb_middle": 90.203,
-      "bb_lower": 89.023
+      "bb_lower": 89.023,
+      "stoch_k": 92.513912,
+      "stoch_d": 91.535043
     },
     {
       "date": "2025-12-25",
@@ -1966,7 +2182,9 @@
       "macd_hist": 0.023433,
       "bb_upper": 91.459,
       "bb_middle": 90.284,
-      "bb_lower": 89.109
+      "bb_lower": 89.109,
+      "stoch_k": 90.879013,
+      "stoch_d": 91.614118
     },
     {
       "date": "2025-12-26",
@@ -1984,7 +2202,9 @@
       "macd_hist": 0.029556,
       "bb_upper": 91.581,
       "bb_middle": 90.366,
-      "bb_lower": 89.151
+      "bb_lower": 89.151,
+      "stoch_k": 90.053416,
+      "stoch_d": 91.14878
     },
     {
       "date": "2025-12-28",
@@ -2002,7 +2222,9 @@
       "macd_hist": 0.016095,
       "bb_upper": 91.618,
       "bb_middle": 90.453,
-      "bb_lower": 89.289
+      "bb_lower": 89.289,
+      "stoch_k": 91.274662,
+      "stoch_d": 90.735697
     },
     {
       "date": "2025-12-29",
@@ -2020,7 +2242,9 @@
       "macd_hist": -0.03386,
       "bb_upper": 91.608,
       "bb_middle": 90.496,
-      "bb_lower": 89.384
+      "bb_lower": 89.384,
+      "stoch_k": 83.105023,
+      "stoch_d": 88.144367
     },
     {
       "date": "2025-12-30",
@@ -2038,7 +2262,9 @@
       "macd_hist": -0.066342,
       "bb_upper": 91.593,
       "bb_middle": 90.539,
-      "bb_lower": 89.485
+      "bb_lower": 89.485,
+      "stoch_k": 72.678843,
+      "stoch_d": 82.352843
     },
     {
       "date": "2025-12-31",
@@ -2056,7 +2282,9 @@
       "macd_hist": -0.11282,
       "bb_upper": 91.588,
       "bb_middle": 90.547,
-      "bb_lower": 89.505
+      "bb_lower": 89.505,
+      "stoch_k": 58.90411,
+      "stoch_d": 71.562659
     },
     {
       "date": "2026-01-01",
@@ -2074,7 +2302,9 @@
       "macd_hist": -0.140808,
       "bb_upper": 91.572,
       "bb_middle": 90.523,
-      "bb_lower": 89.473
+      "bb_lower": 89.473,
+      "stoch_k": 52.743003,
+      "stoch_d": 61.441985
     },
     {
       "date": "2026-01-02",
@@ -2092,7 +2322,9 @@
       "macd_hist": -0.138187,
       "bb_upper": 91.553,
       "bb_middle": 90.509,
-      "bb_lower": 89.465
+      "bb_lower": 89.465,
+      "stoch_k": 48.196555,
+      "stoch_d": 53.281223
     },
     {
       "date": "2026-01-04",
@@ -2110,7 +2342,9 @@
       "macd_hist": -0.142689,
       "bb_upper": 91.552,
       "bb_middle": 90.507,
-      "bb_lower": 89.461
+      "bb_lower": 89.461,
+      "stoch_k": 45.264975,
+      "stoch_d": 48.734844
     },
     {
       "date": "2026-01-05",
@@ -2128,7 +2362,9 @@
       "macd_hist": -0.129714,
       "bb_upper": 91.555,
       "bb_middle": 90.51,
-      "bb_lower": 89.465
+      "bb_lower": 89.465,
+      "stoch_k": 45.082094,
+      "stoch_d": 46.181208
     },
     {
       "date": "2026-01-06",
@@ -2146,7 +2382,9 @@
       "macd_hist": -0.113191,
       "bb_upper": 91.566,
       "bb_middle": 90.528,
-      "bb_lower": 89.49
+      "bb_lower": 89.49,
+      "stoch_k": 44.529607,
+      "stoch_d": 44.958892
     },
     {
       "date": "2026-01-07",
@@ -2164,7 +2402,9 @@
       "macd_hist": -0.107495,
       "bb_upper": 91.534,
       "bb_middle": 90.566,
-      "bb_lower": 89.599
+      "bb_lower": 89.599,
+      "stoch_k": 45.666667,
+      "stoch_d": 45.092789
     },
     {
       "date": "2026-01-08",
@@ -2182,7 +2422,9 @@
       "macd_hist": -0.116936,
       "bb_upper": 91.439,
       "bb_middle": 90.606,
-      "bb_lower": 89.773
+      "bb_lower": 89.773,
+      "stoch_k": 39.444444,
+      "stoch_d": 43.213573
     },
     {
       "date": "2026-01-09",
@@ -2200,7 +2442,9 @@
       "macd_hist": -0.104151,
       "bb_upper": 91.403,
       "bb_middle": 90.635,
-      "bb_lower": 89.867
+      "bb_lower": 89.867,
+      "stoch_k": 36.777778,
+      "stoch_d": 40.62963
     },
     {
       "date": "2026-01-11",
@@ -2218,7 +2462,9 @@
       "macd_hist": -0.090632,
       "bb_upper": 91.343,
       "bb_middle": 90.67,
-      "bb_lower": 89.996
+      "bb_lower": 89.996,
+      "stoch_k": 37.555556,
+      "stoch_d": 37.925926
     },
     {
       "date": "2026-01-12",
@@ -2236,7 +2482,9 @@
       "macd_hist": -0.031845,
       "bb_upper": 91.417,
       "bb_middle": 90.693,
-      "bb_lower": 89.968
+      "bb_lower": 89.968,
+      "stoch_k": 61.30898,
+      "stoch_d": 45.214105
     },
     {
       "date": "2026-01-13",
@@ -2254,7 +2502,9 @@
       "macd_hist": 0.007316,
       "bb_upper": 91.505,
       "bb_middle": 90.731,
-      "bb_lower": 89.956
+      "bb_lower": 89.956,
+      "stoch_k": 72.611225,
+      "stoch_d": 57.158587
     },
     {
       "date": "2026-01-14",
@@ -2272,7 +2522,9 @@
       "macd_hist": 0.013917,
       "bb_upper": 91.517,
       "bb_middle": 90.735,
-      "bb_lower": 89.953
+      "bb_lower": 89.953,
+      "stoch_k": 78.879504,
+      "stoch_d": 70.933237
     },
     {
       "date": "2026-01-15",
@@ -2290,7 +2542,9 @@
       "macd_hist": 0.016006,
       "bb_upper": 91.49,
       "bb_middle": 90.727,
-      "bb_lower": 89.964
+      "bb_lower": 89.964,
+      "stoch_k": 67.875648,
+      "stoch_d": 73.122126
     },
     {
       "date": "2026-01-16",
@@ -2308,7 +2562,9 @@
       "macd_hist": 0.003953,
       "bb_upper": 91.485,
       "bb_middle": 90.725,
-      "bb_lower": 89.965
+      "bb_lower": 89.965,
+      "stoch_k": 61.226252,
+      "stoch_d": 69.327135
     },
     {
       "date": "2026-01-18",
@@ -2326,7 +2582,9 @@
       "macd_hist": -0.029105,
       "bb_upper": 91.45,
       "bb_middle": 90.702,
-      "bb_lower": 89.954
+      "bb_lower": 89.954,
+      "stoch_k": 51.833791,
+      "stoch_d": 60.311897
     },
     {
       "date": "2026-01-19",
@@ -2344,7 +2602,9 @@
       "macd_hist": 0.019964,
       "bb_upper": 91.552,
       "bb_middle": 90.722,
-      "bb_lower": 89.892
+      "bb_lower": 89.892,
+      "stoch_k": 61.879231,
+      "stoch_d": 58.313091
     },
     {
       "date": "2026-01-20",
@@ -2362,7 +2622,9 @@
       "macd_hist": 0.082153,
       "bb_upper": 91.837,
       "bb_middle": 90.778,
-      "bb_lower": 89.718
+      "bb_lower": 89.718,
+      "stoch_k": 73.187471,
+      "stoch_d": 62.300164
     },
     {
       "date": "2026-01-21",
@@ -2380,7 +2642,9 @@
       "macd_hist": 0.131569,
       "bb_upper": 92.177,
       "bb_middle": 90.874,
-      "bb_lower": 89.571
+      "bb_lower": 89.571,
+      "stoch_k": 92.582185,
+      "stoch_d": 75.882963
     },
     {
       "date": "2026-01-22",
@@ -2398,7 +2662,9 @@
       "macd_hist": 0.24252,
       "bb_upper": 92.91,
       "bb_middle": 91.04,
-      "bb_lower": 89.169
+      "bb_lower": 89.169,
+      "stoch_k": 94.412072,
+      "stoch_d": 86.727243
     },
     {
       "date": "2026-01-23",
@@ -2416,7 +2682,9 @@
       "macd_hist": 0.215279,
       "bb_upper": 93.119,
       "bb_middle": 91.161,
-      "bb_lower": 89.203
+      "bb_lower": 89.203,
+      "stoch_k": 86.618872,
+      "stoch_d": 91.204376
     },
     {
       "date": "2026-01-25",
@@ -2434,7 +2702,9 @@
       "macd_hist": 0.144798,
       "bb_upper": 93.195,
       "bb_middle": 91.252,
-      "bb_lower": 89.309
+      "bb_lower": 89.309,
+      "stoch_k": 72.168312,
+      "stoch_d": 84.399752
     },
     {
       "date": "2026-01-26",
@@ -2452,7 +2722,9 @@
       "macd_hist": 0.093018,
       "bb_upper": 93.276,
       "bb_middle": 91.333,
-      "bb_lower": 89.39
+      "bb_lower": 89.39,
+      "stoch_k": 55.366582,
+      "stoch_d": 71.384589
     },
     {
       "date": "2026-01-27",
@@ -2470,7 +2742,9 @@
       "macd_hist": 0.045251,
       "bb_upper": 93.323,
       "bb_middle": 91.416,
-      "bb_lower": 89.51
+      "bb_lower": 89.51,
+      "stoch_k": 48.84856,
+      "stoch_d": 58.794485
     },
     {
       "date": "2026-01-28",
@@ -2488,7 +2762,9 @@
       "macd_hist": 0.071005,
       "bb_upper": 93.521,
       "bb_middle": 91.54,
-      "bb_lower": 89.558
+      "bb_lower": 89.558,
+      "stoch_k": 55.730912,
+      "stoch_d": 53.315351
     },
     {
       "date": "2026-01-29",
@@ -2506,7 +2782,9 @@
       "macd_hist": 0.083892,
       "bb_upper": 93.706,
       "bb_middle": 91.662,
-      "bb_lower": 89.619
+      "bb_lower": 89.619,
+      "stoch_k": 63.596381,
+      "stoch_d": 56.058618
     },
     {
       "date": "2026-01-30",
@@ -2524,7 +2802,9 @@
       "macd_hist": 0.0904,
       "bb_upper": 93.872,
       "bb_middle": 91.797,
-      "bb_lower": 89.723
+      "bb_lower": 89.723,
+      "stoch_k": 73.447947,
+      "stoch_d": 64.258413
     },
     {
       "date": "2026-02-01",
@@ -2542,7 +2822,9 @@
       "macd_hist": 0.077685,
       "bb_upper": 93.954,
       "bb_middle": 91.939,
-      "bb_lower": 89.924
+      "bb_lower": 89.924,
+      "stoch_k": 74.307545,
+      "stoch_d": 70.450624
     },
     {
       "date": "2026-02-02",
@@ -2560,7 +2842,9 @@
       "macd_hist": 0.078938,
       "bb_upper": 94.073,
       "bb_middle": 92.083,
-      "bb_lower": 90.092
+      "bb_lower": 90.092,
+      "stoch_k": 77.172875,
+      "stoch_d": 74.976122
     },
     {
       "date": "2026-02-03",
@@ -2578,7 +2862,9 @@
       "macd_hist": 0.120927,
       "bb_upper": 94.321,
       "bb_middle": 92.264,
-      "bb_lower": 90.208
+      "bb_lower": 90.208,
+      "stoch_k": 82.66634,
+      "stoch_d": 78.04892
     },
     {
       "date": "2026-02-04",
@@ -2596,7 +2882,9 @@
       "macd_hist": 0.136515,
       "bb_upper": 94.581,
       "bb_middle": 92.41,
-      "bb_lower": 90.239
+      "bb_lower": 90.239,
+      "stoch_k": 87.279314,
+      "stoch_d": 82.372843
     },
     {
       "date": "2026-02-05",
@@ -2614,7 +2902,9 @@
       "macd_hist": 0.085605,
       "bb_upper": 94.67,
       "bb_middle": 92.516,
-      "bb_lower": 90.361
+      "bb_lower": 90.361,
+      "stoch_k": 81.457861,
+      "stoch_d": 83.801172
     },
     {
       "date": "2026-02-06",
@@ -2632,7 +2922,9 @@
       "macd_hist": 0.116424,
       "bb_upper": 94.924,
       "bb_middle": 92.691,
-      "bb_lower": 90.458
+      "bb_lower": 90.458,
+      "stoch_k": 83.188394,
+      "stoch_d": 83.97519
     },
     {
       "date": "2026-02-08",
@@ -2650,7 +2942,9 @@
       "macd_hist": 0.137238,
       "bb_upper": 95.169,
       "bb_middle": 92.876,
-      "bb_lower": 90.584
+      "bb_lower": 90.584,
+      "stoch_k": 86.88814,
+      "stoch_d": 83.844798
     },
     {
       "date": "2026-02-09",
@@ -2668,7 +2962,9 @@
       "macd_hist": 0.109215,
       "bb_upper": 95.244,
       "bb_middle": 93.049,
-      "bb_lower": 90.853
+      "bb_lower": 90.853,
+      "stoch_k": 93.576243,
+      "stoch_d": 87.884259
     },
     {
       "date": "2026-02-10",
@@ -2686,7 +2982,9 @@
       "macd_hist": 0.009363,
       "bb_upper": 95.048,
       "bb_middle": 93.184,
-      "bb_lower": 91.321
+      "bb_lower": 91.321,
+      "stoch_k": 78.817386,
+      "stoch_d": 86.427256
     },
     {
       "date": "2026-02-11",
@@ -2704,7 +3002,9 @@
       "macd_hist": -0.099027,
       "bb_upper": 94.978,
       "bb_middle": 93.235,
-      "bb_lower": 91.492
+      "bb_lower": 91.492,
+      "stoch_k": 58.449396,
+      "stoch_d": 76.947675
     },
     {
       "date": "2026-02-12",
@@ -2722,7 +3022,9 @@
       "macd_hist": -0.200159,
       "bb_upper": 94.98,
       "bb_middle": 93.233,
-      "bb_lower": 91.486
+      "bb_lower": 91.486,
+      "stoch_k": 35.403269,
+      "stoch_d": 57.556684
     },
     {
       "date": "2026-02-13",
@@ -2740,7 +3042,9 @@
       "macd_hist": -0.257799,
       "bb_upper": 94.995,
       "bb_middle": 93.22,
-      "bb_lower": 91.444
+      "bb_lower": 91.444,
+      "stoch_k": 20.390988,
+      "stoch_d": 38.081218
     },
     {
       "date": "2026-02-15",
@@ -2758,7 +3062,9 @@
       "macd_hist": -0.30244,
       "bb_upper": 94.951,
       "bb_middle": 93.123,
-      "bb_lower": 91.295
+      "bb_lower": 91.295,
+      "stoch_k": 8.106927,
+      "stoch_d": 21.300395
     },
     {
       "date": "2026-02-16",
@@ -2776,7 +3082,9 @@
       "macd_hist": -0.279105,
       "bb_upper": 94.951,
       "bb_middle": 93.121,
-      "bb_lower": 91.291
+      "bb_lower": 91.291,
+      "stoch_k": 12.048122,
+      "stoch_d": 13.515345
     },
     {
       "date": "2026-02-17",
@@ -2794,7 +3102,9 @@
       "macd_hist": -0.247575,
       "bb_upper": 94.925,
       "bb_middle": 93.155,
-      "bb_lower": 91.384
+      "bb_lower": 91.384,
+      "stoch_k": 19.166519,
+      "stoch_d": 13.107189
     },
     {
       "date": "2026-02-18",
@@ -2812,7 +3122,9 @@
       "macd_hist": -0.241352,
       "bb_upper": 94.909,
       "bb_middle": 93.167,
-      "bb_lower": 91.425
+      "bb_lower": 91.425,
+      "stoch_k": 25.441329,
+      "stoch_d": 18.885323
     },
     {
       "date": "2026-02-19",
@@ -2830,7 +3142,9 @@
       "macd_hist": -0.213117,
       "bb_upper": 94.876,
       "bb_middle": 93.196,
-      "bb_lower": 91.516
+      "bb_lower": 91.516,
+      "stoch_k": 25.285566,
+      "stoch_d": 23.297805
     },
     {
       "date": "2026-02-20",
@@ -2848,7 +3162,9 @@
       "macd_hist": -0.180693,
       "bb_upper": 94.874,
       "bb_middle": 93.181,
-      "bb_lower": 91.488
+      "bb_lower": 91.488,
+      "stoch_k": 25.077882,
+      "stoch_d": 25.268259
     },
     {
       "date": "2026-02-22",
@@ -2866,7 +3182,9 @@
       "macd_hist": -0.159058,
       "bb_upper": 94.87,
       "bb_middle": 93.157,
-      "bb_lower": 91.445
+      "bb_lower": 91.445,
+      "stoch_k": 27.622015,
+      "stoch_d": 25.995154
     },
     {
       "date": "2026-02-23",
@@ -2884,7 +3202,9 @@
       "macd_hist": -0.169526,
       "bb_upper": 94.877,
       "bb_middle": 93.104,
-      "bb_lower": 91.331
+      "bb_lower": 91.331,
+      "stoch_k": 22.793354,
+      "stoch_d": 25.164417
     },
     {
       "date": "2026-02-24",
@@ -2902,7 +3222,9 @@
       "macd_hist": -0.113346,
       "bb_upper": 94.874,
       "bb_middle": 93.1,
-      "bb_lower": 91.326
+      "bb_lower": 91.326,
+      "stoch_k": 25.96054,
+      "stoch_d": 25.458636
     },
     {
       "date": "2026-02-25",
@@ -2920,7 +3242,9 @@
       "macd_hist": -0.022865,
       "bb_upper": 94.918,
       "bb_middle": 93.121,
-      "bb_lower": 91.324
+      "bb_lower": 91.324,
+      "stoch_k": 41.434876,
+      "stoch_d": 30.062923
     },
     {
       "date": "2026-02-26",
@@ -2938,7 +3262,9 @@
       "macd_hist": 0.006886,
       "bb_upper": 94.815,
       "bb_middle": 93.081,
-      "bb_lower": 91.348
+      "bb_lower": 91.348,
+      "stoch_k": 62.826361,
+      "stoch_d": 43.407259
     },
     {
       "date": "2026-02-27",
@@ -2956,7 +3282,9 @@
       "macd_hist": 0.037201,
       "bb_upper": 94.724,
       "bb_middle": 93.051,
-      "bb_lower": 91.378
+      "bb_lower": 91.378,
+      "stoch_k": 78.454606,
+      "stoch_d": 60.905281
     },
     {
       "date": "2026-03-01",
@@ -2974,7 +3302,9 @@
       "macd_hist": 0.008761,
       "bb_upper": 94.687,
       "bb_middle": 93.023,
-      "bb_lower": 91.36
+      "bb_lower": 91.36,
+      "stoch_k": 71.962617,
+      "stoch_d": 71.081195
     },
     {
       "date": "2026-03-02",
@@ -2992,7 +3322,9 @@
       "macd_hist": 0.027928,
       "bb_upper": 94.481,
       "bb_middle": 92.969,
-      "bb_lower": 91.457
+      "bb_lower": 91.457,
+      "stoch_k": 73.987539,
+      "stoch_d": 74.801587
     },
     {
       "date": "2026-03-03",
@@ -3010,7 +3342,9 @@
       "macd_hist": -0.001354,
       "bb_upper": 94.113,
       "bb_middle": 92.874,
-      "bb_lower": 91.634
+      "bb_lower": 91.634,
+      "stoch_k": 63.395639,
+      "stoch_d": 69.781931
     },
     {
       "date": "2026-03-04",
@@ -3028,7 +3362,9 @@
       "macd_hist": 0.004034,
       "bb_upper": 93.858,
       "bb_middle": 92.819,
-      "bb_lower": 91.78
+      "bb_lower": 91.78,
+      "stoch_k": 68.967715,
+      "stoch_d": 68.783631
     },
     {
       "date": "2026-03-05",
@@ -3046,7 +3382,9 @@
       "macd_hist": -0.019235,
       "bb_upper": 93.815,
       "bb_middle": 92.799,
-      "bb_lower": 91.784
+      "bb_lower": 91.784,
+      "stoch_k": 58.472576,
+      "stoch_d": 63.611976
     },
     {
       "date": "2026-03-06",
@@ -3064,7 +3402,9 @@
       "macd_hist": -0.021232,
       "bb_upper": 93.844,
       "bb_middle": 92.82,
-      "bb_lower": 91.796
+      "bb_lower": 91.796,
+      "stoch_k": 60.774411,
+      "stoch_d": 62.738234
     },
     {
       "date": "2026-03-08",
@@ -3082,7 +3422,9 @@
       "macd_hist": -0.036865,
       "bb_upper": 93.836,
       "bb_middle": 92.855,
-      "bb_lower": 91.873
+      "bb_lower": 91.873,
+      "stoch_k": 53.956229,
+      "stoch_d": 57.734405
     },
     {
       "date": "2026-03-09",
@@ -3100,7 +3442,9 @@
       "macd_hist": -0.003982,
       "bb_upper": 93.902,
       "bb_middle": 92.921,
-      "bb_lower": 91.94
+      "bb_lower": 91.94,
+      "stoch_k": 64.814815,
+      "stoch_d": 59.848485
     },
     {
       "date": "2026-03-10",
@@ -3118,7 +3462,9 @@
       "macd_hist": 0.026006,
       "bb_upper": 93.943,
       "bb_middle": 93.008,
-      "bb_lower": 92.074
+      "bb_lower": 92.074,
+      "stoch_k": 73.253968,
+      "stoch_d": 64.008337
     },
     {
       "date": "2026-03-11",
@@ -3136,7 +3482,9 @@
       "macd_hist": 0.059887,
       "bb_upper": 94.09,
       "bb_middle": 93.078,
-      "bb_lower": 92.066
+      "bb_lower": 92.066,
+      "stoch_k": 87.155314,
+      "stoch_d": 75.074699
     },
     {
       "date": "2026-03-12",
@@ -3154,7 +3502,9 @@
       "macd_hist": 0.031754,
       "bb_upper": 94.108,
       "bb_middle": 93.107,
-      "bb_lower": 92.106
+      "bb_lower": 92.106,
+      "stoch_k": 78.66325,
+      "stoch_d": 79.690844
     },
     {
       "date": "2026-03-13",
@@ -3172,7 +3522,9 @@
       "macd_hist": -0.05682,
       "bb_upper": 94.122,
       "bb_middle": 93.101,
-      "bb_lower": 92.08
+      "bb_lower": 92.08,
+      "stoch_k": 52.314044,
+      "stoch_d": 72.710869
     },
     {
       "date": "2026-03-15",
@@ -3190,7 +3542,9 @@
       "macd_hist": -0.103519,
       "bb_upper": 94.14,
       "bb_middle": 93.089,
-      "bb_lower": 92.038
+      "bb_lower": 92.038,
+      "stoch_k": 26.031746,
+      "stoch_d": 52.336347
     },
     {
       "date": "2026-03-16",
@@ -3208,7 +3562,9 @@
       "macd_hist": -0.073105,
       "bb_upper": 94.151,
       "bb_middle": 93.115,
-      "bb_lower": 92.08
+      "bb_lower": 92.08,
+      "stoch_k": 24.84127,
+      "stoch_d": 34.395687
     },
     {
       "date": "2026-03-17",
@@ -3226,7 +3582,9 @@
       "macd_hist": -0.056093,
       "bb_upper": 94.15,
       "bb_middle": 93.143,
-      "bb_lower": 92.136
+      "bb_lower": 92.136,
+      "stoch_k": 39.285714,
+      "stoch_d": 30.05291
     },
     {
       "date": "2026-03-18",
@@ -3244,7 +3602,9 @@
       "macd_hist": -0.073773,
       "bb_upper": 94.086,
       "bb_middle": 93.17,
-      "bb_lower": 92.254
+      "bb_lower": 92.254,
+      "stoch_k": 44.365079,
+      "stoch_d": 36.164021
     },
     {
       "date": "2026-03-19",
@@ -3262,7 +3622,9 @@
       "macd_hist": -0.082427,
       "bb_upper": 94.095,
       "bb_middle": 93.153,
-      "bb_lower": 92.212
+      "bb_lower": 92.212,
+      "stoch_k": 35.47619,
+      "stoch_d": 39.708995
     },
     {
       "date": "2026-03-20",
@@ -3280,7 +3642,9 @@
       "macd_hist": -0.066594,
       "bb_upper": 94.007,
       "bb_middle": 93.111,
-      "bb_lower": 92.214
+      "bb_lower": 92.214,
+      "stoch_k": 32.142857,
+      "stoch_d": 37.328042
     },
     {
       "date": "2026-03-22",
@@ -3298,7 +3662,9 @@
       "macd_hist": -0.071191,
       "bb_upper": 93.984,
       "bb_middle": 93.075,
-      "bb_lower": 92.166
+      "bb_lower": 92.166,
+      "stoch_k": 31.984127,
+      "stoch_d": 33.201058
     },
     {
       "date": "2026-03-23",
@@ -3316,7 +3682,9 @@
       "macd_hist": -0.060428,
       "bb_upper": 93.921,
       "bb_middle": 93.037,
-      "bb_lower": 92.153
+      "bb_lower": 92.153,
+      "stoch_k": 36.052114,
+      "stoch_d": 33.393033
     },
     {
       "date": "2026-03-24",
@@ -3334,7 +3702,9 @@
       "macd_hist": -0.062802,
       "bb_upper": 93.924,
       "bb_middle": 93.024,
-      "bb_lower": 92.124
+      "bb_lower": 92.124,
+      "stoch_k": 32.952662,
+      "stoch_d": 33.662968
     },
     {
       "date": "2026-03-25",
@@ -3352,7 +3722,9 @@
       "macd_hist": -0.063569,
       "bb_upper": 93.869,
       "bb_middle": 92.978,
-      "bb_lower": 92.088
+      "bb_lower": 92.088,
+      "stoch_k": 33.628319,
+      "stoch_d": 34.211032
     },
     {
       "date": "2026-03-26",
@@ -3370,7 +3742,9 @@
       "macd_hist": -0.093139,
       "bb_upper": 93.915,
       "bb_middle": 92.938,
-      "bb_lower": 91.96
+      "bb_lower": 91.96,
+      "stoch_k": 23.252533,
+      "stoch_d": 29.944505
     },
     {
       "date": "2026-03-27",
@@ -3388,7 +3762,9 @@
       "macd_hist": -0.104217,
       "bb_upper": 93.906,
       "bb_middle": 92.879,
-      "bb_lower": 91.851
+      "bb_lower": 91.851,
+      "stoch_k": 18.336112,
+      "stoch_d": 25.072321
     },
     {
       "date": "2026-03-29",
@@ -3406,7 +3782,9 @@
       "macd_hist": -0.111185,
       "bb_upper": 93.931,
       "bb_middle": 92.834,
-      "bb_lower": 91.737
+      "bb_lower": 91.737,
+      "stoch_k": 14.324127,
+      "stoch_d": 18.637591
     },
     {
       "date": "2026-03-30",
@@ -3424,7 +3802,9 @@
       "macd_hist": -0.149099,
       "bb_upper": 94.011,
       "bb_middle": 92.748,
-      "bb_lower": 91.485
+      "bb_lower": 91.485,
+      "stoch_k": 18.00821,
+      "stoch_d": 16.889483
     },
     {
       "date": "2026-03-31",
@@ -3442,7 +3822,9 @@
       "macd_hist": -0.174407,
       "bb_upper": 94.097,
       "bb_middle": 92.665,
-      "bb_lower": 91.233
+      "bb_lower": 91.233,
+      "stoch_k": 19.880869,
+      "stoch_d": 17.404402
     },
     {
       "date": "2026-04-01",
@@ -3460,7 +3842,9 @@
       "macd_hist": -0.171583,
       "bb_upper": 94.038,
       "bb_middle": 92.555,
-      "bb_lower": 91.072
+      "bb_lower": 91.072,
+      "stoch_k": 22.999612,
+      "stoch_d": 20.29623
     },
     {
       "date": "2026-04-02",
@@ -3478,7 +3862,9 @@
       "macd_hist": -0.165243,
       "bb_upper": 93.918,
       "bb_middle": 92.432,
-      "bb_lower": 90.945
+      "bb_lower": 90.945,
+      "stoch_k": 24.186402,
+      "stoch_d": 22.355628
     },
     {
       "date": "2026-04-03",
@@ -3496,7 +3882,9 @@
       "macd_hist": -0.176118,
       "bb_upper": 93.731,
       "bb_middle": 92.274,
-      "bb_lower": 90.818
+      "bb_lower": 90.818,
+      "stoch_k": 19.452423,
+      "stoch_d": 22.212812
     },
     {
       "date": "2026-04-05",
@@ -3514,7 +3902,9 @@
       "macd_hist": -0.173838,
       "bb_upper": 93.664,
       "bb_middle": 92.15,
-      "bb_lower": 90.635
+      "bb_lower": 90.635,
+      "stoch_k": 12.593985,
+      "stoch_d": 18.74427
     },
     {
       "date": "2026-04-06",
@@ -3532,7 +3922,9 @@
       "macd_hist": -0.134317,
       "bb_upper": 93.669,
       "bb_middle": 92.098,
-      "bb_lower": 90.527
+      "bb_lower": 90.527,
+      "stoch_k": 12.253502,
+      "stoch_d": 14.766637
     },
     {
       "date": "2026-04-07",
@@ -3550,7 +3942,9 @@
       "macd_hist": -0.080879,
       "bb_upper": 93.644,
       "bb_middle": 92.055,
-      "bb_lower": 90.466
+      "bb_lower": 90.466,
+      "stoch_k": 20.670377,
+      "stoch_d": 15.172621
     },
     {
       "date": "2026-04-08",
@@ -3568,7 +3962,9 @@
       "macd_hist": 0.015041,
       "bb_upper": 93.511,
       "bb_middle": 92.011,
-      "bb_lower": 90.512
+      "bb_lower": 90.512,
+      "stoch_k": 42.459159,
+      "stoch_d": 25.12768
     },
     {
       "date": "2026-04-09",
@@ -3586,7 +3982,9 @@
       "macd_hist": 0.129335,
       "bb_upper": 93.512,
       "bb_middle": 92.011,
-      "bb_lower": 90.511
+      "bb_lower": 90.511,
+      "stoch_k": 67.337911,
+      "stoch_d": 43.489149
     },
     {
       "date": "2026-04-10",
@@ -3604,7 +4002,9 @@
       "macd_hist": 0.18568,
       "bb_upper": 93.559,
       "bb_middle": 92.026,
-      "bb_lower": 90.493
+      "bb_lower": 90.493,
+      "stoch_k": 84.633126,
+      "stoch_d": 64.810065
     },
     {
       "date": "2026-04-12",
@@ -3622,7 +4022,9 @@
       "macd_hist": 0.190839,
       "bb_upper": 93.551,
       "bb_middle": 92.023,
-      "bb_lower": 90.495
+      "bb_lower": 90.495,
+      "stoch_k": 84.679955,
+      "stoch_d": 78.883664
     },
     {
       "date": "2026-04-13",
@@ -3640,7 +4042,9 @@
       "macd_hist": 0.247449,
       "bb_upper": 93.682,
       "bb_middle": 92.054,
-      "bb_lower": 90.426
+      "bb_lower": 90.426,
+      "stoch_k": 85.535528,
+      "stoch_d": 84.949536
     },
     {
       "date": "2026-04-14",
@@ -3658,7 +4062,9 @@
       "macd_hist": 0.281723,
       "bb_upper": 93.878,
       "bb_middle": 92.107,
-      "bb_lower": 90.335
+      "bb_lower": 90.335,
+      "stoch_k": 88.334876,
+      "stoch_d": 86.183453
     },
     {
       "date": "2026-04-15",
@@ -3676,7 +4082,9 @@
       "macd_hist": 0.307535,
       "bb_upper": 94.105,
       "bb_middle": 92.165,
-      "bb_lower": 90.225
+      "bb_lower": 90.225,
+      "stoch_k": 96.738881,
+      "stoch_d": 90.203095
     },
     {
       "date": "2026-04-16",
@@ -3694,7 +4102,9 @@
       "macd_hist": 0.294081,
       "bb_upper": 94.283,
       "bb_middle": 92.222,
-      "bb_lower": 90.161
+      "bb_lower": 90.161,
+      "stoch_k": 93.817162,
+      "stoch_d": 92.96364
     },
     {
       "date": "2026-04-17",
@@ -3712,7 +4122,9 @@
       "macd_hist": 0.240733,
       "bb_upper": 94.371,
       "bb_middle": 92.258,
-      "bb_lower": 90.146
+      "bb_lower": 90.146,
+      "stoch_k": 88.40859,
+      "stoch_d": 92.988211
     },
     {
       "date": "2026-04-19",
@@ -3730,7 +4142,9 @@
       "macd_hist": 0.17165,
       "bb_upper": 94.435,
       "bb_middle": 92.302,
-      "bb_lower": 90.169
+      "bb_lower": 90.169,
+      "stoch_k": 78.454106,
+      "stoch_d": 86.893286
     },
     {
       "date": "2026-04-20",
@@ -3748,7 +4162,9 @@
       "macd_hist": 0.156241,
       "bb_upper": 94.577,
       "bb_middle": 92.374,
-      "bb_lower": 90.172
+      "bb_lower": 90.172,
+      "stoch_k": 76.376812,
+      "stoch_d": 81.079836
     },
     {
       "date": "2026-04-21",
@@ -3766,7 +4182,9 @@
       "macd_hist": 0.161525,
       "bb_upper": 94.773,
       "bb_middle": 92.47,
-      "bb_lower": 90.167
+      "bb_lower": 90.167,
+      "stoch_k": 81.741183,
+      "stoch_d": 78.857367
     },
     {
       "date": "2026-04-22",
@@ -3784,7 +4202,9 @@
       "macd_hist": 0.168603,
       "bb_upper": 94.97,
       "bb_middle": 92.609,
-      "bb_lower": 90.247
+      "bb_lower": 90.247,
+      "stoch_k": 91.170962,
+      "stoch_d": 83.096319
     },
     {
       "date": "2026-04-23",
@@ -3802,7 +4222,9 @@
       "macd_hist": 0.120529,
       "bb_upper": 95.023,
       "bb_middle": 92.723,
-      "bb_lower": 90.423
+      "bb_lower": 90.423,
+      "stoch_k": 87.765554,
+      "stoch_d": 86.892566
     },
     {
       "date": "2026-04-24",
@@ -3820,7 +4242,9 @@
       "macd_hist": 0.093101,
       "bb_upper": 95.083,
       "bb_middle": 92.84,
-      "bb_lower": 90.597
+      "bb_lower": 90.597,
+      "stoch_k": 80.66985,
+      "stoch_d": 86.535455
     },
     {
       "date": "2026-04-26",
@@ -3838,7 +4262,9 @@
       "macd_hist": 0.060055,
       "bb_upper": 95.089,
       "bb_middle": 92.956,
-      "bb_lower": 90.822
+      "bb_lower": 90.822,
+      "stoch_k": 70.309604,
+      "stoch_d": 79.581669
     },
     {
       "date": "2026-04-27",
@@ -3856,7 +4282,9 @@
       "macd_hist": 0.072629,
       "bb_upper": 95.074,
       "bb_middle": 93.122,
-      "bb_lower": 91.17
+      "bb_lower": 91.17,
+      "stoch_k": 76.751394,
+      "stoch_d": 75.910283
     },
     {
       "date": "2026-04-28",
@@ -3874,7 +4302,9 @@
       "macd_hist": 0.058725,
       "bb_upper": 94.926,
       "bb_middle": 93.279,
-      "bb_lower": 91.632
+      "bb_lower": 91.632,
+      "stoch_k": 80.173776,
+      "stoch_d": 75.744925
     },
     {
       "date": "2026-04-29",
@@ -3892,7 +4322,9 @@
       "macd_hist": 0.016696,
       "bb_upper": 94.723,
       "bb_middle": 93.395,
-      "bb_lower": 92.066
+      "bb_lower": 92.066,
+      "stoch_k": 73.619339,
+      "stoch_d": 76.84817
     },
     {
       "date": "2026-04-30",
@@ -3910,7 +4342,9 @@
       "macd_hist": -0.076534,
       "bb_upper": 94.517,
       "bb_middle": 93.447,
-      "bb_lower": 92.376
+      "bb_lower": 92.376,
+      "stoch_k": 56.03997,
+      "stoch_d": 69.944361
     },
     {
       "date": "2026-05-01",
@@ -3928,7 +4362,9 @@
       "macd_hist": -0.126914,
       "bb_upper": 94.475,
       "bb_middle": 93.461,
-      "bb_lower": 92.448
+      "bb_lower": 92.448,
+      "stoch_k": 43.391242,
+      "stoch_d": 57.683517
     },
     {
       "date": "2026-05-03",
@@ -3946,7 +4382,9 @@
       "macd_hist": -0.161546,
       "bb_upper": 94.519,
       "bb_middle": 93.43,
-      "bb_lower": 92.342
+      "bb_lower": 92.342,
+      "stoch_k": 42.081949,
+      "stoch_d": 47.171054
     },
     {
       "date": "2026-05-04",
@@ -3964,7 +4402,9 @@
       "macd_hist": -0.188591,
       "bb_upper": 94.575,
       "bb_middle": 93.4,
-      "bb_lower": 92.224
+      "bb_lower": 92.224,
+      "stoch_k": 40.088594,
+      "stoch_d": 41.853928
     },
     {
       "date": "2026-05-05",
@@ -3982,7 +4422,9 @@
       "macd_hist": -0.160213,
       "bb_upper": 94.552,
       "bb_middle": 93.416,
-      "bb_lower": 92.28
+      "bb_lower": 92.28,
+      "stoch_k": 43.355482,
+      "stoch_d": 41.842008
     },
     {
       "date": "2026-05-06",
@@ -4000,7 +4442,9 @@
       "macd_hist": -0.122469,
       "bb_upper": 94.536,
       "bb_middle": 93.395,
-      "bb_lower": 92.255
+      "bb_lower": 92.255,
+      "stoch_k": 50.110742,
+      "stoch_d": 44.518272
     },
     {
       "date": "2026-05-07",
@@ -4018,7 +4462,9 @@
       "macd_hist": -0.090447,
       "bb_upper": 94.504,
       "bb_middle": 93.37,
-      "bb_lower": 92.235
+      "bb_lower": 92.235,
+      "stoch_k": 59.413068,
+      "stoch_d": 50.959764
     },
     {
       "date": "2026-05-08",
@@ -4036,7 +4482,9 @@
       "macd_hist": -0.048486,
       "bb_upper": 94.441,
       "bb_middle": 93.344,
-      "bb_lower": 92.246
+      "bb_lower": 92.246,
+      "stoch_k": 65.393134,
+      "stoch_d": 58.305648
     },
     {
       "date": "2026-05-10",
@@ -4054,7 +4502,9 @@
       "macd_hist": -0.046419,
       "bb_upper": 94.394,
       "bb_middle": 93.309,
-      "bb_lower": 92.224
+      "bb_lower": 92.224,
+      "stoch_k": 64.749053,
+      "stoch_d": 63.185085
     },
     {
       "date": "2026-05-11",
@@ -4072,7 +4522,9 @@
       "macd_hist": 0.000521,
       "bb_upper": 94.435,
       "bb_middle": 93.331,
-      "bb_lower": 92.228
+      "bb_lower": 92.228,
+      "stoch_k": 71.243569,
+      "stoch_d": 67.128585
     },
     {
       "date": "2026-05-12",
@@ -4090,7 +4542,9 @@
       "macd_hist": 0.033239,
       "bb_upper": 94.485,
       "bb_middle": 93.374,
-      "bb_lower": 92.264
+      "bb_lower": 92.264,
+      "stoch_k": 75.306577,
+      "stoch_d": 70.433067
     },
     {
       "date": "2026-05-13",
@@ -4108,7 +4562,9 @@
       "macd_hist": 0.043445,
       "bb_upper": 94.499,
       "bb_middle": 93.382,
-      "bb_lower": 92.265
+      "bb_lower": 92.265,
+      "stoch_k": 82.38573,
+      "stoch_d": 76.311959
     },
     {
       "date": "2026-05-14",
@@ -4126,7 +4582,9 @@
       "macd_hist": 0.04146,
       "bb_upper": 94.459,
       "bb_middle": 93.366,
-      "bb_lower": 92.273
+      "bb_lower": 92.273,
+      "stoch_k": 82.249713,
+      "stoch_d": 79.980674
     },
     {
       "date": "2026-05-15",
@@ -4144,7 +4602,9 @@
       "macd_hist": -0.022083,
       "bb_upper": 94.357,
       "bb_middle": 93.293,
-      "bb_lower": 92.229
+      "bb_lower": 92.229,
+      "stoch_k": 71.194344,
+      "stoch_d": 78.609929
     },
     {
       "date": "2026-05-17",
@@ -4162,7 +4622,9 @@
       "macd_hist": -0.069454,
       "bb_upper": 94.352,
       "bb_middle": 93.247,
-      "bb_lower": 92.142
+      "bb_lower": 92.142,
+      "stoch_k": 57.148707,
+      "stoch_d": 70.197588
     },
     {
       "date": "2026-05-18",
@@ -4180,7 +4642,9 @@
       "macd_hist": -0.049164,
       "bb_upper": 94.314,
       "bb_middle": 93.228,
-      "bb_lower": 92.142
+      "bb_lower": 92.142,
+      "stoch_k": 51.534851,
+      "stoch_d": 59.959301
     },
     {
       "date": "2026-05-19",
@@ -4198,7 +4662,9 @@
       "macd_hist": -0.065913,
       "bb_upper": 94.28,
       "bb_middle": 93.192,
-      "bb_lower": 92.104
+      "bb_lower": 92.104,
+      "stoch_k": 48.069734,
+      "stoch_d": 52.251097
     },
     {
       "date": "2026-05-20",
@@ -4216,7 +4682,9 @@
       "macd_hist": -0.044541,
       "bb_upper": 94.134,
       "bb_middle": 93.147,
-      "bb_lower": 92.161
+      "bb_lower": 92.161,
+      "stoch_k": 55.967042,
+      "stoch_d": 51.857209
     },
     {
       "date": "2026-05-21",
@@ -4234,7 +4702,9 @@
       "macd_hist": -0.021993,
       "bb_upper": 94.043,
       "bb_middle": 93.12,
-      "bb_lower": 92.197
+      "bb_lower": 92.197,
+      "stoch_k": 56.087037,
+      "stoch_d": 53.374604
     },
     {
       "date": "2026-05-22",
@@ -4252,7 +4722,9 @@
       "macd_hist": -0.024728,
       "bb_upper": 94.005,
       "bb_middle": 93.101,
-      "bb_lower": 92.197
+      "bb_lower": 92.197,
+      "stoch_k": 56.577033,
+      "stoch_d": 56.210371
     },
     {
       "date": "2026-05-24",
@@ -4270,7 +4742,9 @@
       "macd_hist": -0.015669,
       "bb_upper": 94.004,
       "bb_middle": 93.138,
-      "bb_lower": 92.273
+      "bb_lower": 92.273,
+      "stoch_k": 53.323534,
+      "stoch_d": 55.329201
     },
     {
       "date": "2026-05-25",
@@ -4288,7 +4762,9 @@
       "macd_hist": -0.006039,
       "bb_upper": 94.01,
       "bb_middle": 93.173,
-      "bb_lower": 92.336
+      "bb_lower": 92.336,
+      "stoch_k": 50.106157,
+      "stoch_d": 53.335575
     },
     {
       "date": "2026-05-26",
@@ -4306,7 +4782,9 @@
       "macd_hist": -0.023026,
       "bb_upper": 93.982,
       "bb_middle": 93.195,
-      "bb_lower": 92.408
+      "bb_lower": 92.408,
+      "stoch_k": 46.921444,
+      "stoch_d": 50.117045
     },
     {
       "date": "2026-05-27",
@@ -4324,7 +4802,9 @@
       "macd_hist": 0.041569,
       "bb_upper": 94.074,
       "bb_middle": 93.285,
-      "bb_lower": 92.495
+      "bb_lower": 92.495,
+      "stoch_k": 61.511677,
+      "stoch_d": 52.846426
     },
     {
       "date": "2026-05-28",
@@ -4342,7 +4822,9 @@
       "macd_hist": 0.103082,
       "bb_upper": 94.305,
       "bb_middle": 93.364,
-      "bb_lower": 92.422
+      "bb_lower": 92.422,
+      "stoch_k": 76.267516,
+      "stoch_d": 61.566879
     },
     {
       "date": "2026-05-29",
@@ -4360,7 +4842,9 @@
       "macd_hist": 0.191112,
       "bb_upper": 94.772,
       "bb_middle": 93.475,
-      "bb_lower": 92.179
+      "bb_lower": 92.179,
+      "stoch_k": 98.327684,
+      "stoch_d": 78.702292
     },
     {
       "date": "2026-05-31",
@@ -4378,7 +4862,9 @@
       "macd_hist": 0.226895,
       "bb_upper": 95.089,
       "bb_middle": 93.578,
-      "bb_lower": 92.068
+      "bb_lower": 92.068,
+      "stoch_k": 97.853107,
+      "stoch_d": 90.816102
     },
     {
       "date": "2026-06-01",
@@ -4396,7 +4882,9 @@
       "macd_hist": 0.201692,
       "bb_upper": 95.233,
       "bb_middle": 93.641,
-      "bb_lower": 92.048
+      "bb_lower": 92.048,
+      "stoch_k": 89.913918,
+      "stoch_d": 95.364903
     },
     {
       "date": "2026-06-02",
@@ -4414,7 +4902,9 @@
       "macd_hist": 0.175181,
       "bb_upper": 95.365,
       "bb_middle": 93.724,
-      "bb_lower": 92.083
+      "bb_lower": 92.083,
+      "stoch_k": 82.65155,
+      "stoch_d": 90.139525
     },
     {
       "date": "2026-06-03",
@@ -4432,7 +4922,9 @@
       "macd_hist": 0.087577,
       "bb_upper": 95.369,
       "bb_middle": 93.727,
-      "bb_lower": 92.085
+      "bb_lower": 92.085,
+      "stoch_k": 66.385135,
+      "stoch_d": 79.650201
     },
     {
       "date": "2026-06-04",
@@ -4450,7 +4942,9 @@
       "macd_hist": 0.03021,
       "bb_upper": 95.373,
       "bb_middle": 93.73,
-      "bb_lower": 92.088
+      "bb_lower": 92.088,
+      "stoch_k": 57.094595,
+      "stoch_d": 68.710427
     },
     {
       "date": "2026-06-05",
@@ -4468,7 +4962,9 @@
       "macd_hist": -0.071636,
       "bb_upper": 95.373,
       "bb_middle": 93.691,
-      "bb_lower": 92.009
+      "bb_lower": 92.009,
+      "stoch_k": 34.007139,
+      "stoch_d": 52.495623
     },
     {
       "date": "2026-06-07",
@@ -4486,7 +4982,9 @@
       "macd_hist": -0.149911,
       "bb_upper": 95.386,
       "bb_middle": 93.644,
-      "bb_lower": 91.902
+      "bb_lower": 91.902,
+      "stoch_k": 18.74813,
+      "stoch_d": 36.616621
     },
     {
       "date": "2026-06-08",
@@ -4504,7 +5002,9 @@
       "macd_hist": -0.168762,
       "bb_upper": 95.37,
       "bb_middle": 93.662,
-      "bb_lower": 91.955
+      "bb_lower": 91.955,
+      "stoch_k": 8.625943,
+      "stoch_d": 20.460404
     },
     {
       "date": "2026-06-09",
@@ -4522,7 +5022,9 @@
       "macd_hist": -0.159842,
       "bb_upper": 95.339,
       "bb_middle": 93.697,
-      "bb_lower": 92.056
+      "bb_lower": 92.056,
+      "stoch_k": 14.45993,
+      "stoch_d": 13.944668
     },
     {
       "date": "2026-06-10",
@@ -4540,7 +5042,9 @@
       "macd_hist": -0.160743,
       "bb_upper": 95.342,
       "bb_middle": 93.685,
-      "bb_lower": 92.028
+      "bb_lower": 92.028,
+      "stoch_k": 20.499419,
+      "stoch_d": 14.528431
     },
     {
       "date": "2026-06-11",
@@ -4558,7 +5062,9 @@
       "macd_hist": -0.136114,
       "bb_upper": 95.327,
       "bb_middle": 93.711,
-      "bb_lower": 92.094
+      "bb_lower": 92.094,
+      "stoch_k": 23.809524,
+      "stoch_d": 19.589624
     },
     {
       "date": "2026-06-12",
@@ -4576,7 +5082,9 @@
       "macd_hist": -0.106995,
       "bb_upper": 95.328,
       "bb_middle": 93.72,
-      "bb_lower": 92.111
+      "bb_lower": 92.111,
+      "stoch_k": 25.958188,
+      "stoch_d": 23.422377
     },
     {
       "date": "2026-06-14",
@@ -4594,7 +5102,9 @@
       "macd_hist": -0.089746,
       "bb_upper": 95.328,
       "bb_middle": 93.718,
-      "bb_lower": 92.108
+      "bb_lower": 92.108,
+      "stoch_k": 29.442509,
+      "stoch_d": 26.403407
     },
     {
       "date": "2026-06-15",
@@ -4612,7 +5122,9 @@
       "macd_hist": -0.074573,
       "bb_upper": 95.325,
       "bb_middle": 93.731,
-      "bb_lower": 92.136
+      "bb_lower": 92.136,
+      "stoch_k": 29.674797,
+      "stoch_d": 28.358498
     },
     {
       "date": "2026-06-16",
@@ -4630,7 +5142,9 @@
       "macd_hist": -0.048564,
       "bb_upper": 95.327,
       "bb_middle": 93.745,
-      "bb_lower": 92.163
+      "bb_lower": 92.163,
+      "stoch_k": 30.894309,
+      "stoch_d": 30.003871
     },
     {
       "date": "2026-06-17",
@@ -4648,7 +5162,9 @@
       "macd_hist": -0.087215,
       "bb_upper": 95.357,
       "bb_middle": 93.712,
-      "bb_lower": 92.066
+      "bb_lower": 92.066,
+      "stoch_k": 24.303833,
+      "stoch_d": 28.290979
     },
     {
       "date": "2026-06-18",
@@ -4666,7 +5182,9 @@
       "macd_hist": -0.094608,
       "bb_upper": 95.363,
       "bb_middle": 93.706,
-      "bb_lower": 92.049
+      "bb_lower": 92.049,
+      "stoch_k": 20.427406,
+      "stoch_d": 25.208516
     },
     {
       "date": "2026-06-19",
@@ -4684,7 +5202,9 @@
       "macd_hist": -0.112438,
       "bb_upper": 95.346,
       "bb_middle": 93.627,
-      "bb_lower": 91.909
+      "bb_lower": 91.909,
+      "stoch_k": 12.723842,
+      "stoch_d": 19.151694
     }
   ],
   "latest_state": {
