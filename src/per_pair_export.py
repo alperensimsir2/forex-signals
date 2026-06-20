@@ -3,9 +3,9 @@ Per-pair detail JSON export (scanner observational product).
 
 Writes out/pairs/{SYMBOL}.json — OHLC + indicator history plus a latest-state
 snapshot, alongside the current scan/composite matches. Independent schema
-(2.0.0) from forex_scans.json.
+(2.1.0) from forex_scans.json.
 
-Schema 2.0.0 is strictly additive over 1.0.0: every history[] entry still
+Schema 2.1.0 is strictly additive over 2.0.0: every history[] entry still
 carries `date` and `close` with the exact same values as before, so the simple
 chart / detail screen keep working unchanged. New per-bar fields (open/high/low
 + indicators) and the latest_state block are layered on top.
@@ -25,14 +25,14 @@ import pandas as pd
 
 from . import fetch, pips
 
-PAIR_DETAIL_SCHEMA_VERSION = "2.0.0"
+PAIR_DETAIL_SCHEMA_VERSION = "2.1.0"
 HISTORY_CALENDAR_DAYS = 365
 HISTORY_MAX_BARS = 260
 
 # ~126 trading days ≈ 6 months; used for the BB-width squeeze percentile.
 BB_WIDTH_PERCENTILE_LOOKBACK = 126
 
-# Display precision for the v2.0.0 indicator fields. Price-scale fields (in the
+# Display precision for the v2.1.0 indicator fields. Price-scale fields (in the
 # pair's quote currency) round like the rate: JPY pairs 3dp, others 5dp.
 # Non-price fields (oscillators, MACD, ATR) round to 6dp. `close` is never
 # rounded — it is preserved byte-identical from v1.0.0.
@@ -54,6 +54,8 @@ INDICATOR_FIELD_MAP: dict[str, str] = {
     "bb_upper": "bb_upper",
     "bb_middle": "bb_mid",
     "bb_lower": "bb_lower",
+    "stoch_k": "stoch_k",
+    "stoch_d": "stoch_d",
 }
 
 # Which history fields are price-scale (rounded to the pair's price precision).

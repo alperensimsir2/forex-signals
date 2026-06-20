@@ -888,6 +888,46 @@ CANDLE_SCAN_THRESHOLDS: dict[str, str | float | None] = {
 }
 
 
+# Extreme tiered scans imply their base scan; suppress redundant base matches.
+TIERED_SCAN_SUPPRESSIONS: list[tuple[str, str]] = [
+    ("rsi_extreme_overbought", "rsi_overbought"),
+    ("rsi_deep_oversold", "rsi_oversold"),
+    ("sma9_extended_above", "sma9_above"),
+    ("sma9_extended_below", "sma9_below"),
+    ("sma20_extended_above", "sma20_above"),
+    ("sma20_extended_below", "sma20_below"),
+    ("sma50_extended_above", "sma50_above"),
+    ("sma50_extended_below", "sma50_below"),
+    ("sma200_extended_above", "sma200_above"),
+    ("sma200_extended_below", "sma200_below"),
+]
+
+
+def _suppress_tiered_scan_redundancy(
+    scan_results: list[dict],
+    pair_to_scans: dict[str, list[str]],
+    universe: int,
+) -> None:
+    """Drop base-scan pair matches where the extreme tier already matched."""
+    scan_by_id = {s["scan_id"]: s for s in scan_results}
+    for extreme_id, base_id in TIERED_SCAN_SUPPRESSIONS:
+        extreme = scan_by_id.get(extreme_id)
+        base = scan_by_id.get(base_id)
+        if not extreme or not base:
+            continue
+        suppressed = set(extreme["pairs"])
+        if not suppressed:
+            continue
+        remaining = [p for p in base["pairs"] if p not in suppressed]
+        base["pairs"] = remaining
+        base["match_count"] = len(remaining)
+        base["low_information"] = len(remaining) == 0 or len(remaining) == universe
+        for display in suppressed:
+            ids = pair_to_scans.get(display)
+            if ids is not None and base_id in ids:
+                ids.remove(base_id)
+
+
 def run_scanner(
     pairs: list[dict],
     cache_dir: Path,
@@ -943,6 +983,8 @@ def run_scanner(
         if spec.scan_id in CANDLE_SCAN_THRESHOLDS:
             entry["detection_threshold"] = CANDLE_SCAN_THRESHOLDS[spec.scan_id]
         scan_results.append(entry)
+
+    _suppress_tiered_scan_redundancy(scan_results, pair_to_scans, universe)
 
     composite_results: list[dict] = []
     for comp in COMPOSITE_CATALOG:
