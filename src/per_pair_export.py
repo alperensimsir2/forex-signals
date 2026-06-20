@@ -1,8 +1,18 @@
 """
 Per-pair detail JSON export (scanner observational product).
 
-Writes out/pairs/{SYMBOL}.json — close history + current scan/composite matches.
-Independent schema (1.0.0) from forex_scans.json.
+Writes out/pairs/{SYMBOL}.json — OHLC + indicator history plus a latest-state
+snapshot, alongside the current scan/composite matches. Independent schema
+(2.0.0) from forex_scans.json.
+
+Schema 2.0.0 is strictly additive over 1.0.0: every history[] entry still
+carries `date` and `close` with the exact same values as before, so the simple
+chart / detail screen keep working unchanged. New per-bar fields (open/high/low
++ indicators) and the latest_state block are layered on top.
+
+Indicator values are pulled from the scanner's own indicator frame
+(scanner.build_indicator_frame) so they always agree with the published scans —
+nothing is recomputed here.
 """
 
 from __future__ import annotations
@@ -13,14 +23,48 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from . import fetch
+from . import fetch, pips
 
-PAIR_DETAIL_SCHEMA_VERSION = "1.0.0"
+PAIR_DETAIL_SCHEMA_VERSION = "2.0.0"
 HISTORY_CALENDAR_DAYS = 365
 HISTORY_MAX_BARS = 260
 
+# ~126 trading days ≈ 6 months; used for the BB-width squeeze percentile.
+BB_WIDTH_PERCENTILE_LOOKBACK = 126
 
-def _close_num(x) -> float | None:
+# Display precision for the v2.0.0 indicator fields. Price-scale fields (in the
+# pair's quote currency) round like the rate: JPY pairs 3dp, others 5dp.
+# Non-price fields (oscillators, MACD, ATR) round to 6dp. `close` is never
+# rounded — it is preserved byte-identical from v1.0.0.
+PRICE_DECIMALS_JPY = 3
+PRICE_DECIMALS_DEFAULT = 5
+NON_PRICE_DECIMALS = 6
+
+# Post-`close` per-bar history fields: output key -> indicator-frame column.
+# (open/high/low are emitted before `close` and handled explicitly.)
+INDICATOR_FIELD_MAP: dict[str, str] = {
+    "sma_9": "sma9",
+    "sma_20": "sma20",
+    "sma_50": "sma50",
+    "sma_200": "sma200",
+    "rsi_14": "rsi",
+    "macd": "macd",
+    "macd_signal": "macd_signal",
+    "macd_hist": "macd_hist",
+    "bb_upper": "bb_upper",
+    "bb_middle": "bb_mid",
+    "bb_lower": "bb_lower",
+}
+
+# Which history fields are price-scale (rounded to the pair's price precision).
+HISTORY_PRICE_FIELDS = {
+    "open", "high", "low",
+    "sma_9", "sma_20", "sma_50", "sma_200",
+    "bb_upper", "bb_middle", "bb_lower",
+}
+
+
+def _num(x) -> float | None:
     if x is None:
         return None
     try:
@@ -29,6 +73,23 @@ def _close_num(x) -> float | None:
     except TypeError:
         return x
     return float(x)
+
+
+# Backwards-compatible alias for the original close serializer.
+_close_num = _num
+
+
+def _round(x, decimals: int) -> float | None:
+    """Round to `decimals`, preserving null for None/NaN warmup values."""
+    v = _num(x)
+    if v is None:
+        return None
+    return round(v, decimals)
+
+
+def _price_decimals(symbol: str) -> int:
+    """JPY pairs price to 3 decimals, everything else to 5 (mirrors rate)."""
+    return PRICE_DECIMALS_JPY if pips.pip_size(symbol) == 0.01 else PRICE_DECIMALS_DEFAULT
 
 
 def _history_window(df: pd.DataFrame) -> pd.DataFrame:
@@ -43,18 +104,69 @@ def _history_window(df: pd.DataFrame) -> pd.DataFrame:
     return by_bars.reset_index(drop=True)
 
 
-def _history_rows(df: pd.DataFrame) -> list[dict]:
-    window = _history_window(df)
+def _history_rows(indf: pd.DataFrame, price_decimals: int) -> list[dict]:
+    """
+    Build history[] from the scanner's indicator frame.
+
+    `date` and `close` are emitted exactly as in schema 1.0.0 (close unrounded).
+    OHL + indicator fields are added per bar at display precision; indicators
+    undefined for a bar (warmup) emit null.
+    """
+    window = _history_window(indf)
     rows: list[dict] = []
     for _, row in window.iterrows():
-        close = _close_num(row["close"])
+        close = _num(row["close"])
         if close is None:
             continue
-        rows.append({
+        entry: dict = {
             "date": pd.Timestamp(row["date"]).strftime("%Y-%m-%d"),
+            "open": _round(row["open"], price_decimals),
+            "high": _round(row["high"], price_decimals),
+            "low": _round(row["low"], price_decimals),
             "close": close,
-        })
+        }
+        for out_key, col in INDICATOR_FIELD_MAP.items():
+            if out_key in HISTORY_PRICE_FIELDS:
+                entry[out_key] = _round(row[col], price_decimals)
+            else:
+                entry[out_key] = _round(row[col], NON_PRICE_DECIMALS)
+        rows.append(entry)
     return rows
+
+
+def _bb_width_percentile(indf: pd.DataFrame) -> float | None:
+    """
+    Today's BB width as a percentile rank vs the last ~126 trading days of BB
+    widths (low percentile == squeeze). Rounded to 1 decimal.
+    """
+    widths = indf["bb_width"].dropna()
+    if widths.empty:
+        return None
+    today = widths.iloc[-1]
+    if not np.isfinite(today):
+        return None
+    window = widths.tail(BB_WIDTH_PERCENTILE_LOOKBACK)
+    pct = float((window <= today).mean() * 100.0)
+    return round(pct, 1)
+
+
+def _latest_state(indf: pd.DataFrame, price_decimals: int) -> dict:
+    """Most-recent-bar snapshot of indicators surfaced by the advanced chart."""
+    last = indf.iloc[-1]
+    return {
+        "rsi_14": _round(last["rsi"], NON_PRICE_DECIMALS),
+        "stoch_k": _round(last["stoch_k"], NON_PRICE_DECIMALS),
+        "stoch_d": _round(last["stoch_d"], NON_PRICE_DECIMALS),
+        "macd": _round(last["macd"], NON_PRICE_DECIMALS),
+        "macd_signal": _round(last["macd_signal"], NON_PRICE_DECIMALS),
+        "macd_hist": _round(last["macd_hist"], NON_PRICE_DECIMALS),
+        "atr_14": _round(last["atr"], NON_PRICE_DECIMALS),
+        "bb_width_vs_6mo_low_pct": _bb_width_percentile(indf),
+        "donchian_high_20": _round(last["donchian_high"], price_decimals),
+        "donchian_low_20": _round(last["donchian_low"], price_decimals),
+        "high_52w": _round(last["high_52w"], price_decimals),
+        "low_52w": _round(last["low_52w"], price_decimals),
+    }
 
 
 def _composites_matched(payload: dict, display_symbol: str) -> list[str]:
@@ -79,6 +191,9 @@ def export_per_pair_files(
     Pairs skipped by the scanner (not in payload) get no file. Per-pair write errors
     are logged and do not abort the export.
     """
+    # Local import avoids a circular import (scanner imports this module).
+    from .scanner import build_indicator_frame
+
     pairs_dir = out_dir / "pairs"
     pairs_dir.mkdir(parents=True, exist_ok=True)
 
@@ -104,6 +219,9 @@ def export_per_pair_files(
             if df.empty:
                 raise ValueError("empty cache")
 
+            indf = build_indicator_frame(df)
+            price_decimals = _price_decimals(symbol)
+
             detail = {
                 "schema_version": PAIR_DETAIL_SCHEMA_VERSION,
                 "generated_at": generated_at,
@@ -111,7 +229,8 @@ def export_per_pair_files(
                 "display_symbol": display,
                 "symbol": symbol,
                 "category": pair_row["category"],
-                "history": _history_rows(df),
+                "history": _history_rows(indf, price_decimals),
+                "latest_state": _latest_state(indf, price_decimals),
                 "scan_ids": pair_row["scan_ids"],
                 "scan_count": pair_row["scan_count"],
                 "composites_matched": _composites_matched(payload, display),
