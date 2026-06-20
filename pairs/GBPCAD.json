@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "GBP/CAD",
   "symbol": "GBPCAD",
@@ -1044,10 +1044,11 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.8751
+      "close": 1.8726
     }
   ],
   "scan_ids": [
+    "bullish_harami",
     "lh_ll",
     "lower_lows_3",
     "sma200_above",
@@ -1056,6 +1057,6 @@
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 8,
   "composites_matched": []
 }

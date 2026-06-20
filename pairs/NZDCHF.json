@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "NZD/CHF",
   "symbol": "NZDCHF",
@@ -1044,20 +1044,19 @@
     },
     {
       "date": "2026-06-19",
-      "close": 0.4628
+      "close": 0.4632
     }
   ],
   "scan_ids": [
     "inside_day",
-    "inverted_hammer",
     "nr4",
-    "shooting_star",
+    "rsi_cross_above_50",
     "sma200_above",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }

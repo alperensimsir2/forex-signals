@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "GBP/USD",
   "symbol": "GBPUSD",
@@ -1044,12 +1044,14 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.3234
+      "close": 1.3202
     }
   ],
   "scan_ids": [
     "atr_expansion",
     "bb_breakout_down",
+    "doji",
+    "evening_star",
     "lh_ll",
     "lower_lows_3",
     "sma200_below",
@@ -1058,6 +1060,6 @@
     "sma50_falling",
     "sma9_extended_below"
   ],
-  "scan_count": 9,
+  "scan_count": 11,
   "composites_matched": []
 }

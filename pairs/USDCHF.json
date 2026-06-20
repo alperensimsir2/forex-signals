@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "USD/CHF",
   "symbol": "USDCHF",
@@ -1044,7 +1044,7 @@
     },
     {
       "date": "2026-06-19",
-      "close": 0.8065
+      "close": 0.807
     }
   ],
   "scan_ids": [
@@ -1054,7 +1054,7 @@
     "sma20_above",
     "sma50_above",
     "sma50_rising",
-    "sma9_above",
+    "sma9_extended_above",
     "stoch_overbought"
   ],
   "scan_count": 8,

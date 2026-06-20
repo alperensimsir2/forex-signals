@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "AUD/NZD",
   "symbol": "AUDNZD",
@@ -1044,7 +1044,7 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.2208
+      "close": 1.2212
     }
   ],
   "scan_ids": [

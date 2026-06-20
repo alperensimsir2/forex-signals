@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "GBP/CHF",
   "symbol": "GBPCHF",
@@ -1044,19 +1044,21 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.0669
+      "close": 1.0678
     }
   ],
   "scan_ids": [
     "bullish_engulfing",
-    "hh_hl",
+    "macd_bull_cross",
     "morning_star",
+    "outside_day",
     "sma200_above",
-    "sma20_near",
+    "sma20_above",
     "sma50_near",
     "sma50_rising",
-    "sma9_near"
+    "sma9_near",
+    "tweezer_bottom"
   ],
-  "scan_count": 8,
+  "scan_count": 10,
   "composites_matched": []
 }

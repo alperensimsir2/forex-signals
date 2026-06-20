@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "EUR/JPY",
   "symbol": "EURJPY",
@@ -1044,11 +1044,11 @@
     },
     {
       "date": "2026-06-19",
-      "close": 185.08
+      "close": 184.815
     }
   ],
   "scan_ids": [
-    "hammer",
+    "doji",
     "lh_ll",
     "lower_lows_3",
     "macd_bear_cross",

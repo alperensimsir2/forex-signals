@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "EUR/USD",
   "symbol": "EURUSD",
@@ -1044,12 +1044,11 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.1475
+      "close": 1.1467
     }
   ],
   "scan_ids": [
     "atr_expansion",
-    "hammer",
     "lh_ll",
     "lower_lows_3",
     "sma200_below",
@@ -1059,6 +1058,6 @@
     "sma9_below",
     "stoch_oversold"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

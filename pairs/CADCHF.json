@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "CAD/CHF",
   "symbol": "CADCHF",
@@ -1044,16 +1044,14 @@
     },
     {
       "date": "2026-06-19",
-      "close": 0.5689
+      "close": 0.57
     }
   ],
   "scan_ids": [
-    "bearish_harami",
-    "doji",
     "hh_hl",
     "higher_highs_3",
-    "price_cross_below_sma20",
-    "shooting_star",
+    "pullback_3bar_downtrend",
+    "rsi_cross_above_50",
     "sma200_below",
     "sma20_near",
     "sma50_falling",
@@ -1061,6 +1059,6 @@
     "sma9_cross_below_sma20",
     "sma9_near"
   ],
-  "scan_count": 12,
+  "scan_count": 10,
   "composites_matched": []
 }

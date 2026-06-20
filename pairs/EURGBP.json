@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "EUR/GBP",
   "symbol": "EURGBP",
@@ -1044,25 +1044,19 @@
     },
     {
       "date": "2026-06-19",
-      "close": 0.8672
+      "close": 0.8664
     }
   ],
   "scan_ids": [
-    "bearish_harami",
-    "doji",
-    "ema_fast_cross_above_slow",
-    "hh_hl",
-    "higher_highs_3",
-    "macd_zero_cross_up",
+    "inside_day",
     "nr4",
+    "nr7",
     "sma200_below",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_near",
-    "stoch_overbought",
-    "tweezer_top"
+    "sma9_near"
   ],
-  "scan_count": 14,
+  "scan_count": 8,
   "composites_matched": []
 }

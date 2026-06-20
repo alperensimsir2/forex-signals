@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-19T20:06:41Z",
+  "generated_at": "2026-06-20T00:30:45Z",
   "trade_date": "2026-06-19",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -1044,11 +1044,11 @@
     },
     {
       "date": "2026-06-19",
-      "close": 1.4172
+      "close": 1.4152
     }
   ],
   "scan_ids": [
-    "bb_breakout_up",
+    "atr_expansion",
     "hh_hl",
     "higher_highs_3",
     "rsi_extreme_overbought",
@@ -1058,9 +1058,8 @@
     "sma50_above",
     "sma50_rising",
     "sma9_above",
-    "stoch_overbought",
-    "three_white_soldiers"
+    "stoch_overbought"
   ],
-  "scan_count": 12,
+  "scan_count": 11,
   "composites_matched": []
 }
