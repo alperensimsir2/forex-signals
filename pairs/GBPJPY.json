@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-06-20T00:30:45Z",
+  "generated_at": "2026-06-20T01:35:00Z",
   "trade_date": "2026-06-19",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
@@ -1048,16 +1048,17 @@
     }
   ],
   "scan_ids": [
-    "inside_day",
-    "nr4",
-    "nr7",
+    "bullish_engulfing",
+    "lh_ll",
+    "lower_lows_3",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
     "sma9_below",
-    "sma9_cross_below_sma20"
+    "sma9_cross_below_sma20",
+    "tweezer_bottom"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }
