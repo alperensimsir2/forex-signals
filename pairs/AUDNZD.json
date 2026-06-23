@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-06-23T01:28:58Z",
+  "generated_at": "2026-06-23T05:34:56Z",
   "trade_date": "2026-06-23",
   "display_symbol": "AUD/NZD",
   "symbol": "AUDNZD",
@@ -5189,31 +5189,31 @@
     {
       "date": "2026-06-23",
       "open": 1.2245,
-      "high": 1.2254,
+      "high": 1.2255,
       "low": 1.2224,
-      "close": 1.2248,
-      "sma_9": 1.2181,
-      "sma_20": 1.21443,
-      "sma_50": 1.21607,
+      "close": 1.2235,
+      "sma_9": 1.21796,
+      "sma_20": 1.21437,
+      "sma_50": 1.21605,
       "sma_200": 1.18406,
-      "rsi_14": 63.307144,
-      "macd": 0.00231,
-      "macd_signal": 0.000513,
-      "macd_hist": 0.001797,
-      "bb_upper": 1.22606,
-      "bb_middle": 1.21443,
-      "bb_lower": 1.20281,
-      "stoch_k": 92.936508,
-      "stoch_d": 92.312938
+      "rsi_14": 61.133833,
+      "macd": 0.002206,
+      "macd_signal": 0.000493,
+      "macd_hist": 0.001714,
+      "bb_upper": 1.22576,
+      "bb_middle": 1.21437,
+      "bb_lower": 1.20298,
+      "stoch_k": 90.966811,
+      "stoch_d": 91.656372
     }
   ],
   "latest_state": {
-    "rsi_14": 63.307144,
-    "stoch_k": 92.936508,
-    "stoch_d": 92.312938,
-    "macd": 0.00231,
-    "macd_signal": 0.000513,
-    "macd_hist": 0.001797,
+    "rsi_14": 61.133833,
+    "stoch_k": 90.966811,
+    "stoch_d": 91.656372,
+    "macd": 0.002206,
+    "macd_signal": 0.000493,
+    "macd_hist": 0.001714,
     "atr_14": 0.006491,
     "bb_width_vs_6mo_low_pct": 37.3,
     "donchian_high_20": 1.2257,
@@ -5222,6 +5222,7 @@
     "low_52w": 1.1074
   },
   "scan_ids": [
+    "bearish_harami",
     "inside_day",
     "nr4",
     "nr7",
@@ -5230,8 +5231,10 @@
     "sma50_near",
     "sma50_rising",
     "sma9_above",
-    "stoch_overbought"
+    "stoch_overbought",
+    "stoch_overbought_turning_down",
+    "tweezer_top"
   ],
-  "scan_count": 9,
+  "scan_count": 12,
   "composites_matched": []
 }
