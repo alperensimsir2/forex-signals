@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-06-26T05:42:09Z",
+  "generated_at": "2026-06-27T01:27:44Z",
   "trade_date": "2026-06-26",
   "display_symbol": "CAD/CHF",
   "symbol": "CADCHF",
@@ -5188,9 +5188,9 @@
     },
     {
       "date": "2026-06-26",
-      "open": 0.5703,
+      "open": 0.5701,
       "high": 0.5711,
-      "low": 0.5703,
+      "low": 0.5689,
       "close": 0.5703,
       "sma_9": 0.56991,
       "sma_20": 0.56995,
@@ -5214,7 +5214,7 @@
     "macd": 7.2e-05,
     "macd_signal": -0.000132,
     "macd_hist": 0.000205,
-    "atr_14": 0.002507,
+    "atr_14": 0.002607,
     "bb_width_vs_6mo_low_pct": 15.9,
     "donchian_high_20": 0.5739,
     "donchian_low_20": 0.5643,
@@ -5222,12 +5222,8 @@
     "low_52w": 0.5598
   },
   "scan_ids": [
-    "atr_contraction",
     "doji",
-    "inverted_hammer",
-    "nr4",
     "pullback_3bar_uptrend",
-    "shooting_star",
     "sma200_below",
     "sma20_near",
     "sma50_falling",
@@ -5235,6 +5231,6 @@
     "sma9_near",
     "tweezer_top"
   ],
-  "scan_count": 12,
+  "scan_count": 8,
   "composites_matched": []
 }
