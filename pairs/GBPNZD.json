@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-01T01:37:54Z",
+  "generated_at": "2026-07-01T05:58:21Z",
   "trade_date": "2026-07-01",
   "display_symbol": "GBP/NZD",
   "symbol": "GBPNZD",
@@ -5189,31 +5189,31 @@
     {
       "date": "2026-07-01",
       "open": 2.3352,
-      "high": 2.3368,
+      "high": 2.3377,
       "low": 2.3323,
-      "close": 2.3364,
-      "sma_9": 2.33534,
-      "sma_20": 2.31571,
-      "sma_50": 2.29787,
-      "sma_200": 2.2961,
-      "rsi_14": 64.259265,
-      "macd": 0.012865,
-      "macd_signal": 0.010397,
-      "macd_hist": 0.002468,
-      "bb_upper": 2.35395,
-      "bb_middle": 2.31571,
-      "bb_lower": 2.27747,
-      "stoch_k": 88.185654,
-      "stoch_d": 90.533424
+      "close": 2.333,
+      "sma_9": 2.33497,
+      "sma_20": 2.31554,
+      "sma_50": 2.2978,
+      "sma_200": 2.29608,
+      "rsi_14": 61.606388,
+      "macd": 0.012594,
+      "macd_signal": 0.010343,
+      "macd_hist": 0.002252,
+      "bb_upper": 2.35342,
+      "bb_middle": 2.31554,
+      "bb_lower": 2.27766,
+      "stoch_k": 86.136227,
+      "stoch_d": 89.850282
     }
   ],
   "latest_state": {
-    "rsi_14": 64.259265,
-    "stoch_k": 88.185654,
-    "stoch_d": 90.533424,
-    "macd": 0.012865,
-    "macd_signal": 0.010397,
-    "macd_hist": 0.002468,
+    "rsi_14": 61.606388,
+    "stoch_k": 86.136227,
+    "stoch_d": 89.850282,
+    "macd": 0.012594,
+    "macd_signal": 0.010343,
+    "macd_hist": 0.002252,
     "atr_14": 0.012081,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 2.3469,
@@ -5222,7 +5222,6 @@
     "low_52w": 2.2398
   },
   "scan_ids": [
-    "hammer",
     "inside_day",
     "nr4",
     "sma200_above",
@@ -5232,6 +5231,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }
