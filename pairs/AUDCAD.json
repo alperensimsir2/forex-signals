@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-02T01:30:58Z",
+  "generated_at": "2026-07-02T05:13:59Z",
   "trade_date": "2026-07-02",
   "display_symbol": "AUD/CAD",
   "symbol": "AUDCAD",
@@ -5189,31 +5189,31 @@
     {
       "date": "2026-07-02",
       "open": 0.9793,
-      "high": 0.98,
+      "high": 0.9805,
       "low": 0.9781,
-      "close": 0.9796,
-      "sma_9": 0.97967,
-      "sma_20": 0.98522,
-      "sma_50": 0.98555,
+      "close": 0.9795,
+      "sma_9": 0.97966,
+      "sma_20": 0.98521,
+      "sma_50": 0.98554,
       "sma_200": 0.96231,
-      "rsi_14": 42.356835,
-      "macd": -0.001967,
-      "macd_signal": -0.001115,
-      "macd_hist": -0.000851,
+      "rsi_14": 42.212064,
+      "macd": -0.001975,
+      "macd_signal": -0.001117,
+      "macd_hist": -0.000858,
       "bb_upper": 0.99638,
-      "bb_middle": 0.98522,
-      "bb_lower": 0.97406,
-      "stoch_k": 22.045855,
-      "stoch_d": 18.224574
+      "bb_middle": 0.98521,
+      "bb_lower": 0.97405,
+      "stoch_k": 21.869489,
+      "stoch_d": 18.165785
     }
   ],
   "latest_state": {
-    "rsi_14": 42.356835,
-    "stoch_k": 22.045855,
-    "stoch_d": 18.224574,
-    "macd": -0.001967,
-    "macd_signal": -0.001115,
-    "macd_hist": -0.000851,
+    "rsi_14": 42.212064,
+    "stoch_k": 21.869489,
+    "stoch_d": 18.165785,
+    "macd": -0.001975,
+    "macd_signal": -0.001117,
+    "macd_hist": -0.000858,
     "atr_14": 0.004818,
     "bb_width_vs_6mo_low_pct": 54.0,
     "donchian_high_20": 0.9944,
@@ -5222,6 +5222,7 @@
     "low_52w": 0.9057
   },
   "scan_ids": [
+    "doji",
     "lh_ll",
     "nr4",
     "sma200_above",
@@ -5230,6 +5231,6 @@
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 8,
   "composites_matched": []
 }
