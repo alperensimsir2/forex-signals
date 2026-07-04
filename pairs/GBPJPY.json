@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-04T01:05:29Z",
+  "generated_at": "2026-07-04T05:01:54Z",
   "trade_date": "2026-07-03",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
@@ -5190,7 +5190,7 @@
       "date": "2026-07-03",
       "open": 214.99,
       "high": 215.53,
-      "low": 214.82,
+      "low": 214.66,
       "close": 215.45,
       "sma_9": 214.448,
       "sma_20": 214.233,
@@ -5214,7 +5214,7 @@
     "macd": 0.30041,
     "macd_signal": 0.091993,
     "macd_hist": 0.208418,
-    "atr_14": 1.133735,
+    "atr_14": 1.145164,
     "bb_width_vs_6mo_low_pct": 42.1,
     "donchian_high_20": 216.05,
     "donchian_low_20": 212.33,
@@ -5230,8 +5230,9 @@
     "sma50_rising",
     "sma9_above",
     "stoch_overbought",
-    "stoch_overbought_turning_down"
+    "stoch_overbought_turning_down",
+    "tweezer_bottom"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }
