@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-09T01:07:29Z",
+  "generated_at": "2026-07-09T05:29:48Z",
   "trade_date": "2026-07-09",
   "display_symbol": "CAD/CHF",
   "symbol": "CADCHF",
@@ -5191,29 +5191,29 @@
       "open": 0.5698,
       "high": 0.5707,
       "low": 0.5698,
-      "close": 0.5699,
-      "sma_9": 0.56813,
-      "sma_20": 0.56908,
+      "close": 0.5698,
+      "sma_9": 0.56812,
+      "sma_20": 0.56907,
       "sma_50": 0.56949,
       "sma_200": 0.57183,
-      "rsi_14": 52.856036,
-      "macd": -0.000315,
-      "macd_signal": -0.000433,
-      "macd_hist": 0.000118,
-      "bb_upper": 0.57249,
-      "bb_middle": 0.56908,
+      "rsi_14": 52.520626,
+      "macd": -0.000323,
+      "macd_signal": -0.000435,
+      "macd_hist": 0.000112,
+      "bb_upper": 0.57248,
+      "bb_middle": 0.56907,
       "bb_lower": 0.56567,
-      "stoch_k": 75.582011,
-      "stoch_d": 57.490721
+      "stoch_k": 75.10582,
+      "stoch_d": 57.331991
     }
   ],
   "latest_state": {
-    "rsi_14": 52.856036,
-    "stoch_k": 75.582011,
-    "stoch_d": 57.490721,
-    "macd": -0.000315,
-    "macd_signal": -0.000433,
-    "macd_hist": 0.000118,
+    "rsi_14": 52.520626,
+    "stoch_k": 75.10582,
+    "stoch_d": 57.331991,
+    "macd": -0.000323,
+    "macd_signal": -0.000435,
+    "macd_hist": 0.000112,
     "atr_14": 0.002413,
     "bb_width_vs_6mo_low_pct": 20.6,
     "donchian_high_20": 0.5716,
@@ -5222,6 +5222,7 @@
     "low_52w": 0.5598
   },
   "scan_ids": [
+    "doji",
     "inside_day",
     "inverted_hammer",
     "nr4",
@@ -5232,6 +5233,6 @@
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }
