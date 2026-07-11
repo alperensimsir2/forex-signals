@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-11T00:54:49Z",
+  "generated_at": "2026-07-11T04:36:52Z",
   "trade_date": "2026-07-10",
   "display_symbol": "AUD/CHF",
   "symbol": "AUDCHF",
@@ -5190,7 +5190,7 @@
       "date": "2026-07-10",
       "open": 0.5598,
       "high": 0.5625,
-      "low": 0.5591,
+      "low": 0.5585,
       "close": 0.5618,
       "sma_9": 0.55906,
       "sma_20": 0.56033,
@@ -5214,7 +5214,7 @@
     "macd": -0.000414,
     "macd_signal": -0.000742,
     "macd_hist": 0.000328,
-    "atr_14": 0.003096,
+    "atr_14": 0.003139,
     "bb_width_vs_6mo_low_pct": 47.6,
     "donchian_high_20": 0.5672,
     "donchian_low_20": 0.5538,
@@ -5222,15 +5222,16 @@
     "low_52w": 0.5074
   },
   "scan_ids": [
-    "hh_hl",
+    "outside_day",
     "price_cross_above_sma20",
     "price_cross_above_sma50",
     "sma200_above",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_above"
+    "sma9_above",
+    "tweezer_bottom"
   ],
-  "scan_count": 8,
+  "scan_count": 9,
   "composites_matched": []
 }

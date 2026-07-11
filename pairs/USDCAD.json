@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-11T00:54:49Z",
+  "generated_at": "2026-07-11T04:36:52Z",
   "trade_date": "2026-07-10",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -5190,7 +5190,7 @@
       "date": "2026-07-10",
       "open": 1.4173,
       "high": 1.4174,
-      "low": 1.4118,
+      "low": 1.4115,
       "close": 1.4153,
       "sma_9": 1.41886,
       "sma_20": 1.41872,
@@ -5203,18 +5203,18 @@
       "bb_upper": 1.42376,
       "bb_middle": 1.41872,
       "bb_lower": 1.41369,
-      "stoch_k": 24.48591,
-      "stoch_d": 35.270341
+      "stoch_k": 25.035361,
+      "stoch_d": 35.453491
     }
   ],
   "latest_state": {
     "rsi_14": 56.731984,
-    "stoch_k": 24.48591,
-    "stoch_d": 35.270341,
+    "stoch_k": 25.035361,
+    "stoch_d": 35.453491,
     "macd": 0.00509,
     "macd_signal": 0.006889,
     "macd_hist": -0.001799,
-    "atr_14": 0.004932,
+    "atr_14": 0.004953,
     "bb_width_vs_6mo_low_pct": 0.8,
     "donchian_high_20": 1.4248,
     "donchian_low_20": 1.409,
