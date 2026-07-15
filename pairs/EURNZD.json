@@ -1,31 +1,11 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-15T00:11:50Z",
+  "generated_at": "2026-07-15T04:22:20Z",
   "trade_date": "2026-07-15",
   "display_symbol": "EUR/NZD",
   "symbol": "EURNZD",
   "category": "cross",
   "history": [
-    {
-      "date": "2025-10-05",
-      "open": 2.0174,
-      "high": 2.018,
-      "low": 2.0105,
-      "close": 2.0111,
-      "sma_9": 2.01947,
-      "sma_20": 2.01105,
-      "sma_50": 1.99322,
-      "sma_200": 1.93032,
-      "rsi_14": 55.53124,
-      "macd": 0.008174,
-      "macd_signal": 0.010114,
-      "macd_hist": -0.00194,
-      "bb_upper": 2.04388,
-      "bb_middle": 2.01105,
-      "bb_lower": 1.97822,
-      "stoch_k": 41.389728,
-      "stoch_d": 51.266854
-    },
     {
       "date": "2025-10-06",
       "open": 2.0137,
@@ -5205,17 +5185,37 @@
       "bb_lower": 1.97587,
       "stoch_k": 11.975778,
       "stoch_d": 12.0679
+    },
+    {
+      "date": "2026-07-15",
+      "open": 1.964,
+      "high": 1.9681,
+      "low": 1.9623,
+      "close": 1.9667,
+      "sma_9": 1.98913,
+      "sma_20": 2.00138,
+      "sma_50": 1.99009,
+      "sma_200": 1.99276,
+      "rsi_14": 29.487899,
+      "macd": -0.005193,
+      "macd_signal": 6e-05,
+      "macd_hist": -0.005253,
+      "bb_upper": 2.03336,
+      "bb_middle": 2.00138,
+      "bb_lower": 1.96941,
+      "stoch_k": 14.17778,
+      "stoch_d": 11.734838
     }
   ],
   "latest_state": {
-    "rsi_14": 33.346877,
-    "stoch_k": 11.975778,
-    "stoch_d": 12.0679,
-    "macd": -0.003394,
-    "macd_signal": 0.001373,
-    "macd_hist": -0.004767,
-    "atr_14": 0.011528,
-    "bb_width_vs_6mo_low_pct": 78.6,
+    "rsi_14": 29.487899,
+    "stoch_k": 14.17778,
+    "stoch_d": 11.734838,
+    "macd": -0.005193,
+    "macd_signal": 6e-05,
+    "macd_hist": -0.005253,
+    "atr_14": 0.011605,
+    "bb_width_vs_6mo_low_pct": 95.2,
     "donchian_high_20": 2.0243,
     "donchian_low_20": 1.9614,
     "high_52w": 2.0685,
@@ -5223,16 +5223,19 @@
   },
   "scan_ids": [
     "bb_breakout_down",
-    "doji",
-    "lh_ll",
-    "lower_lows_3",
+    "composite_oversold_reversal",
+    "inside_day",
+    "rsi_oversold",
     "sma200_below",
-    "sma20_below",
+    "sma20_extended_below",
+    "sma50_below",
     "sma50_falling",
-    "sma50_near",
-    "sma9_below",
-    "stoch_oversold"
+    "sma9_extended_below",
+    "stoch_oversold",
+    "stoch_oversold_turning_up"
   ],
-  "scan_count": 10,
-  "composites_matched": []
+  "scan_count": 11,
+  "composites_matched": [
+    "composite_oversold_reversal"
+  ]
 }
