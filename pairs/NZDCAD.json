@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-18T00:14:21Z",
+  "generated_at": "2026-07-18T04:20:19Z",
   "trade_date": "2026-07-17",
   "display_symbol": "NZD/CAD",
   "symbol": "NZDCAD",
@@ -5190,7 +5190,7 @@
       "date": "2026-07-17",
       "open": 0.8201,
       "high": 0.8206,
-      "low": 0.8171,
+      "low": 0.8166,
       "close": 0.8188,
       "sma_9": 0.81624,
       "sma_20": 0.81037,
@@ -5214,7 +5214,7 @@
     "macd": 0.002564,
     "macd_signal": 0.001202,
     "macd_hist": 0.001361,
-    "atr_14": 0.005293,
+    "atr_14": 0.005329,
     "bb_width_vs_6mo_low_pct": 84.1,
     "donchian_high_20": 0.8227,
     "donchian_low_20": 0.7979,
@@ -5224,7 +5224,6 @@
   "scan_ids": [
     "evening_star",
     "lh_ll",
-    "nr4",
     "pullback_3bar_uptrend",
     "sma200_above",
     "sma20_above",
@@ -5233,6 +5232,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

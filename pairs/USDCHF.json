@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-18T00:14:21Z",
+  "generated_at": "2026-07-18T04:20:19Z",
   "trade_date": "2026-07-17",
   "display_symbol": "USD/CHF",
   "symbol": "USDCHF",
@@ -5190,7 +5190,7 @@
       "date": "2026-07-17",
       "open": 0.808,
       "high": 0.8092,
-      "low": 0.8061,
+      "low": 0.8058,
       "close": 0.8072,
       "sma_9": 0.80857,
       "sma_20": 0.80783,
@@ -5214,7 +5214,7 @@
     "macd": 0.002109,
     "macd_signal": 0.002713,
     "macd_hist": -0.000604,
-    "atr_14": 0.004971,
+    "atr_14": 0.004992,
     "bb_width_vs_6mo_low_pct": 2.4,
     "donchian_high_20": 0.8151,
     "donchian_low_20": 0.8008,
@@ -5222,6 +5222,7 @@
     "low_52w": 0.7603
   },
   "scan_ids": [
+    "atr_expansion",
     "bearish_harami",
     "inside_day",
     "nr4",
@@ -5232,6 +5233,6 @@
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }

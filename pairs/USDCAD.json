@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-18T00:14:21Z",
+  "generated_at": "2026-07-18T04:20:19Z",
   "trade_date": "2026-07-17",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -5190,7 +5190,7 @@
       "date": "2026-07-17",
       "open": 1.4041,
       "high": 1.4047,
-      "low": 1.4006,
+      "low": 1.4003,
       "close": 1.402,
       "sma_9": 1.41087,
       "sma_20": 1.41584,
@@ -5203,21 +5203,21 @@
       "bb_upper": 1.42846,
       "bb_middle": 1.41584,
       "bb_lower": 1.40323,
-      "stoch_k": 9.911339,
-      "stoch_d": 11.683783
+      "stoch_k": 10.311192,
+      "stoch_d": 11.817067
     }
   ],
   "latest_state": {
     "rsi_14": 33.956519,
-    "stoch_k": 9.911339,
-    "stoch_d": 11.683783,
+    "stoch_k": 10.311192,
+    "stoch_d": 11.817067,
     "macd": 3e-05,
     "macd_signal": 0.003128,
     "macd_hist": -0.003098,
-    "atr_14": 0.005071,
+    "atr_14": 0.005093,
     "bb_width_vs_6mo_low_pct": 47.6,
     "donchian_high_20": 1.4248,
-    "donchian_low_20": 1.4006,
+    "donchian_low_20": 1.4003,
     "high_52w": 1.4248,
     "low_52w": 1.3479
   },
@@ -5232,9 +5232,8 @@
     "sma50_near",
     "sma50_rising",
     "sma9_below",
-    "stoch_oversold",
-    "tweezer_bottom"
+    "stoch_oversold"
   ],
-  "scan_count": 12,
+  "scan_count": 11,
   "composites_matched": []
 }

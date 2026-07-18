@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-18T00:14:21Z",
+  "generated_at": "2026-07-18T04:20:19Z",
   "trade_date": "2026-07-17",
   "display_symbol": "EUR/GBP",
   "symbol": "EURGBP",
@@ -5188,9 +5188,9 @@
     },
     {
       "date": "2026-07-17",
-      "open": 0.849,
+      "open": 0.8487,
       "high": 0.8514,
-      "low": 0.849,
+      "low": 0.848,
       "close": 0.8501,
       "sma_9": 0.85094,
       "sma_20": 0.85513,
@@ -5214,7 +5214,7 @@
     "macd": -0.003554,
     "macd_signal": -0.003173,
     "macd_hist": -0.000381,
-    "atr_14": 0.003261,
+    "atr_14": 0.003332,
     "bb_width_vs_6mo_low_pct": 95.2,
     "donchian_high_20": 0.8651,
     "donchian_low_20": 0.8452,
@@ -5222,6 +5222,7 @@
     "low_52w": 0.8452
   },
   "scan_ids": [
+    "atr_expansion",
     "hh_hl",
     "nr4",
     "pullback_3bar_downtrend",
@@ -5231,6 +5232,6 @@
     "sma50_falling",
     "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 9,
   "composites_matched": []
 }

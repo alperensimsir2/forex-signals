@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-18T00:14:21Z",
+  "generated_at": "2026-07-18T04:20:19Z",
   "trade_date": "2026-07-17",
   "display_symbol": "EUR/CAD",
   "symbol": "EURCAD",
@@ -5190,7 +5190,7 @@
       "date": "2026-07-17",
       "open": 1.6065,
       "high": 1.6072,
-      "low": 1.6014,
+      "low": 1.6008,
       "close": 1.6037,
       "sma_9": 1.61164,
       "sma_20": 1.61628,
@@ -5203,21 +5203,21 @@
       "bb_upper": 1.62894,
       "bb_middle": 1.61628,
       "bb_lower": 1.60362,
-      "stoch_k": 15.176461,
-      "stoch_d": 12.915042
+      "stoch_k": 15.873629,
+      "stoch_d": 13.147431
     }
   ],
   "latest_state": {
     "rsi_14": 36.562006,
-    "stoch_k": 15.176461,
-    "stoch_d": 12.915042,
+    "stoch_k": 15.873629,
+    "stoch_d": 13.147431,
     "macd": -0.002312,
     "macd_signal": -0.000225,
     "macd_hist": -0.002087,
-    "atr_14": 0.006135,
+    "atr_14": 0.006178,
     "bb_width_vs_6mo_low_pct": 50.8,
     "donchian_high_20": 1.6269,
-    "donchian_low_20": 1.6014,
+    "donchian_low_20": 1.6008,
     "high_52w": 1.6468,
     "low_52w": 1.5607
   },
