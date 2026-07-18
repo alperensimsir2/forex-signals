@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-17T04:35:38Z",
+  "generated_at": "2026-07-18T00:14:21Z",
   "trade_date": "2026-07-17",
   "display_symbol": "NZD/JPY",
   "symbol": "NZDJPY",
@@ -5189,8 +5189,8 @@
     {
       "date": "2026-07-17",
       "open": 94.85,
-      "high": 94.99,
-      "low": 94.76,
+      "high": 95.02,
+      "low": 94.62,
       "close": 94.84,
       "sma_9": 93.858,
       "sma_20": 92.749,
@@ -5214,7 +5214,7 @@
     "macd": 0.522925,
     "macd_signal": 0.187868,
     "macd_hist": 0.335057,
-    "atr_14": 0.639142,
+    "atr_14": 0.651285,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 95.06,
     "donchian_low_20": 91.0,
