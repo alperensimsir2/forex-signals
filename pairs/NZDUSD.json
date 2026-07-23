@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-23T00:58:05Z",
+  "generated_at": "2026-07-23T04:45:46Z",
   "trade_date": "2026-07-23",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
@@ -5189,31 +5189,31 @@
     {
       "date": "2026-07-23",
       "open": 0.5818,
-      "high": 0.5818,
+      "high": 0.5823,
       "low": 0.5811,
-      "close": 0.5816,
-      "sma_9": 0.58351,
-      "sma_20": 0.57775,
+      "close": 0.582,
+      "sma_9": 0.58356,
+      "sma_20": 0.57777,
       "sma_50": 0.57662,
       "sma_200": 0.58527,
-      "rsi_14": 57.900019,
-      "macd": 0.002715,
-      "macd_signal": 0.001991,
-      "macd_hist": 0.000725,
-      "bb_upper": 0.58952,
-      "bb_middle": 0.57775,
-      "bb_lower": 0.56598,
-      "stoch_k": 71.223993,
-      "stoch_d": 80.522439
+      "rsi_14": 58.962369,
+      "macd": 0.002747,
+      "macd_signal": 0.001997,
+      "macd_hist": 0.00075,
+      "bb_upper": 0.58957,
+      "bb_middle": 0.57777,
+      "bb_lower": 0.56597,
+      "stoch_k": 72.308004,
+      "stoch_d": 80.883776
     }
   ],
   "latest_state": {
-    "rsi_14": 57.900019,
-    "stoch_k": 71.223993,
-    "stoch_d": 80.522439,
-    "macd": 0.002715,
-    "macd_signal": 0.001991,
-    "macd_hist": 0.000725,
+    "rsi_14": 58.962369,
+    "stoch_k": 72.308004,
+    "stoch_d": 80.883776,
+    "macd": 0.002747,
+    "macd_signal": 0.001997,
+    "macd_hist": 0.00075,
     "atr_14": 0.003645,
     "bb_width_vs_6mo_low_pct": 63.5,
     "donchian_high_20": 0.5873,
@@ -5222,7 +5222,6 @@
     "low_52w": 0.5584
   },
   "scan_ids": [
-    "hammer",
     "lh_ll",
     "lower_lows_3",
     "nr4",
@@ -5233,6 +5232,6 @@
     "sma50_falling",
     "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }
