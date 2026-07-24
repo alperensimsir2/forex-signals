@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-24T00:54:06Z",
+  "generated_at": "2026-07-24T04:42:50Z",
   "trade_date": "2026-07-24",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
@@ -5189,7 +5189,7 @@
     {
       "date": "2026-07-24",
       "open": 218.11,
-      "high": 218.2,
+      "high": 218.31,
       "low": 218.05,
       "close": 218.05,
       "sma_9": 218.467,
@@ -5214,7 +5214,7 @@
     "macd": 0.90475,
     "macd_signal": 0.960147,
     "macd_hist": -0.055397,
-    "atr_14": 0.986856,
+    "atr_14": 0.994713,
     "bb_width_vs_6mo_low_pct": 61.1,
     "donchian_high_20": 219.6,
     "donchian_low_20": 214.64,
@@ -5227,12 +5227,13 @@
     "inside_day",
     "nr4",
     "pullback_3bar_uptrend",
+    "shooting_star",
     "sma200_above",
     "sma20_near",
     "sma50_above",
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 11,
   "composites_matched": []
 }
