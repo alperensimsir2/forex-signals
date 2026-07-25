@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-24T04:42:50Z",
-  "trade_date": "2026-07-24",
+  "generated_at": "2026-07-25T00:58:41Z",
+  "trade_date": "2026-07-25",
   "display_symbol": "CAD/CHF",
   "symbol": "CADCHF",
   "category": "cross",
@@ -5188,9 +5188,9 @@
     },
     {
       "date": "2026-07-24",
-      "open": 0.5798,
-      "high": 0.5805,
-      "low": 0.5798,
+      "open": 0.5795,
+      "high": 0.5806,
+      "low": 0.5793,
       "close": 0.5803,
       "sma_9": 0.57686,
       "sma_20": 0.57292,
@@ -5203,25 +5203,27 @@
       "bb_upper": 0.58224,
       "bb_middle": 0.57292,
       "bb_lower": 0.56361,
-      "stoch_k": 97.110215,
-      "stoch_d": 94.853271
+      "stoch_k": 96.855855,
+      "stoch_d": 94.768484
     }
   ],
   "latest_state": {
     "rsi_14": 71.285307,
-    "stoch_k": 97.110215,
-    "stoch_d": 94.853271,
+    "stoch_k": 96.855855,
+    "stoch_d": 94.768484,
     "macd": 0.002497,
     "macd_signal": 0.001738,
     "macd_hist": 0.000759,
-    "atr_14": 0.002611,
+    "atr_14": 0.002654,
     "bb_width_vs_6mo_low_pct": 100.0,
-    "donchian_high_20": 0.5805,
+    "donchian_high_20": 0.5806,
     "donchian_low_20": 0.5644,
     "high_52w": 0.5847,
     "low_52w": 0.5598
   },
   "scan_ids": [
+    "hh_hl",
+    "higher_highs_3",
     "nr4",
     "rsi_overbought",
     "sma200_above",
@@ -5233,6 +5235,6 @@
     "three_white_soldiers",
     "tweezer_top"
   ],
-  "scan_count": 10,
+  "scan_count": 12,
   "composites_matched": []
 }
