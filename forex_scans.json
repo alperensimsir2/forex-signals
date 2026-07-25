@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3.1",
-  "generated_at": "2026-07-25T00:58:41Z",
+  "generated_at": "2026-07-25T04:38:23Z",
   "trade_date": "2026-07-25",
   "universe_size": 28,
   "threshold_notes": "SMA bands from pooled (close-SMA)/SMA % over all cached bars: SMA9/20/50 inner=p40 |distance| (hugging ends), outer=p88 tail (stretched); SMA200 modest=p50 / extended=p88 on positive side (mirrored below); no near band.",
@@ -569,10 +569,9 @@
       "category": "trend",
       "lean": "bearish",
       "pairs": [
-        "AUD/CAD",
-        "AUD/NZD"
+        "AUD/CAD"
       ],
-      "match_count": 2,
+      "match_count": 1,
       "low_information": false
     },
     {
@@ -822,7 +821,6 @@
         "AUD/NZD",
         "CAD/CHF",
         "CHF/JPY",
-        "EUR/CAD",
         "EUR/CHF",
         "EUR/GBP",
         "EUR/JPY",
@@ -831,7 +829,7 @@
         "USD/CHF",
         "USD/JPY"
       ],
-      "match_count": 12,
+      "match_count": 11,
       "low_information": false
     },
     {
@@ -839,11 +837,9 @@
       "name": "NR7 (narrowest range in 7 days)",
       "category": "volatility",
       "lean": "neutral",
-      "pairs": [
-        "AUD/NZD"
-      ],
-      "match_count": 1,
-      "low_information": false
+      "pairs": [],
+      "match_count": 0,
+      "low_information": true
     },
     {
       "scan_id": "higher_highs_3",
@@ -1003,10 +999,9 @@
       "category": "price_action",
       "lean": "bearish",
       "pairs": [
-        "EUR/CAD",
         "EUR/USD"
       ],
-      "match_count": 2,
+      "match_count": 1,
       "low_information": false,
       "detection_threshold": 2.0
     },
@@ -1339,17 +1334,15 @@
       "display_symbol": "AUD/NZD",
       "symbol": "AUDNZD",
       "category": "cross",
-      "rate": 1.2058,
-      "change_pips": -16.0,
-      "change_pct": -0.13,
+      "rate": 1.2063,
+      "change_pips": -11.0,
+      "change_pct": -0.09,
       "rate_asof": "2026-07-24",
       "scan_ids": [
         "bearish_harami",
         "composite_trend_pullback_short",
         "inside_day",
         "nr4",
-        "nr7",
-        "price_cross_below_sma20",
         "rsi_cross_below_50",
         "sma200_above",
         "sma20_near",
@@ -1357,7 +1350,7 @@
         "sma50_near",
         "sma9_above"
       ],
-      "scan_count": 12
+      "scan_count": 10
     },
     {
       "display_symbol": "AUD/USD",
@@ -1479,8 +1472,6 @@
       "rate_asof": "2026-07-24",
       "scan_ids": [
         "inside_day",
-        "nr4",
-        "shooting_star",
         "sma200_below",
         "sma20_below",
         "sma50_falling",
@@ -1488,7 +1479,7 @@
         "sma9_near",
         "stoch_oversold"
       ],
-      "scan_count": 9
+      "scan_count": 7
     },
     {
       "display_symbol": "EUR/CHF",
@@ -1918,7 +1909,7 @@
             "pair_lean": "bearish",
             "contribution": -1,
             "bullish_scan_count": 2,
-            "bearish_scan_count": 5
+            "bearish_scan_count": 4
           },
           {
             "display_symbol": "AUD/USD",
@@ -1975,7 +1966,7 @@
             "pair_lean": "bearish",
             "contribution": 1,
             "bullish_scan_count": 1,
-            "bearish_scan_count": 4
+            "bearish_scan_count": 3
           },
           {
             "display_symbol": "USD/CAD",
@@ -2075,7 +2066,7 @@
             "pair_lean": "bearish",
             "contribution": -1,
             "bullish_scan_count": 1,
-            "bearish_scan_count": 4
+            "bearish_scan_count": 3
           },
           {
             "display_symbol": "EUR/CHF",
@@ -2239,7 +2230,7 @@
             "pair_lean": "bearish",
             "contribution": 1,
             "bullish_scan_count": 2,
-            "bearish_scan_count": 5
+            "bearish_scan_count": 4
           },
           {
             "display_symbol": "EUR/NZD",
