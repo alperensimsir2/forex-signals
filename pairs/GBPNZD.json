@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-28T00:53:14Z",
+  "generated_at": "2026-07-28T04:37:10Z",
   "trade_date": "2026-07-28",
   "display_symbol": "GBP/NZD",
   "symbol": "GBPNZD",
@@ -5189,8 +5189,8 @@
     {
       "date": "2026-07-28",
       "open": 2.3034,
-      "high": 2.3042,
-      "low": 2.3032,
+      "high": 2.305,
+      "low": 2.3021,
       "close": 2.304,
       "sma_9": 2.30182,
       "sma_20": 2.30995,
@@ -5214,7 +5214,7 @@
     "macd": -0.005326,
     "macd_signal": -0.004786,
     "macd_hist": -0.00054,
-    "atr_14": 0.011369,
+    "atr_14": 0.011505,
     "bb_width_vs_6mo_low_pct": 58.7,
     "donchian_high_20": 2.3568,
     "donchian_low_20": 2.2875,
