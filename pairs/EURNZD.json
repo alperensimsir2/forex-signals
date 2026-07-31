@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-31T01:00:55Z",
+  "generated_at": "2026-07-31T04:53:18Z",
   "trade_date": "2026-07-31",
   "display_symbol": "EUR/NZD",
   "symbol": "EURNZD",
@@ -5189,7 +5189,7 @@
     {
       "date": "2026-07-31",
       "open": 1.9605,
-      "high": 1.9622,
+      "high": 1.9639,
       "low": 1.9591,
       "close": 1.9611,
       "sma_9": 1.96641,

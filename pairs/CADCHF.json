@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-07-31T01:00:55Z",
+  "generated_at": "2026-07-31T04:53:18Z",
   "trade_date": "2026-07-31",
   "display_symbol": "CAD/CHF",
   "symbol": "CADCHF",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-07-31",
       "open": 0.5745,
-      "high": 0.5751,
+      "high": 0.5757,
       "low": 0.5745,
-      "close": 0.5747,
-      "sma_9": 0.57858,
-      "sma_20": 0.57615,
-      "sma_50": 0.57209,
+      "close": 0.5753,
+      "sma_9": 0.57864,
+      "sma_20": 0.57618,
+      "sma_50": 0.5721,
       "sma_200": 0.5719,
-      "rsi_14": 48.71971,
-      "macd": 0.0018,
-      "macd_signal": 0.002171,
-      "macd_hist": -0.000371,
-      "bb_upper": 0.58273,
-      "bb_middle": 0.57615,
-      "bb_lower": 0.56957,
-      "stoch_k": 38.235294,
-      "stoch_d": 61.851957
+      "rsi_14": 50.359236,
+      "macd": 0.001848,
+      "macd_signal": 0.002181,
+      "macd_hist": -0.000333,
+      "bb_upper": 0.58274,
+      "bb_middle": 0.57618,
+      "bb_lower": 0.56962,
+      "stoch_k": 40.196078,
+      "stoch_d": 62.505552
     }
   ],
   "latest_state": {
-    "rsi_14": 48.71971,
-    "stoch_k": 38.235294,
-    "stoch_d": 61.851957,
-    "macd": 0.0018,
-    "macd_signal": 0.002171,
-    "macd_hist": -0.000371,
-    "atr_14": 0.002847,
+    "rsi_14": 50.359236,
+    "stoch_k": 40.196078,
+    "stoch_d": 62.505552,
+    "macd": 0.001848,
+    "macd_signal": 0.002181,
+    "macd_hist": -0.000333,
+    "atr_14": 0.00289,
     "bb_width_vs_6mo_low_pct": 79.4,
     "donchian_high_20": 0.5825,
     "donchian_low_20": 0.5677,
@@ -5222,17 +5222,18 @@
     "low_52w": 0.5598
   },
   "scan_ids": [
+    "composite_trend_pullback_long",
     "inside_day",
-    "inverted_hammer",
     "nr4",
-    "nr7",
-    "shooting_star",
+    "rsi_cross_above_50",
     "sma200_above",
     "sma20_near",
     "sma50_near",
     "sma50_rising",
     "sma9_below"
   ],
-  "scan_count": 10,
-  "composites_matched": []
+  "scan_count": 9,
+  "composites_matched": [
+    "composite_trend_pullback_long"
+  ]
 }
