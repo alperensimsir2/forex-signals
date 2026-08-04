@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-04T00:57:58Z",
+  "generated_at": "2026-08-04T04:38:46Z",
   "trade_date": "2026-08-04",
   "display_symbol": "GBP/USD",
   "symbol": "GBPUSD",
@@ -5189,8 +5189,8 @@
     {
       "date": "2026-08-04",
       "open": 1.3429,
-      "high": 1.3432,
-      "low": 1.3426,
+      "high": 1.3433,
+      "low": 1.342,
       "close": 1.3428,
       "sma_9": 1.34051,
       "sma_20": 1.34083,
@@ -5214,7 +5214,7 @@
     "macd": 0.002233,
     "macd_signal": 0.001233,
     "macd_hist": 0.001,
-    "atr_14": 0.006707,
+    "atr_14": 0.00675,
     "bb_width_vs_6mo_low_pct": 51.6,
     "donchian_high_20": 1.3545,
     "donchian_low_20": 1.3273,
@@ -5222,8 +5222,10 @@
     "low_52w": 1.3038
   },
   "scan_ids": [
+    "doji",
     "evening_star",
-    "inside_day",
+    "lh_ll",
+    "lower_lows_3",
     "price_cross_below_sma200",
     "sma200_below",
     "sma20_near",
@@ -5231,9 +5233,8 @@
     "sma50_rising",
     "sma9_near",
     "stoch_overbought",
-    "stoch_overbought_turning_down",
-    "tweezer_bottom"
+    "stoch_overbought_turning_down"
   ],
-  "scan_count": 11,
+  "scan_count": 12,
   "composites_matched": []
 }

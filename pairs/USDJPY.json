@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-04T00:57:58Z",
+  "generated_at": "2026-08-04T04:38:46Z",
   "trade_date": "2026-08-04",
   "display_symbol": "USD/JPY",
   "symbol": "USDJPY",
@@ -5189,7 +5189,7 @@
     {
       "date": "2026-08-04",
       "open": 157.19,
-      "high": 157.66,
+      "high": 157.74,
       "low": 157.19,
       "close": 157.57,
       "sma_9": 160.438,
@@ -5214,7 +5214,7 @@
     "macd": -0.973001,
     "macd_signal": -0.196798,
     "macd_hist": -0.776203,
-    "atr_14": 1.119768,
+    "atr_14": 1.125482,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 163.98,
     "donchian_low_20": 155.21,
@@ -5225,7 +5225,6 @@
     "atr_expansion",
     "composite_oversold_reversal",
     "inside_day",
-    "nr4",
     "rsi_oversold",
     "sma200_below",
     "sma20_extended_below",
@@ -5235,7 +5234,7 @@
     "stoch_oversold",
     "stoch_oversold_turning_up"
   ],
-  "scan_count": 12,
+  "scan_count": 11,
   "composites_matched": [
     "composite_oversold_reversal"
   ]
