@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-05T00:52:41Z",
+  "generated_at": "2026-08-05T04:37:56Z",
   "trade_date": "2026-08-05",
   "display_symbol": "GBP/AUD",
   "symbol": "GBPAUD",
@@ -5189,7 +5189,7 @@
     {
       "date": "2026-08-05",
       "open": 1.9086,
-      "high": 1.91,
+      "high": 1.9101,
       "low": 1.9076,
       "close": 1.9076,
       "sma_9": 1.9128,
@@ -5214,7 +5214,7 @@
     "macd": -0.000984,
     "macd_signal": -8.1e-05,
     "macd_hist": -0.000903,
-    "atr_14": 0.010527,
+    "atr_14": 0.010535,
     "bb_width_vs_6mo_low_pct": 28.6,
     "donchian_high_20": 1.9353,
     "donchian_low_20": 1.8988,

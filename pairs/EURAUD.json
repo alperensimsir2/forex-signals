@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-05T00:52:41Z",
+  "generated_at": "2026-08-05T04:37:56Z",
   "trade_date": "2026-08-05",
   "display_symbol": "EUR/AUD",
   "symbol": "EURAUD",
@@ -5189,8 +5189,8 @@
     {
       "date": "2026-08-05",
       "open": 1.6365,
-      "high": 1.6377,
-      "low": 1.6357,
+      "high": 1.6382,
+      "low": 1.6353,
       "close": 1.6365,
       "sma_9": 1.63721,
       "sma_20": 1.63695,
@@ -5214,7 +5214,7 @@
     "macd": -0.000462,
     "macd_signal": -0.00096,
     "macd_hist": 0.000498,
-    "atr_14": 0.009116,
+    "atr_14": 0.009181,
     "bb_width_vs_6mo_low_pct": 11.1,
     "donchian_high_20": 1.6509,
     "donchian_low_20": 1.6251,
@@ -5223,7 +5223,8 @@
   },
   "scan_ids": [
     "doji",
-    "inside_day",
+    "lh_ll",
+    "lower_lows_3",
     "nr4",
     "nr7",
     "sma200_below",
@@ -5234,6 +5235,6 @@
     "sma9_near",
     "tweezer_bottom"
   ],
-  "scan_count": 11,
+  "scan_count": 12,
   "composites_matched": []
 }
