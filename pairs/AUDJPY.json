@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-07T23:55:27Z",
+  "generated_at": "2026-08-08T03:04:33Z",
   "trade_date": "2026-08-07",
   "display_symbol": "AUD/JPY",
   "symbol": "AUDJPY",
@@ -5190,7 +5190,7 @@
       "date": "2026-08-07",
       "open": 111.36,
       "high": 111.84,
-      "low": 111.01,
+      "low": 110.94,
       "close": 111.5,
       "sma_9": 111.41,
       "sma_20": 112.844,
@@ -5214,7 +5214,7 @@
     "macd": -0.510888,
     "macd_signal": -0.265013,
     "macd_hist": -0.245874,
-    "atr_14": 0.911855,
+    "atr_14": 0.916855,
     "bb_width_vs_6mo_low_pct": 94.4,
     "donchian_high_20": 114.66,
     "donchian_low_20": 109.19,
@@ -5230,9 +5230,8 @@
     "sma20_below",
     "sma50_below",
     "sma50_falling",
-    "sma9_near",
-    "tweezer_bottom"
+    "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

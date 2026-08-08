@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-07T23:55:27Z",
+  "generated_at": "2026-08-08T03:04:33Z",
   "trade_date": "2026-08-07",
   "display_symbol": "USD/JPY",
   "symbol": "USDJPY",
@@ -5188,7 +5188,7 @@
     },
     {
       "date": "2026-08-07",
-      "open": 158.37,
+      "open": 158.41,
       "high": 158.57,
       "low": 156.94,
       "close": 157.76,
