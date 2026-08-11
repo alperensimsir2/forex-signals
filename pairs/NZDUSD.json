@@ -1,31 +1,11 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-10T23:57:32Z",
-  "trade_date": "2026-08-10",
+  "generated_at": "2026-08-11T03:15:20Z",
+  "trade_date": "2026-08-11",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2025-11-18",
-      "open": 0.5653,
-      "high": 0.5677,
-      "low": 0.564,
-      "close": 0.5655,
-      "sma_9": 0.56596,
-      "sma_20": 0.56767,
-      "sma_50": 0.57301,
-      "sma_200": 0.58845,
-      "rsi_14": 40.158555,
-      "macd": -0.002191,
-      "macd_signal": -0.002671,
-      "macd_hist": 0.00048,
-      "bb_upper": 0.57594,
-      "bb_middle": 0.56767,
-      "bb_lower": 0.5594,
-      "stoch_k": 61.170072,
-      "stoch_d": 57.857808
-    },
     {
       "date": "2025-11-19",
       "open": 0.566,
@@ -5205,26 +5185,45 @@
       "bb_lower": 0.57496,
       "stoch_k": 90.114943,
       "stoch_d": 86.283525
+    },
+    {
+      "date": "2026-08-11",
+      "open": 0.5884,
+      "high": 0.5891,
+      "low": 0.5883,
+      "close": 0.5888,
+      "sma_9": 0.58851,
+      "sma_20": 0.58476,
+      "sma_50": 0.57795,
+      "sma_200": 0.5861,
+      "rsi_14": 60.388485,
+      "macd": 0.002819,
+      "macd_signal": 0.002733,
+      "macd_hist": 8.6e-05,
+      "bb_upper": 0.59441,
+      "bb_middle": 0.58476,
+      "bb_lower": 0.57512,
+      "stoch_k": 88.341544,
+      "stoch_d": 87.991242
     }
   ],
   "latest_state": {
     "rsi_14": 60.388485,
-    "stoch_k": 90.114943,
-    "stoch_d": 86.283525,
-    "macd": 0.002905,
-    "macd_signal": 0.002712,
-    "macd_hist": 0.000193,
-    "atr_14": 0.003491,
-    "bb_width_vs_6mo_low_pct": 39.7,
+    "stoch_k": 88.341544,
+    "stoch_d": 87.991242,
+    "macd": 0.002819,
+    "macd_signal": 0.002733,
+    "macd_hist": 8.6e-05,
+    "atr_14": 0.003299,
+    "bb_width_vs_6mo_low_pct": 42.9,
     "donchian_high_20": 0.5908,
     "donchian_low_20": 0.5763,
     "high_52w": 0.6093,
-    "low_52w": 0.5624
+    "low_52w": 0.5628
   },
   "scan_ids": [
-    "doji",
-    "lh_ll",
-    "lower_lows_3",
+    "atr_contraction",
+    "inside_day",
     "sma200_above",
     "sma20_above",
     "sma50_above",
@@ -5232,6 +5231,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }
