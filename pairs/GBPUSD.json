@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-14T03:34:13Z",
+  "generated_at": "2026-08-14T23:44:05Z",
   "trade_date": "2026-08-14",
   "display_symbol": "GBP/USD",
   "symbol": "GBPUSD",
@@ -5188,9 +5188,9 @@
     },
     {
       "date": "2026-08-14",
-      "open": 1.3489,
-      "high": 1.3499,
-      "low": 1.3485,
+      "open": 1.3492,
+      "high": 1.356,
+      "low": 1.3489,
       "close": 1.3491,
       "sma_9": 1.34902,
       "sma_20": 1.34422,
@@ -5203,28 +5203,29 @@
       "bb_upper": 1.35892,
       "bb_middle": 1.34422,
       "bb_lower": 1.32952,
-      "stoch_k": 71.263853,
-      "stoch_d": 80.394289
+      "stoch_k": 68.446393,
+      "stoch_d": 79.455136
     }
   ],
   "latest_state": {
     "rsi_14": 57.786866,
-    "stoch_k": 71.263853,
-    "stoch_d": 80.394289,
+    "stoch_k": 68.446393,
+    "stoch_d": 79.455136,
     "macd": 0.003263,
     "macd_signal": 0.002968,
     "macd_hist": 0.000296,
-    "atr_14": 0.005081,
+    "atr_14": 0.005488,
     "bb_width_vs_6mo_low_pct": 42.9,
-    "donchian_high_20": 1.354,
+    "donchian_high_20": 1.356,
     "donchian_low_20": 1.3273,
     "high_52w": 1.3868,
     "low_52w": 1.3143
   },
   "scan_ids": [
     "atr_contraction",
-    "inside_day",
-    "nr4",
+    "doji",
+    "evening_star",
+    "hh_hl",
     "pullback_3bar_uptrend",
     "sma200_above",
     "sma20_near",
@@ -5232,6 +5233,6 @@
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }
