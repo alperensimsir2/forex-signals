@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-14T23:44:05Z",
+  "generated_at": "2026-08-15T02:29:54Z",
   "trade_date": "2026-08-14",
   "display_symbol": "USD/JPY",
   "symbol": "USDJPY",
@@ -5188,9 +5188,9 @@
     },
     {
       "date": "2026-08-14",
-      "open": 159.47,
+      "open": 159.49,
       "high": 159.53,
-      "low": 158.61,
+      "low": 158.58,
       "close": 159.3,
       "sma_9": 158.721,
       "sma_20": 160.015,
@@ -5214,7 +5214,7 @@
     "macd": -0.745014,
     "macd_signal": -0.83637,
     "macd_hist": 0.091356,
-    "atr_14": 1.006303,
+    "atr_14": 1.008446,
     "bb_width_vs_6mo_low_pct": 95.2,
     "donchian_high_20": 163.98,
     "donchian_low_20": 155.21,
@@ -5222,6 +5222,7 @@
     "low_52w": 152.103
   },
   "scan_ids": [
+    "bearish_engulfing",
     "evening_star",
     "hammer",
     "lh_ll",
@@ -5232,6 +5233,6 @@
     "sma9_above",
     "tweezer_top"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }

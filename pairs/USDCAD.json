@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-14T23:44:05Z",
+  "generated_at": "2026-08-15T02:29:54Z",
   "trade_date": "2026-08-14",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -5190,7 +5190,7 @@
       "date": "2026-08-14",
       "open": 1.3934,
       "high": 1.3937,
-      "low": 1.3865,
+      "low": 1.3862,
       "close": 1.3872,
       "sma_9": 1.39469,
       "sma_20": 1.40108,
@@ -5203,28 +5203,27 @@
       "bb_upper": 1.41539,
       "bb_middle": 1.40108,
       "bb_lower": 1.38676,
-      "stoch_k": 10.714803,
-      "stoch_d": 10.633527
+      "stoch_k": 11.158584,
+      "stoch_d": 10.781454
     }
   ],
   "latest_state": {
     "rsi_14": 28.496884,
-    "stoch_k": 10.714803,
-    "stoch_d": 10.633527,
+    "stoch_k": 11.158584,
+    "stoch_d": 10.781454,
     "macd": -0.004704,
     "macd_signal": -0.003472,
     "macd_hist": -0.001232,
-    "atr_14": 0.005008,
+    "atr_14": 0.005029,
     "bb_width_vs_6mo_low_pct": 60.3,
     "donchian_high_20": 1.4128,
-    "donchian_low_20": 1.3865,
+    "donchian_low_20": 1.3862,
     "high_52w": 1.4248,
     "low_52w": 1.3479
   },
   "scan_ids": [
     "evening_star",
     "lh_ll",
-    "marubozu_bearish",
     "rsi_oversold",
     "sma200_above",
     "sma20_below",
@@ -5233,6 +5232,6 @@
     "sma9_below",
     "stoch_oversold"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }

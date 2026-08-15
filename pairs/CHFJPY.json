@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-14T23:44:05Z",
+  "generated_at": "2026-08-15T02:29:54Z",
   "trade_date": "2026-08-14",
   "display_symbol": "CHF/JPY",
   "symbol": "CHFJPY",
@@ -5190,7 +5190,7 @@
       "date": "2026-08-14",
       "open": 195.89,
       "high": 196.23,
-      "low": 195.5,
+      "low": 195.39,
       "close": 195.89,
       "sma_9": 195.754,
       "sma_20": 197.04,
@@ -5214,7 +5214,7 @@
     "macd": -1.122419,
     "macd_signal": -1.211922,
     "macd_hist": 0.089502,
-    "atr_14": 1.214828,
+    "atr_14": 1.222685,
     "bb_width_vs_6mo_low_pct": 92.9,
     "donchian_high_20": 200.95,
     "donchian_low_20": 192.54,
@@ -5223,14 +5223,13 @@
   },
   "scan_ids": [
     "doji",
-    "inside_day",
+    "lh_ll",
     "sma200_below",
     "sma20_below",
     "sma50_below",
     "sma50_falling",
-    "sma9_near",
-    "tweezer_bottom"
+    "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 7,
   "composites_matched": []
 }

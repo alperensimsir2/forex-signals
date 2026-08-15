@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-14T23:44:05Z",
+  "generated_at": "2026-08-15T02:29:54Z",
   "trade_date": "2026-08-14",
   "display_symbol": "GBP/CHF",
   "symbol": "GBPCHF",
@@ -5188,9 +5188,9 @@
     },
     {
       "date": "2026-08-14",
-      "open": 1.0977,
+      "open": 1.0973,
       "high": 1.1011,
-      "low": 1.0977,
+      "low": 1.0965,
       "close": 1.1001,
       "sma_9": 1.09376,
       "sma_20": 1.09065,
@@ -5214,7 +5214,7 @@
     "macd": 0.004049,
     "macd_signal": 0.003419,
     "macd_hist": 0.00063,
-    "atr_14": 0.005052,
+    "atr_14": 0.005138,
     "bb_width_vs_6mo_low_pct": 57.9,
     "donchian_high_20": 1.1011,
     "donchian_low_20": 1.0804,
@@ -5224,7 +5224,6 @@
   "scan_ids": [
     "bb_breakout_up",
     "hh_hl",
-    "nr4",
     "sma200_above",
     "sma20_above",
     "sma50_above",
@@ -5232,6 +5231,6 @@
     "sma9_above",
     "stoch_overbought"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }
