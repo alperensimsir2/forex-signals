@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-21T02:40:20Z",
+  "generated_at": "2026-08-21T23:45:02Z",
   "trade_date": "2026-08-21",
   "display_symbol": "EUR/GBP",
   "symbol": "EURGBP",
@@ -5188,8 +5188,8 @@
     },
     {
       "date": "2026-08-21",
-      "open": 0.8566,
-      "high": 0.8568,
+      "open": 0.8565,
+      "high": 0.8565,
       "low": 0.8565,
       "close": 0.8565,
       "sma_9": 0.8555,
@@ -5226,13 +5226,12 @@
     "nr4",
     "nr7",
     "pullback_3bar_uptrend",
-    "shooting_star",
     "sma200_below",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
     "sma9_near"
   ],
-  "scan_count": 10,
+  "scan_count": 9,
   "composites_matched": []
 }
