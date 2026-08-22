@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-21T23:45:02Z",
+  "generated_at": "2026-08-22T02:31:47Z",
   "trade_date": "2026-08-21",
   "display_symbol": "NZD/CAD",
   "symbol": "NZDCAD",
@@ -5190,7 +5190,7 @@
       "date": "2026-08-21",
       "open": 0.8193,
       "high": 0.8237,
-      "low": 0.8191,
+      "low": 0.8184,
       "close": 0.8223,
       "sma_9": 0.81839,
       "sma_20": 0.82108,
@@ -5214,7 +5214,7 @@
     "macd": 0.000488,
     "macd_signal": 0.000672,
     "macd_hist": -0.000184,
-    "atr_14": 0.004959,
+    "atr_14": 0.005009,
     "bb_width_vs_6mo_low_pct": 2.4,
     "donchian_high_20": 0.8294,
     "donchian_low_20": 0.8122,
@@ -5224,7 +5224,6 @@
   "scan_ids": [
     "hh_hl",
     "higher_highs_3",
-    "nr4",
     "price_cross_above_sma20",
     "sma200_above",
     "sma20_near",
@@ -5232,6 +5231,6 @@
     "sma50_rising",
     "sma9_above"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }
