@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-08-27T04:35:48Z",
+  "generated_at": "2026-08-27T11:38:53Z",
   "trade_date": "2026-08-27",
   "display_symbol": "EUR/AUD",
   "symbol": "EURAUD",
@@ -5190,7 +5190,7 @@
       "date": "2026-08-27",
       "open": 1.6246,
       "high": 1.6264,
-      "low": 1.622,
+      "low": 1.6211,
       "close": 1.6226,
       "sma_9": 1.6312,
       "sma_20": 1.63417,
@@ -5203,21 +5203,21 @@
       "bb_upper": 1.64525,
       "bb_middle": 1.63417,
       "bb_lower": 1.62308,
-      "stoch_k": 10.383623,
-      "stoch_d": 16.563869
+      "stoch_k": 11.62121,
+      "stoch_d": 16.976398
     }
   ],
   "latest_state": {
     "rsi_14": 38.738756,
-    "stoch_k": 10.383623,
-    "stoch_d": 16.563869,
+    "stoch_k": 11.62121,
+    "stoch_d": 16.976398,
     "macd": -0.002808,
     "macd_signal": -0.00171,
     "macd_hist": -0.001098,
-    "atr_14": 0.007646,
+    "atr_14": 0.007711,
     "bb_width_vs_6mo_low_pct": 15.9,
     "donchian_high_20": 1.6509,
-    "donchian_low_20": 1.622,
+    "donchian_low_20": 1.6211,
     "high_52w": 1.8165,
     "low_52w": 1.611
   },
@@ -5225,8 +5225,6 @@
     "bb_breakout_down",
     "lh_ll",
     "lower_lows_3",
-    "nr4",
-    "nr7",
     "sma200_below",
     "sma20_below",
     "sma50_below",
@@ -5234,6 +5232,6 @@
     "sma9_below",
     "stoch_oversold"
   ],
-  "scan_count": 11,
+  "scan_count": 9,
   "composites_matched": []
 }
