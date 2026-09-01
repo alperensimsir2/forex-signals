@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-01T01:55:14Z",
+  "generated_at": "2026-09-01T06:23:40Z",
   "trade_date": "2026-09-01",
   "display_symbol": "EUR/CHF",
   "symbol": "EURCHF",
@@ -5189,7 +5189,7 @@
     {
       "date": "2026-09-01",
       "open": 0.939,
-      "high": 0.9396,
+      "high": 0.9399,
       "low": 0.939,
       "close": 0.9394,
       "sma_9": 0.93713,
@@ -5214,7 +5214,7 @@
     "macd": 0.001712,
     "macd_signal": 0.001833,
     "macd_hist": -0.000122,
-    "atr_14": 0.003629,
+    "atr_14": 0.003651,
     "bb_width_vs_6mo_low_pct": 27.0,
     "donchian_high_20": 0.9412,
     "donchian_low_20": 0.9298,

@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-01T01:55:14Z",
+  "generated_at": "2026-09-01T06:23:40Z",
   "trade_date": "2026-09-01",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-09-01",
       "open": 1.3857,
-      "high": 1.3859,
+      "high": 1.387,
       "low": 1.3846,
-      "close": 1.3848,
-      "sma_9": 1.38611,
-      "sma_20": 1.38687,
-      "sma_50": 1.3993,
-      "sma_200": 1.38421,
-      "rsi_14": 41.760216,
-      "macd": -0.003543,
-      "macd_signal": -0.00454,
-      "macd_hist": 0.000997,
-      "bb_upper": 1.39676,
-      "bb_middle": 1.38687,
-      "bb_lower": 1.37699,
-      "stoch_k": 73.878205,
-      "stoch_d": 74.848608
+      "close": 1.3863,
+      "sma_9": 1.38628,
+      "sma_20": 1.38695,
+      "sma_50": 1.39933,
+      "sma_200": 1.38422,
+      "rsi_14": 43.777688,
+      "macd": -0.003423,
+      "macd_signal": -0.004516,
+      "macd_hist": 0.001092,
+      "bb_upper": 1.39679,
+      "bb_middle": 1.38695,
+      "bb_lower": 1.37711,
+      "stoch_k": 76.625458,
+      "stoch_d": 75.764359
     }
   ],
   "latest_state": {
-    "rsi_14": 41.760216,
-    "stoch_k": 73.878205,
-    "stoch_d": 74.848608,
-    "macd": -0.003543,
-    "macd_signal": -0.00454,
-    "macd_hist": 0.000997,
-    "atr_14": 0.004884,
+    "rsi_14": 43.777688,
+    "stoch_k": 76.625458,
+    "stoch_d": 75.764359,
+    "macd": -0.003423,
+    "macd_signal": -0.004516,
+    "macd_hist": 0.001092,
+    "atr_14": 0.004962,
     "bb_width_vs_6mo_low_pct": 16.7,
     "donchian_high_20": 1.3964,
     "donchian_low_20": 1.3729,
@@ -5222,6 +5222,7 @@
     "low_52w": 1.3479
   },
   "scan_ids": [
+    "bullish_harami",
     "lh_ll",
     "lower_lows_3",
     "sma200_above",
@@ -5230,6 +5231,6 @@
     "sma50_falling",
     "sma9_near"
   ],
-  "scan_count": 7,
+  "scan_count": 8,
   "composites_matched": []
 }
