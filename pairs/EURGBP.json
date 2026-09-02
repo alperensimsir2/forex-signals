@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-02T01:09:35Z",
+  "generated_at": "2026-09-02T06:03:13Z",
   "trade_date": "2026-09-02",
   "display_symbol": "EUR/GBP",
   "symbol": "EURGBP",
@@ -5190,7 +5190,7 @@
       "date": "2026-09-02",
       "open": 0.8576,
       "high": 0.8578,
-      "low": 0.8575,
+      "low": 0.8569,
       "close": 0.8575,
       "sma_9": 0.8565,
       "sma_20": 0.85591,
@@ -5214,7 +5214,7 @@
     "macd": 0.00043,
     "macd_signal": 0.000265,
     "macd_hist": 0.000165,
-    "atr_14": 0.002302,
+    "atr_14": 0.002344,
     "bb_width_vs_6mo_low_pct": 19.0,
     "donchian_high_20": 0.8587,
     "donchian_low_20": 0.8522,
@@ -5222,11 +5222,9 @@
     "low_52w": 0.8452
   },
   "scan_ids": [
-    "atr_contraction",
     "bearish_harami",
     "nr4",
     "nr7",
-    "shooting_star",
     "sma200_below",
     "sma20_near",
     "sma50_near",
@@ -5235,6 +5233,6 @@
     "stoch_overbought",
     "tweezer_top"
   ],
-  "scan_count": 12,
+  "scan_count": 10,
   "composites_matched": []
 }

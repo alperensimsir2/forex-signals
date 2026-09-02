@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-02T01:09:35Z",
+  "generated_at": "2026-09-02T06:03:13Z",
   "trade_date": "2026-09-02",
   "display_symbol": "EUR/CHF",
   "symbol": "EURCHF",
@@ -5189,7 +5189,7 @@
     {
       "date": "2026-09-02",
       "open": 0.9407,
-      "high": 0.9412,
+      "high": 0.9416,
       "low": 0.9407,
       "close": 0.9409,
       "sma_9": 0.93791,
@@ -5214,7 +5214,7 @@
     "macd": 0.00198,
     "macd_signal": 0.001883,
     "macd_hist": 9.7e-05,
-    "atr_14": 0.003684,
+    "atr_14": 0.003713,
     "bb_width_vs_6mo_low_pct": 34.1,
     "donchian_high_20": 0.9419,
     "donchian_low_20": 0.9298,
@@ -5223,9 +5223,11 @@
   },
   "scan_ids": [
     "inside_day",
+    "inverted_hammer",
     "macd_bull_cross",
     "nr4",
     "nr7",
+    "shooting_star",
     "sma200_above",
     "sma20_near",
     "sma50_above",
@@ -5233,6 +5235,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 10,
+  "scan_count": 12,
   "composites_matched": []
 }
