@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-01T06:23:40Z",
-  "trade_date": "2026-09-01",
+  "generated_at": "2026-09-02T01:09:35Z",
+  "trade_date": "2026-09-02",
   "display_symbol": "NZD/CHF",
   "symbol": "NZDCHF",
   "category": "cross",
@@ -5189,8 +5189,8 @@
     {
       "date": "2026-09-01",
       "open": 0.4779,
-      "high": 0.479,
-      "low": 0.4779,
+      "high": 0.4796,
+      "low": 0.4768,
       "close": 0.4782,
       "sma_9": 0.47844,
       "sma_20": 0.47774,
@@ -5214,7 +5214,7 @@
     "macd": 0.001304,
     "macd_signal": 0.00156,
     "macd_hist": -0.000256,
-    "atr_14": 0.002563,
+    "atr_14": 0.002684,
     "bb_width_vs_6mo_low_pct": 0.8,
     "donchian_high_20": 0.4802,
     "donchian_low_20": 0.4719,
@@ -5222,19 +5222,16 @@
     "low_52w": 0.447
   },
   "scan_ids": [
-    "atr_contraction",
     "bb_squeeze",
-    "inverted_hammer",
-    "nr4",
-    "nr7",
-    "shooting_star",
+    "higher_highs_3",
+    "lower_lows_3",
+    "outside_day",
     "sma200_above",
     "sma20_near",
     "sma50_above",
     "sma50_rising",
-    "sma9_near",
-    "tweezer_top"
+    "sma9_near"
   ],
-  "scan_count": 12,
+  "scan_count": 9,
   "composites_matched": []
 }
