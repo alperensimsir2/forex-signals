@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-09T01:19:37Z",
+  "generated_at": "2026-09-09T06:12:09Z",
   "trade_date": "2026-09-09",
   "display_symbol": "CAD/CHF",
   "symbol": "CADCHF",
@@ -5189,7 +5189,7 @@
     {
       "date": "2026-09-09",
       "open": 0.5873,
-      "high": 0.5873,
+      "high": 0.5874,
       "low": 0.5868,
       "close": 0.5868,
       "sma_9": 0.58547,
@@ -5214,7 +5214,7 @@
     "macd": 0.001841,
     "macd_signal": 0.00155,
     "macd_hist": 0.00029,
-    "atr_14": 0.002701,
+    "atr_14": 0.002708,
     "bb_width_vs_6mo_low_pct": 67.5,
     "donchian_high_20": 0.5882,
     "donchian_low_20": 0.5767,
@@ -5225,7 +5225,6 @@
     "atr_contraction",
     "bearish_harami",
     "inside_day",
-    "marubozu_bearish",
     "nr4",
     "nr7",
     "sma200_above",
@@ -5235,6 +5234,6 @@
     "sma9_near",
     "stoch_overbought"
   ],
-  "scan_count": 12,
+  "scan_count": 11,
   "composites_matched": []
 }

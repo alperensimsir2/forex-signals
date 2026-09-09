@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-09T01:19:37Z",
+  "generated_at": "2026-09-09T06:12:09Z",
   "trade_date": "2026-09-09",
   "display_symbol": "EUR/JPY",
   "symbol": "EURJPY",
@@ -5191,29 +5191,29 @@
       "open": 178.847,
       "high": 178.977,
       "low": 178.253,
-      "close": 178.681,
-      "sma_9": 182.455,
-      "sma_20": 184.177,
-      "sma_50": 184.31,
-      "sma_200": 184.478,
-      "rsi_14": 20.084088,
-      "macd": -1.192096,
-      "macd_signal": -0.419224,
-      "macd_hist": -0.772872,
-      "bb_upper": 189.057,
-      "bb_middle": 184.177,
-      "bb_lower": 179.297,
-      "stoch_k": 18.211311,
-      "stoch_d": 19.177964
+      "close": 178.306,
+      "sma_9": 182.413,
+      "sma_20": 184.158,
+      "sma_50": 184.302,
+      "sma_200": 184.476,
+      "rsi_14": 19.250659,
+      "macd": -1.22201,
+      "macd_signal": -0.425207,
+      "macd_hist": -0.796803,
+      "bb_upper": 189.129,
+      "bb_middle": 184.158,
+      "bb_lower": 179.187,
+      "stoch_k": 16.682072,
+      "stoch_d": 18.668218
     }
   ],
   "latest_state": {
-    "rsi_14": 20.084088,
-    "stoch_k": 18.211311,
-    "stoch_d": 19.177964,
-    "macd": -1.192096,
-    "macd_signal": -0.419224,
-    "macd_hist": -0.772872,
+    "rsi_14": 19.250659,
+    "stoch_k": 16.682072,
+    "stoch_d": 18.668218,
+    "macd": -1.22201,
+    "macd_signal": -0.425207,
+    "macd_hist": -0.796803,
     "atr_14": 1.436908,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 186.04,
@@ -5224,8 +5224,6 @@
   "scan_ids": [
     "atr_expansion",
     "bb_breakout_down",
-    "composite_oversold_reversal",
-    "hammer",
     "inside_day",
     "rsi_oversold",
     "sma200_below",
@@ -5236,8 +5234,6 @@
     "sma9_extended_below",
     "stoch_oversold"
   ],
-  "scan_count": 13,
-  "composites_matched": [
-    "composite_oversold_reversal"
-  ]
+  "scan_count": 11,
+  "composites_matched": []
 }
