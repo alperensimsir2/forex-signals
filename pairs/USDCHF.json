@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-11T01:15:41Z",
+  "generated_at": "2026-09-11T06:15:14Z",
   "trade_date": "2026-09-11",
   "display_symbol": "USD/CHF",
   "symbol": "USDCHF",
@@ -5189,8 +5189,8 @@
     {
       "date": "2026-09-11",
       "open": 0.8127,
-      "high": 0.8134,
-      "low": 0.8127,
+      "high": 0.8141,
+      "low": 0.8125,
       "close": 0.8127,
       "sma_9": 0.81027,
       "sma_20": 0.80733,
@@ -5214,7 +5214,7 @@
     "macd": 0.000943,
     "macd_signal": 0.000306,
     "macd_hist": 0.000637,
-    "atr_14": 0.004581,
+    "atr_14": 0.004645,
     "bb_width_vs_6mo_low_pct": 31.7,
     "donchian_high_20": 0.8156,
     "donchian_low_20": 0.7947,
@@ -5224,16 +5224,13 @@
   "scan_ids": [
     "doji",
     "inside_day",
-    "inverted_hammer",
     "nr4",
-    "nr7",
-    "shooting_star",
     "sma200_above",
     "sma20_above",
     "sma50_near",
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 11,
+  "scan_count": 8,
   "composites_matched": []
 }
