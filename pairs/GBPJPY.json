@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-15T01:37:36Z",
+  "generated_at": "2026-09-15T06:18:14Z",
   "trade_date": "2026-09-15",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
@@ -5189,44 +5189,44 @@
     {
       "date": "2026-09-15",
       "open": 208.34,
-      "high": 208.65,
+      "high": 208.85,
       "low": 208.27,
-      "close": 208.57,
-      "sma_9": 208.559,
-      "sma_20": 212.33,
-      "sma_50": 214.269,
-      "sma_200": 213.476,
-      "rsi_14": 31.117672,
-      "macd": -2.075998,
-      "macd_signal": -1.655879,
-      "macd_hist": -0.420119,
-      "bb_upper": 220.203,
-      "bb_middle": 212.33,
-      "bb_lower": 204.458,
-      "stoch_k": 11.587256,
-      "stoch_d": 9.555436
+      "close": 208.77,
+      "sma_9": 208.581,
+      "sma_20": 212.341,
+      "sma_50": 214.273,
+      "sma_200": 213.477,
+      "rsi_14": 32.524313,
+      "macd": -2.060044,
+      "macd_signal": -1.652688,
+      "macd_hist": -0.407356,
+      "bb_upper": 220.193,
+      "bb_middle": 212.341,
+      "bb_lower": 204.488,
+      "stoch_k": 12.266142,
+      "stoch_d": 9.781732
     }
   ],
   "latest_state": {
-    "rsi_14": 31.117672,
-    "stoch_k": 11.587256,
-    "stoch_d": 9.555436,
-    "macd": -2.075998,
-    "macd_signal": -1.655879,
-    "macd_hist": -0.420119,
-    "atr_14": 1.293672,
-    "bb_width_vs_6mo_low_pct": 100.0,
+    "rsi_14": 32.524313,
+    "stoch_k": 12.266142,
+    "stoch_d": 9.781732,
+    "macd": -2.060044,
+    "macd_signal": -1.652688,
+    "macd_hist": -0.407356,
+    "atr_14": 1.307958,
+    "bb_width_vs_6mo_low_pct": 99.2,
     "donchian_high_20": 217.46,
     "donchian_low_20": 207.02,
     "high_52w": 219.6,
     "low_52w": 204.92
   },
   "scan_ids": [
-    "composite_oversold_reversal",
-    "inside_day",
+    "hh_hl",
+    "higher_highs_3",
     "pullback_3bar_downtrend",
     "sma200_below",
-    "sma20_extended_below",
+    "sma20_below",
     "sma50_below",
     "sma50_falling",
     "sma9_near",
@@ -5234,7 +5234,5 @@
     "stoch_oversold_turning_up"
   ],
   "scan_count": 10,
-  "composites_matched": [
-    "composite_oversold_reversal"
-  ]
+  "composites_matched": []
 }
