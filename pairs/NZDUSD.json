@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-16T01:29:53Z",
+  "generated_at": "2026-09-16T06:17:46Z",
   "trade_date": "2026-09-16",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
@@ -5190,7 +5190,7 @@
       "date": "2026-09-16",
       "open": 0.5766,
       "high": 0.5766,
-      "low": 0.5748,
+      "low": 0.5737,
       "close": 0.5748,
       "sma_9": 0.58083,
       "sma_20": 0.58635,
@@ -5203,29 +5203,27 @@
       "bb_upper": 0.5992,
       "bb_middle": 0.58635,
       "bb_lower": 0.5735,
-      "stoch_k": 6.486475,
-      "stoch_d": 9.01282
+      "stoch_k": 8.406196,
+      "stoch_d": 9.652727
     }
   ],
   "latest_state": {
     "rsi_14": 28.253091,
-    "stoch_k": 6.486475,
-    "stoch_d": 9.01282,
+    "stoch_k": 8.406196,
+    "stoch_d": 9.652727,
     "macd": -0.003315,
     "macd_signal": -0.001738,
     "macd_hist": -0.001577,
-    "atr_14": 0.00387,
+    "atr_14": 0.003949,
     "bb_width_vs_6mo_low_pct": 86.5,
     "donchian_high_20": 0.5982,
-    "donchian_low_20": 0.5748,
+    "donchian_low_20": 0.5737,
     "high_52w": 0.6093,
     "low_52w": 0.5628
   },
   "scan_ids": [
-    "donchian_low_20",
     "lh_ll",
     "lower_lows_3",
-    "marubozu_bearish",
     "rsi_oversold",
     "sma200_below",
     "sma20_cross_below_sma50",
@@ -5233,9 +5231,8 @@
     "sma50_below",
     "sma50_falling",
     "sma9_below",
-    "stoch_oversold",
-    "tweezer_bottom"
+    "stoch_oversold"
   ],
-  "scan_count": 13,
+  "scan_count": 10,
   "composites_matched": []
 }
