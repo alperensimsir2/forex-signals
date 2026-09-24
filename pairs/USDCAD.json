@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-24T01:32:06Z",
+  "generated_at": "2026-09-24T06:21:35Z",
   "trade_date": "2026-09-24",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -5189,41 +5189,42 @@
     {
       "date": "2026-09-24",
       "open": 1.41,
-      "high": 1.4109,
+      "high": 1.4113,
       "low": 1.409,
-      "close": 1.4109,
-      "sma_9": 1.4021,
-      "sma_20": 1.3919,
-      "sma_50": 1.39183,
+      "close": 1.4102,
+      "sma_9": 1.40202,
+      "sma_20": 1.39187,
+      "sma_50": 1.39182,
       "sma_200": 1.38595,
-      "rsi_14": 73.209042,
-      "macd": 0.005132,
-      "macd_signal": 0.002381,
-      "macd_hist": 0.00275,
-      "bb_upper": 1.41312,
-      "bb_middle": 1.3919,
-      "bb_lower": 1.37068,
-      "stoch_k": 97.495019,
-      "stoch_d": 96.194223
+      "rsi_14": 72.569916,
+      "macd": 0.005076,
+      "macd_signal": 0.00237,
+      "macd_hist": 0.002706,
+      "bb_upper": 1.41296,
+      "bb_middle": 1.39187,
+      "bb_lower": 1.37077,
+      "stoch_k": 96.4474,
+      "stoch_d": 95.845017
     }
   ],
   "latest_state": {
-    "rsi_14": 73.209042,
-    "stoch_k": 97.495019,
-    "stoch_d": 96.194223,
-    "macd": 0.005132,
-    "macd_signal": 0.002381,
-    "macd_hist": 0.00275,
-    "atr_14": 0.004847,
+    "rsi_14": 72.569916,
+    "stoch_k": 96.4474,
+    "stoch_d": 95.845017,
+    "macd": 0.005076,
+    "macd_signal": 0.00237,
+    "macd_hist": 0.002706,
+    "atr_14": 0.004876,
     "bb_width_vs_6mo_low_pct": 92.9,
-    "donchian_high_20": 1.4109,
+    "donchian_high_20": 1.4113,
     "donchian_low_20": 1.3757,
     "high_52w": 1.4248,
     "low_52w": 1.3479
   },
   "scan_ids": [
-    "composite_failed_breakout",
-    "donchian_high_20",
+    "doji",
+    "hh_hl",
+    "higher_highs_3",
     "nr4",
     "rsi_overbought",
     "sma200_above",
@@ -5232,11 +5233,8 @@
     "sma50_above",
     "sma50_falling",
     "sma9_above",
-    "stoch_overbought",
-    "tweezer_top"
+    "stoch_overbought"
   ],
   "scan_count": 12,
-  "composites_matched": [
-    "composite_failed_breakout"
-  ]
+  "composites_matched": []
 }
