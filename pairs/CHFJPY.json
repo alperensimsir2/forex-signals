@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-25T06:16:33Z",
+  "generated_at": "2026-09-26T01:45:19Z",
   "trade_date": "2026-09-25",
   "display_symbol": "CHF/JPY",
   "symbol": "CHFJPY",
@@ -5190,31 +5190,31 @@
       "date": "2026-09-25",
       "open": 191.81,
       "high": 191.97,
-      "low": 190.75,
-      "close": 190.75,
-      "sma_9": 190.833,
-      "sma_20": 190.523,
-      "sma_50": 194.21,
-      "sma_200": 199.556,
-      "rsi_14": 41.828435,
-      "macd": -1.02884,
-      "macd_signal": -1.475782,
-      "macd_hist": 0.446941,
-      "bb_upper": 193.563,
-      "bb_middle": 190.523,
-      "bb_lower": 187.484,
-      "stoch_k": 81.652432,
-      "stoch_d": 83.456839
+      "low": 189.29,
+      "close": 189.74,
+      "sma_9": 190.721,
+      "sma_20": 190.473,
+      "sma_50": 194.189,
+      "sma_200": 199.551,
+      "rsi_14": 37.707206,
+      "macd": -1.10941,
+      "macd_signal": -1.491896,
+      "macd_hist": 0.382486,
+      "bb_upper": 193.53,
+      "bb_middle": 190.473,
+      "bb_lower": 187.416,
+      "stoch_k": 74.878455,
+      "stoch_d": 81.198846
     }
   ],
   "latest_state": {
-    "rsi_14": 41.828435,
-    "stoch_k": 81.652432,
-    "stoch_d": 83.456839,
-    "macd": -1.02884,
-    "macd_signal": -1.475782,
-    "macd_hist": 0.446941,
-    "atr_14": 1.313901,
+    "rsi_14": 37.707206,
+    "stoch_k": 74.878455,
+    "stoch_d": 81.198846,
+    "macd": -1.10941,
+    "macd_signal": -1.491896,
+    "macd_hist": 0.382486,
+    "atr_14": 1.418187,
     "bb_width_vs_6mo_low_pct": 72.2,
     "donchian_high_20": 195.55,
     "donchian_low_20": 187.5,
@@ -5222,21 +5222,17 @@
     "low_52w": 187.5
   },
   "scan_ids": [
-    "composite_trend_pullback_short",
     "evening_star",
     "lh_ll",
     "lower_lows_3",
+    "price_cross_below_sma20",
     "sma200_below",
     "sma20_near",
     "sma50_below",
     "sma50_falling",
-    "sma9_cross_above_sma20",
-    "sma9_near",
-    "stoch_overbought",
-    "stoch_overbought_turning_down"
+    "sma9_below",
+    "sma9_cross_above_sma20"
   ],
-  "scan_count": 12,
-  "composites_matched": [
-    "composite_trend_pullback_short"
-  ]
+  "scan_count": 10,
+  "composites_matched": []
 }

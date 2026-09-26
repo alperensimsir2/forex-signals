@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-25T06:16:33Z",
+  "generated_at": "2026-09-26T01:45:19Z",
   "trade_date": "2026-09-25",
   "display_symbol": "AUD/CHF",
   "symbol": "AUDCHF",
@@ -5189,8 +5189,8 @@
     {
       "date": "2026-09-25",
       "open": 0.5803,
-      "high": 0.5817,
-      "low": 0.5801,
+      "high": 0.5832,
+      "low": 0.5796,
       "close": 0.5816,
       "sma_9": 0.58354,
       "sma_20": 0.58347,
@@ -5214,7 +5214,7 @@
     "macd": 0.001287,
     "macd_signal": 0.002138,
     "macd_hist": -0.000851,
-    "atr_14": 0.003454,
+    "atr_14": 0.003597,
     "bb_width_vs_6mo_low_pct": 11.9,
     "donchian_high_20": 0.5882,
     "donchian_low_20": 0.5787,
@@ -5224,9 +5224,7 @@
   "scan_ids": [
     "bullish_engulfing",
     "composite_trend_pullback_long",
-    "inside_day",
-    "nr4",
-    "nr7",
+    "hh_hl",
     "rsi_cross_above_50",
     "sma200_above",
     "sma20_near",
@@ -5234,7 +5232,7 @@
     "sma50_rising",
     "sma9_below"
   ],
-  "scan_count": 11,
+  "scan_count": 9,
   "composites_matched": [
     "composite_trend_pullback_long"
   ]
