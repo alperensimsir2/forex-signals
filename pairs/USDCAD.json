@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-09-30T02:13:24Z",
+  "generated_at": "2026-09-30T06:57:18Z",
   "trade_date": "2026-09-30",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -5189,7 +5189,7 @@
     {
       "date": "2026-09-30",
       "open": 1.4188,
-      "high": 1.4194,
+      "high": 1.4199,
       "low": 1.4182,
       "close": 1.4192,
       "sma_9": 1.41302,
@@ -5214,7 +5214,7 @@
     "macd": 0.007818,
     "macd_signal": 0.00561,
     "macd_hist": 0.002208,
-    "atr_14": 0.004368,
+    "atr_14": 0.004404,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 1.4201,
     "donchian_low_20": 1.3757,
@@ -5224,16 +5224,15 @@
   "scan_ids": [
     "atr_contraction",
     "inside_day",
-    "nr4",
-    "nr7",
     "rsi_overbought",
     "sma200_above",
     "sma20_above",
     "sma50_above",
     "sma50_rising",
     "sma9_above",
-    "stoch_overbought"
+    "stoch_overbought",
+    "tweezer_top"
   ],
-  "scan_count": 11,
+  "scan_count": 10,
   "composites_matched": []
 }
