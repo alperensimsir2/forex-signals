@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-02T02:22:12Z",
+  "generated_at": "2026-10-02T07:10:27Z",
   "trade_date": "2026-10-02",
   "display_symbol": "NZD/JPY",
   "symbol": "NZDJPY",
@@ -5191,31 +5191,31 @@
       "open": 88.69,
       "high": 88.78,
       "low": 88.28,
-      "close": 88.37,
-      "sma_9": 89.034,
-      "sma_20": 89.303,
-      "sma_50": 91.781,
-      "sma_200": 92.757,
-      "rsi_14": 26.20311,
-      "macd": -0.866388,
-      "macd_signal": -0.893761,
-      "macd_hist": 0.027373,
-      "bb_upper": 90.286,
-      "bb_middle": 89.303,
-      "bb_lower": 88.32,
-      "stoch_k": 18.157772,
-      "stoch_d": 18.376343
+      "close": 88.59,
+      "sma_9": 89.058,
+      "sma_20": 89.314,
+      "sma_50": 91.785,
+      "sma_200": 92.759,
+      "rsi_14": 27.823331,
+      "macd": -0.848838,
+      "macd_signal": -0.890251,
+      "macd_hist": 0.041413,
+      "bb_upper": 90.257,
+      "bb_middle": 89.314,
+      "bb_lower": 88.371,
+      "stoch_k": 21.163237,
+      "stoch_d": 19.378164
     }
   ],
   "latest_state": {
-    "rsi_14": 26.20311,
-    "stoch_k": 18.157772,
-    "stoch_d": 18.376343,
-    "macd": -0.866388,
-    "macd_signal": -0.893761,
-    "macd_hist": 0.027373,
+    "rsi_14": 27.823331,
+    "stoch_k": 21.163237,
+    "stoch_d": 19.378164,
+    "macd": -0.848838,
+    "macd_signal": -0.890251,
+    "macd_hist": 0.041413,
     "atr_14": 0.721437,
-    "bb_width_vs_6mo_low_pct": 9.5,
+    "bb_width_vs_6mo_low_pct": 7.9,
     "donchian_high_20": 90.53,
     "donchian_low_20": 88.09,
     "high_52w": 95.42,
@@ -5223,6 +5223,8 @@
   },
   "scan_ids": [
     "bearish_engulfing",
+    "composite_oversold_reversal",
+    "hammer",
     "inside_day",
     "nr4",
     "rsi_oversold",
@@ -5230,9 +5232,10 @@
     "sma20_below",
     "sma50_extended_below",
     "sma50_falling",
-    "sma9_below",
-    "stoch_oversold"
+    "sma9_below"
   ],
-  "scan_count": 10,
-  "composites_matched": []
+  "scan_count": 11,
+  "composites_matched": [
+    "composite_oversold_reversal"
+  ]
 }

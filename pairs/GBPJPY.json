@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-02T02:22:12Z",
+  "generated_at": "2026-10-02T07:10:27Z",
   "trade_date": "2026-10-02",
   "display_symbol": "GBP/JPY",
   "symbol": "GBPJPY",
@@ -5191,29 +5191,29 @@
       "open": 208.62,
       "high": 208.67,
       "low": 208.19,
-      "close": 208.46,
-      "sma_9": 208.748,
-      "sma_20": 208.891,
-      "sma_50": 212.236,
+      "close": 208.51,
+      "sma_9": 208.754,
+      "sma_20": 208.893,
+      "sma_50": 212.237,
       "sma_200": 213.248,
-      "rsi_14": 40.501853,
-      "macd": -0.985881,
-      "macd_signal": -1.138403,
-      "macd_hist": 0.152522,
+      "rsi_14": 40.741897,
+      "macd": -0.981893,
+      "macd_signal": -1.137606,
+      "macd_hist": 0.155713,
       "bb_upper": 210.595,
-      "bb_middle": 208.891,
-      "bb_lower": 207.186,
-      "stoch_k": 41.704036,
-      "stoch_d": 38.386044
+      "bb_middle": 208.893,
+      "bb_lower": 207.191,
+      "stoch_k": 42.077728,
+      "stoch_d": 38.510608
     }
   ],
   "latest_state": {
-    "rsi_14": 40.501853,
-    "stoch_k": 41.704036,
-    "stoch_d": 38.386044,
-    "macd": -0.985881,
-    "macd_signal": -1.138403,
-    "macd_hist": 0.152522,
+    "rsi_14": 40.741897,
+    "stoch_k": 42.077728,
+    "stoch_d": 38.510608,
+    "macd": -0.981893,
+    "macd_signal": -1.137606,
+    "macd_hist": 0.155713,
     "atr_14": 1.380821,
     "bb_width_vs_6mo_low_pct": 23.0,
     "donchian_high_20": 211.26,
@@ -5222,6 +5222,7 @@
     "low_52w": 206.68
   },
   "scan_ids": [
+    "hammer",
     "inside_day",
     "nr4",
     "sma200_below",
@@ -5231,6 +5232,6 @@
     "sma9_cross_below_sma20",
     "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 9,
   "composites_matched": []
 }
