@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-02T07:10:27Z",
-  "trade_date": "2026-10-02",
+  "generated_at": "2026-10-03T02:09:18Z",
+  "trade_date": "2026-10-03",
   "display_symbol": "NZD/JPY",
   "symbol": "NZDJPY",
   "category": "cross",
@@ -5190,31 +5190,31 @@
       "date": "2026-10-02",
       "open": 88.69,
       "high": 88.78,
-      "low": 88.28,
-      "close": 88.59,
-      "sma_9": 89.058,
-      "sma_20": 89.314,
-      "sma_50": 91.785,
+      "low": 88.22,
+      "close": 88.68,
+      "sma_9": 89.068,
+      "sma_20": 89.319,
+      "sma_50": 91.787,
       "sma_200": 92.759,
-      "rsi_14": 27.823331,
-      "macd": -0.848838,
-      "macd_signal": -0.890251,
-      "macd_hist": 0.041413,
-      "bb_upper": 90.257,
-      "bb_middle": 89.314,
-      "bb_lower": 88.371,
-      "stoch_k": 21.163237,
-      "stoch_d": 19.378164
+      "rsi_14": 29.26295,
+      "macd": -0.841659,
+      "macd_signal": -0.888815,
+      "macd_hist": 0.047156,
+      "bb_upper": 90.248,
+      "bb_middle": 89.319,
+      "bb_lower": 88.389,
+      "stoch_k": 22.392745,
+      "stoch_d": 19.788
     }
   ],
   "latest_state": {
-    "rsi_14": 27.823331,
-    "stoch_k": 21.163237,
-    "stoch_d": 19.378164,
-    "macd": -0.848838,
-    "macd_signal": -0.890251,
-    "macd_hist": 0.041413,
-    "atr_14": 0.721437,
+    "rsi_14": 29.26295,
+    "stoch_k": 22.392745,
+    "stoch_d": 19.788,
+    "macd": -0.841659,
+    "macd_signal": -0.888815,
+    "macd_hist": 0.047156,
+    "atr_14": 0.725722,
     "bb_width_vs_6mo_low_pct": 7.9,
     "donchian_high_20": 90.53,
     "donchian_low_20": 88.09,
@@ -5222,9 +5222,7 @@
     "low_52w": 88.09
   },
   "scan_ids": [
-    "bearish_engulfing",
-    "composite_oversold_reversal",
-    "hammer",
+    "doji",
     "inside_day",
     "nr4",
     "rsi_oversold",
@@ -5234,8 +5232,6 @@
     "sma50_falling",
     "sma9_below"
   ],
-  "scan_count": 11,
-  "composites_matched": [
-    "composite_oversold_reversal"
-  ]
+  "scan_count": 9,
+  "composites_matched": []
 }
