@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-06T03:10:25Z",
+  "generated_at": "2026-10-06T07:44:16Z",
   "trade_date": "2026-10-06",
   "display_symbol": "EUR/GBP",
   "symbol": "EURGBP",
@@ -5191,29 +5191,29 @@
       "open": 0.8485,
       "high": 0.8492,
       "low": 0.8485,
-      "close": 0.8486,
-      "sma_9": 0.85306,
+      "close": 0.8485,
+      "sma_9": 0.85304,
       "sma_20": 0.85575,
       "sma_50": 0.85633,
       "sma_200": 0.86214,
-      "rsi_14": 28.168129,
-      "macd": -0.002028,
-      "macd_signal": -0.000863,
-      "macd_hist": -0.001165,
-      "bb_upper": 0.8636,
+      "rsi_14": 27.995005,
+      "macd": -0.002036,
+      "macd_signal": -0.000864,
+      "macd_hist": -0.001171,
+      "bb_upper": 0.86361,
       "bb_middle": 0.85575,
-      "bb_lower": 0.84791,
-      "stoch_k": 17.51777,
-      "stoch_d": 14.588396
+      "bb_lower": 0.84789,
+      "stoch_k": 17.312009,
+      "stoch_d": 14.519809
     }
   ],
   "latest_state": {
-    "rsi_14": 28.168129,
-    "stoch_k": 17.51777,
-    "stoch_d": 14.588396,
-    "macd": -0.002028,
-    "macd_signal": -0.000863,
-    "macd_hist": -0.001165,
+    "rsi_14": 27.995005,
+    "stoch_k": 17.312009,
+    "stoch_d": 14.519809,
+    "macd": -0.002036,
+    "macd_signal": -0.000864,
+    "macd_hist": -0.001171,
     "atr_14": 0.002663,
     "bb_width_vs_6mo_low_pct": 89.7,
     "donchian_high_20": 0.8616,
@@ -5222,6 +5222,7 @@
     "low_52w": 0.8452
   },
   "scan_ids": [
+    "doji",
     "inside_day",
     "inverted_hammer",
     "rsi_oversold",
@@ -5233,6 +5234,6 @@
     "sma9_below",
     "stoch_oversold"
   ],
-  "scan_count": 10,
+  "scan_count": 11,
   "composites_matched": []
 }

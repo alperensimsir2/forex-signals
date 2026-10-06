@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-06T03:10:25Z",
+  "generated_at": "2026-10-06T07:44:16Z",
   "trade_date": "2026-10-06",
   "display_symbol": "EUR/NZD",
   "symbol": "EURNZD",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-10-06",
       "open": 2.00189,
-      "high": 2.00461,
+      "high": 2.00473,
       "low": 2.00078,
-      "close": 2.0021600723267,
-      "sma_9": 2.00663,
-      "sma_20": 2.0071,
-      "sma_50": 1.98762,
+      "close": 2.0033700466156,
+      "sma_9": 2.00676,
+      "sma_20": 2.00716,
+      "sma_50": 1.98764,
       "sma_200": 1.98547,
-      "rsi_14": 51.107826,
-      "macd": 0.003872,
-      "macd_signal": 0.006156,
-      "macd_hist": -0.002284,
-      "bb_upper": 2.01597,
-      "bb_middle": 2.0071,
-      "bb_lower": 1.99823,
-      "stoch_k": 38.255622,
-      "stoch_d": 41.160572
+      "rsi_14": 52.595972,
+      "macd": 0.003968,
+      "macd_signal": 0.006176,
+      "macd_hist": -0.002207,
+      "bb_upper": 2.0159,
+      "bb_middle": 2.00716,
+      "bb_lower": 1.99842,
+      "stoch_k": 40.334628,
+      "stoch_d": 41.853574
     }
   ],
   "latest_state": {
-    "rsi_14": 51.107826,
-    "stoch_k": 38.255622,
-    "stoch_d": 41.160572,
-    "macd": 0.003872,
-    "macd_signal": 0.006156,
-    "macd_hist": -0.002284,
-    "atr_14": 0.009154,
+    "rsi_14": 52.595972,
+    "stoch_k": 40.334628,
+    "stoch_d": 41.853574,
+    "macd": 0.003968,
+    "macd_signal": 0.006176,
+    "macd_hist": -0.002207,
+    "atr_14": 0.009163,
     "bb_width_vs_6mo_low_pct": 3.2,
     "donchian_high_20": 2.0161,
     "donchian_low_20": 1.9939,
@@ -5222,7 +5222,6 @@
     "low_52w": 1.9435
   },
   "scan_ids": [
-    "doji",
     "inside_day",
     "pullback_3bar_uptrend",
     "sma200_above",
@@ -5232,6 +5231,6 @@
     "sma9_cross_below_sma20",
     "sma9_near"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }
