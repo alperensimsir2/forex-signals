@@ -1,31 +1,11 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-07T07:25:27Z",
-  "trade_date": "2026-10-07",
+  "generated_at": "2026-10-08T02:47:33Z",
+  "trade_date": "2026-10-08",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2026-01-14",
-      "open": 0.5739,
-      "high": 0.5756,
-      "low": 0.5732,
-      "close": 0.5739,
-      "sma_9": 0.57553,
-      "sma_20": 0.5778,
-      "sma_50": 0.57723,
-      "sma_200": 0.58371,
-      "rsi_14": 42.970176,
-      "macd": -0.000957,
-      "macd_signal": -0.000421,
-      "macd_hist": -0.000536,
-      "bb_upper": 0.5847,
-      "bb_middle": 0.5778,
-      "bb_lower": 0.57089,
-      "stoch_k": 35.185185,
-      "stoch_d": 27.379944
-    },
     {
       "date": "2026-01-15",
       "open": 0.5743,
@@ -5205,27 +5185,46 @@
       "bb_lower": 0.55709,
       "stoch_k": 19.646227,
       "stoch_d": 17.791493
+    },
+    {
+      "date": "2026-10-07",
+      "open": 0.56227,
+      "high": 0.56245,
+      "low": 0.55845,
+      "close": 0.56002,
+      "sma_9": 0.56161,
+      "sma_20": 0.56562,
+      "sma_50": 0.57898,
+      "sma_200": 0.58165,
+      "rsi_14": 29.888548,
+      "macd": -0.005041,
+      "macd_signal": -0.00526,
+      "macd_hist": 0.00022,
+      "bb_upper": 0.57459,
+      "bb_middle": 0.56562,
+      "bb_lower": 0.55664,
+      "stoch_k": 19.693351,
+      "stoch_d": 18.368624
     }
   ],
   "latest_state": {
-    "rsi_14": 33.283713,
-    "stoch_k": 19.646227,
-    "stoch_d": 17.791493,
-    "macd": -0.005129,
-    "macd_signal": -0.005315,
-    "macd_hist": 0.000186,
-    "atr_14": 0.00374,
-    "bb_width_vs_6mo_low_pct": 42.1,
+    "rsi_14": 29.888548,
+    "stoch_k": 19.693351,
+    "stoch_d": 18.368624,
+    "macd": -0.005041,
+    "macd_signal": -0.00526,
+    "macd_hist": 0.00022,
+    "atr_14": 0.003759,
+    "bb_width_vs_6mo_low_pct": 38.1,
     "donchian_high_20": 0.57592,
     "donchian_low_20": 0.55793,
     "high_52w": 0.6093,
     "low_52w": 0.55793
   },
   "scan_ids": [
-    "bullish_engulfing",
-    "composite_oversold_reversal",
-    "hh_hl",
-    "macd_bull_cross",
+    "bearish_harami",
+    "lh_ll",
+    "rsi_oversold",
     "sma200_below",
     "sma20_below",
     "sma50_extended_below",
@@ -5233,8 +5232,6 @@
     "sma9_near",
     "stoch_oversold"
   ],
-  "scan_count": 10,
-  "composites_matched": [
-    "composite_oversold_reversal"
-  ]
+  "scan_count": 9,
+  "composites_matched": []
 }
