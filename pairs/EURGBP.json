@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-13T03:41:30Z",
+  "generated_at": "2026-10-13T07:55:22Z",
   "trade_date": "2026-10-13",
   "display_symbol": "EUR/GBP",
   "symbol": "EURGBP",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-10-13",
       "open": 0.8442,
-      "high": 0.8451,
+      "high": 0.8455,
       "low": 0.844,
-      "close": 0.8449,
-      "sma_9": 0.84695,
-      "sma_20": 0.85242,
-      "sma_50": 0.8553,
+      "close": 0.8452,
+      "sma_9": 0.84698,
+      "sma_20": 0.85243,
+      "sma_50": 0.85531,
       "sma_200": 0.86132,
-      "rsi_14": 24.092028,
-      "macd": -0.003294,
-      "macd_signal": -0.002432,
-      "macd_hist": -0.000862,
-      "bb_upper": 0.86407,
-      "bb_middle": 0.85242,
-      "bb_lower": 0.84076,
-      "stoch_k": 4.134367,
-      "stoch_d": 7.113121
+      "rsi_14": 25.652172,
+      "macd": -0.00327,
+      "macd_signal": -0.002428,
+      "macd_hist": -0.000843,
+      "bb_upper": 0.86405,
+      "bb_middle": 0.85243,
+      "bb_lower": 0.84081,
+      "stoch_k": 4.751651,
+      "stoch_d": 7.318882
     }
   ],
   "latest_state": {
-    "rsi_14": 24.092028,
-    "stoch_k": 4.134367,
-    "stoch_d": 7.113121,
-    "macd": -0.003294,
-    "macd_signal": -0.002432,
-    "macd_hist": -0.000862,
-    "atr_14": 0.002606,
+    "rsi_14": 25.652172,
+    "stoch_k": 4.751651,
+    "stoch_d": 7.318882,
+    "macd": -0.00327,
+    "macd_signal": -0.002428,
+    "macd_hist": -0.000843,
+    "atr_14": 0.002634,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 0.8616,
     "donchian_low_20": 0.844,
@@ -5222,8 +5222,6 @@
     "low_52w": 0.844
   },
   "scan_ids": [
-    "nr4",
-    "nr7",
     "rsi_oversold",
     "sma200_below",
     "sma20_below",
@@ -5233,6 +5231,6 @@
     "stoch_oversold",
     "tweezer_bottom"
   ],
-  "scan_count": 10,
+  "scan_count": 8,
   "composites_matched": []
 }
