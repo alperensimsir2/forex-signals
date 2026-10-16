@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3.1",
-  "generated_at": "2026-10-16T01:32:22Z",
+  "generated_at": "2026-10-16T06:01:04Z",
   "trade_date": "2026-10-16",
   "universe_size": 28,
   "threshold_notes": "SMA bands from pooled (close-SMA)/SMA % over all cached bars: SMA9/20/50 inner=p40 |distance| (hugging ends), outer=p88 tail (stretched); SMA200 modest=p50 / extended=p88 on positive side (mirrored below); no near band.",
@@ -81,7 +81,7 @@
       "category": "momentum",
       "lean": "bullish",
       "pairs": [
-        "USD/CHF"
+        "NZD/CAD"
       ],
       "match_count": 1,
       "low_information": false
@@ -158,9 +158,10 @@
       "category": "macd",
       "lean": "bearish",
       "pairs": [
-        "AUD/CAD"
+        "AUD/CAD",
+        "USD/JPY"
       ],
-      "match_count": 1,
+      "match_count": 2,
       "low_information": false
     },
     {
@@ -189,28 +190,24 @@
       "category": "trend",
       "lean": "neutral",
       "pairs": [
-        "AUD/USD",
         "CAD/CHF",
         "CAD/JPY",
+        "CHF/JPY",
         "EUR/CAD",
         "EUR/CHF",
         "EUR/GBP",
         "EUR/JPY",
-        "EUR/NZD",
         "EUR/USD",
         "GBP/CAD",
         "GBP/CHF",
         "GBP/JPY",
         "GBP/NZD",
         "GBP/USD",
-        "NZD/CAD",
         "NZD/CHF",
-        "NZD/JPY",
         "NZD/USD",
-        "USD/CAD",
         "USD/JPY"
       ],
-      "match_count": 20,
+      "match_count": 16,
       "low_information": false
     },
     {
@@ -219,11 +216,12 @@
       "category": "trend",
       "lean": "bullish",
       "pairs": [
-        "CHF/JPY",
         "EUR/AUD",
-        "GBP/AUD"
+        "GBP/AUD",
+        "NZD/CAD",
+        "NZD/JPY"
       ],
-      "match_count": 3,
+      "match_count": 4,
       "low_information": false
     },
     {
@@ -245,9 +243,12 @@
         "AUD/CHF",
         "AUD/JPY",
         "AUD/NZD",
+        "AUD/USD",
+        "EUR/NZD",
+        "USD/CAD",
         "USD/CHF"
       ],
-      "match_count": 5,
+      "match_count": 8,
       "low_information": false
     },
     {
@@ -265,13 +266,13 @@
       "category": "trend",
       "lean": "neutral",
       "pairs": [
-        "AUD/USD",
+        "AUD/JPY",
         "CAD/CHF",
         "CAD/JPY",
         "CHF/JPY",
         "EUR/AUD",
         "EUR/JPY",
-        "EUR/NZD",
+        "EUR/USD",
         "GBP/CAD",
         "GBP/CHF",
         "GBP/JPY",
@@ -316,12 +317,12 @@
       "pairs": [
         "AUD/CAD",
         "AUD/CHF",
-        "AUD/JPY",
         "AUD/NZD",
+        "AUD/USD",
         "EUR/CAD",
         "EUR/CHF",
         "EUR/GBP",
-        "EUR/USD"
+        "EUR/NZD"
       ],
       "match_count": 8,
       "low_information": false
@@ -343,16 +344,18 @@
       "pairs": [
         "AUD/NZD",
         "CAD/CHF",
-        "CAD/JPY",
         "CHF/JPY",
         "EUR/AUD",
         "EUR/NZD",
         "GBP/CAD",
         "GBP/CHF",
         "GBP/JPY",
+        "GBP/NZD",
+        "GBP/USD",
+        "NZD/CAD",
         "USD/JPY"
       ],
-      "match_count": 10,
+      "match_count": 12,
       "low_information": false
     },
     {
@@ -362,11 +365,10 @@
       "lean": "bullish",
       "pairs": [
         "GBP/AUD",
-        "GBP/NZD",
         "USD/CAD",
         "USD/CHF"
       ],
-      "match_count": 4,
+      "match_count": 3,
       "low_information": false
     },
     {
@@ -388,18 +390,17 @@
         "AUD/CHF",
         "AUD/JPY",
         "AUD/USD",
+        "CAD/JPY",
         "EUR/CAD",
         "EUR/CHF",
         "EUR/GBP",
         "EUR/JPY",
         "EUR/USD",
-        "GBP/USD",
-        "NZD/CAD",
         "NZD/CHF",
         "NZD/JPY",
         "NZD/USD"
       ],
-      "match_count": 14,
+      "match_count": 13,
       "low_information": false
     },
     {
@@ -421,11 +422,11 @@
         "AUD/NZD",
         "CAD/CHF",
         "EUR/CHF",
-        "EUR/NZD",
         "GBP/AUD",
         "GBP/CAD",
         "GBP/CHF",
         "GBP/NZD",
+        "NZD/CHF",
         "USD/CAD",
         "USD/CHF"
       ],
@@ -456,11 +457,11 @@
         "EUR/CAD",
         "EUR/GBP",
         "EUR/JPY",
+        "EUR/NZD",
         "EUR/USD",
         "GBP/JPY",
         "GBP/USD",
         "NZD/CAD",
-        "NZD/CHF",
         "NZD/JPY",
         "NZD/USD",
         "USD/JPY"
@@ -493,11 +494,9 @@
       "name": "SMA 9 crossed below SMA 20",
       "category": "trend",
       "lean": "bearish",
-      "pairs": [
-        "AUD/JPY"
-      ],
-      "match_count": 1,
-      "low_information": false
+      "pairs": [],
+      "match_count": 0,
+      "low_information": true
     },
     {
       "scan_id": "sma20_cross_above_sma50",
@@ -544,9 +543,12 @@
       "lean": "bullish",
       "pairs": [
         "GBP/USD",
-        "NZD/JPY"
+        "NZD/CAD",
+        "NZD/CHF",
+        "NZD/JPY",
+        "NZD/USD"
       ],
-      "match_count": 2,
+      "match_count": 5,
       "low_information": false
     },
     {
@@ -555,9 +557,11 @@
       "category": "trend",
       "lean": "bearish",
       "pairs": [
-        "AUD/USD"
+        "AUD/USD",
+        "GBP/NZD",
+        "USD/JPY"
       ],
-      "match_count": 1,
+      "match_count": 3,
       "low_information": false
     },
     {
@@ -577,10 +581,11 @@
       "category": "trend",
       "lean": "bearish",
       "pairs": [
+        "AUD/NZD",
         "EUR/AUD",
         "EUR/NZD"
       ],
-      "match_count": 2,
+      "match_count": 3,
       "low_information": false
     },
     {
@@ -588,9 +593,11 @@
       "name": "Price crossed above SMA 200",
       "category": "trend",
       "lean": "bullish",
-      "pairs": [],
-      "match_count": 0,
-      "low_information": true
+      "pairs": [
+        "NZD/CHF"
+      ],
+      "match_count": 1,
+      "low_information": false
     },
     {
       "scan_id": "price_cross_below_sma200",
@@ -599,7 +606,7 @@
       "lean": "bearish",
       "pairs": [
         "AUD/CAD",
-        "NZD/CHF"
+        "EUR/NZD"
       ],
       "match_count": 2,
       "low_information": false
@@ -678,10 +685,9 @@
       "category": "volatility",
       "lean": "neutral",
       "pairs": [
-        "NZD/CAD",
         "NZD/JPY"
       ],
-      "match_count": 2,
+      "match_count": 1,
       "low_information": false
     },
     {
@@ -700,9 +706,10 @@
       "lean": "bearish",
       "pairs": [
         "AUD/CAD",
-        "AUD/CHF"
+        "AUD/NZD",
+        "EUR/NZD"
       ],
-      "match_count": 2,
+      "match_count": 3,
       "low_information": false
     },
     {
@@ -714,9 +721,10 @@
         "AUD/CAD",
         "EUR/AUD",
         "EUR/USD",
-        "GBP/USD"
+        "GBP/AUD",
+        "USD/CAD"
       ],
-      "match_count": 4,
+      "match_count": 5,
       "low_information": false
     },
     {
@@ -729,10 +737,9 @@
         "CHF/JPY",
         "EUR/JPY",
         "EUR/NZD",
-        "NZD/JPY",
         "USD/JPY"
       ],
-      "match_count": 6,
+      "match_count": 5,
       "low_information": false
     },
     {
@@ -749,9 +756,11 @@
       "name": "New 20-day low (Donchian)",
       "category": "volatility",
       "lean": "bearish",
-      "pairs": [],
-      "match_count": 0,
-      "low_information": true
+      "pairs": [
+        "AUD/NZD"
+      ],
+      "match_count": 1,
+      "low_information": false
     },
     {
       "scan_id": "high_52w",
@@ -780,25 +789,20 @@
         "AUD/CAD",
         "AUD/CHF",
         "AUD/JPY",
-        "AUD/NZD",
         "CAD/CHF",
         "CAD/JPY",
         "CHF/JPY",
         "EUR/AUD",
         "EUR/CAD",
         "EUR/CHF",
-        "EUR/GBP",
         "GBP/AUD",
-        "GBP/CAD",
         "GBP/CHF",
-        "GBP/JPY",
-        "GBP/NZD",
-        "GBP/USD",
+        "NZD/CHF",
         "USD/CAD",
         "USD/CHF",
         "USD/JPY"
       ],
-      "match_count": 20,
+      "match_count": 15,
       "low_information": false
     },
     {
@@ -806,12 +810,9 @@
       "name": "Outside day",
       "category": "volatility",
       "lean": "neutral",
-      "pairs": [
-        "EUR/USD",
-        "NZD/USD"
-      ],
-      "match_count": 2,
-      "low_information": false
+      "pairs": [],
+      "match_count": 0,
+      "low_information": true
     },
     {
       "scan_id": "nr4",
@@ -819,20 +820,16 @@
       "category": "volatility",
       "lean": "neutral",
       "pairs": [
-        "AUD/CAD",
         "AUD/CHF",
         "AUD/JPY",
         "AUD/NZD",
-        "AUD/USD",
         "CAD/CHF",
         "CAD/JPY",
         "CHF/JPY",
-        "EUR/AUD",
         "EUR/CAD",
         "EUR/CHF",
         "EUR/GBP",
         "EUR/JPY",
-        "EUR/NZD",
         "GBP/AUD",
         "GBP/CAD",
         "GBP/CHF",
@@ -843,7 +840,7 @@
         "USD/CHF",
         "USD/JPY"
       ],
-      "match_count": 23,
+      "match_count": 19,
       "low_information": false
     },
     {
@@ -852,12 +849,9 @@
       "category": "volatility",
       "lean": "neutral",
       "pairs": [
-        "EUR/AUD",
-        "EUR/GBP",
-        "GBP/AUD",
         "USD/CHF"
       ],
-      "match_count": 4,
+      "match_count": 1,
       "low_information": false
     },
     {
@@ -865,9 +859,14 @@
       "name": "Higher highs (3 bars)",
       "category": "price_action",
       "lean": "bullish",
-      "pairs": [],
-      "match_count": 0,
-      "low_information": true
+      "pairs": [
+        "EUR/USD",
+        "GBP/USD",
+        "NZD/CAD",
+        "NZD/USD"
+      ],
+      "match_count": 4,
+      "low_information": false
     },
     {
       "scan_id": "lower_lows_3",
@@ -875,9 +874,10 @@
       "category": "price_action",
       "lean": "bearish",
       "pairs": [
-        "NZD/USD"
+        "AUD/NZD",
+        "GBP/NZD"
       ],
-      "match_count": 1,
+      "match_count": 2,
       "low_information": false
     },
     {
@@ -887,10 +887,15 @@
       "lean": "bullish",
       "pairs": [
         "EUR/JPY",
+        "EUR/USD",
+        "GBP/CAD",
+        "GBP/JPY",
+        "GBP/USD",
         "NZD/CAD",
-        "NZD/JPY"
+        "NZD/JPY",
+        "NZD/USD"
       ],
-      "match_count": 3,
+      "match_count": 8,
       "low_information": false
     },
     {
@@ -899,11 +904,13 @@
       "category": "price_action",
       "lean": "bearish",
       "pairs": [
+        "AUD/NZD",
         "AUD/USD",
+        "EUR/GBP",
         "EUR/NZD",
-        "NZD/CHF"
+        "GBP/NZD"
       ],
-      "match_count": 3,
+      "match_count": 5,
       "low_information": false
     },
     {
@@ -912,9 +919,10 @@
       "category": "price_action",
       "lean": "bullish",
       "pairs": [
-        "AUD/NZD"
+        "USD/CAD",
+        "USD/JPY"
       ],
-      "match_count": 1,
+      "match_count": 2,
       "low_information": false
     },
     {
@@ -923,8 +931,8 @@
       "category": "price_action",
       "lean": "bearish",
       "pairs": [
-        "CAD/JPY",
         "GBP/JPY",
+        "NZD/CAD",
         "NZD/JPY"
       ],
       "match_count": 3,
@@ -972,12 +980,9 @@
       "category": "price_action",
       "lean": "neutral",
       "pairs": [
-        "EUR/CAD",
-        "EUR/USD",
-        "GBP/AUD",
-        "NZD/USD"
+        "EUR/JPY"
       ],
-      "match_count": 4,
+      "match_count": 1,
       "low_information": false,
       "detection_threshold": 0.1
     },
@@ -997,10 +1002,9 @@
       "category": "price_action",
       "lean": "bullish",
       "pairs": [
-        "EUR/CAD",
-        "GBP/CAD"
+        "EUR/CAD"
       ],
-      "match_count": 2,
+      "match_count": 1,
       "low_information": false,
       "detection_threshold": 2.0
     },
@@ -1010,13 +1014,10 @@
       "category": "price_action",
       "lean": "bearish",
       "pairs": [
-        "CHF/JPY",
-        "EUR/CAD",
-        "EUR/GBP",
-        "GBP/AUD",
-        "GBP/CAD"
+        "CAD/JPY",
+        "EUR/CAD"
       ],
-      "match_count": 5,
+      "match_count": 2,
       "low_information": false,
       "detection_threshold": 2.0
     },
@@ -1026,9 +1027,11 @@
       "category": "price_action",
       "lean": "bullish",
       "pairs": [
-        "NZD/CAD"
+        "GBP/USD",
+        "NZD/CHF",
+        "NZD/USD"
       ],
-      "match_count": 1,
+      "match_count": 3,
       "low_information": false,
       "detection_threshold": "prior bearish body engulfed by bullish candle"
     },
@@ -1037,11 +1040,9 @@
       "name": "Bearish engulfing",
       "category": "price_action",
       "lean": "bearish",
-      "pairs": [
-        "NZD/CHF"
-      ],
-      "match_count": 1,
-      "low_information": false,
+      "pairs": [],
+      "match_count": 0,
+      "low_information": true,
       "detection_threshold": "prior bullish body engulfed by bearish candle"
     },
     {
@@ -1050,9 +1051,10 @@
       "category": "price_action",
       "lean": "bullish",
       "pairs": [
-        "GBP/USD"
+        "AUD/CHF",
+        "NZD/CHF"
       ],
-      "match_count": 1,
+      "match_count": 2,
       "low_information": false,
       "detection_threshold": 0.7
     },
@@ -1062,7 +1064,7 @@
       "category": "price_action",
       "lean": "bearish",
       "pairs": [
-        "GBP/NZD"
+        "AUD/NZD"
       ],
       "match_count": 1,
       "low_information": false,
@@ -1073,11 +1075,9 @@
       "name": "Tweezer top (matched highs)",
       "category": "price_action",
       "lean": "bearish",
-      "pairs": [
-        "GBP/JPY"
-      ],
-      "match_count": 1,
-      "low_information": false,
+      "pairs": [],
+      "match_count": 0,
+      "low_information": true,
       "detection_threshold": 0.0002
     },
     {
@@ -1085,11 +1085,9 @@
       "name": "Tweezer bottom (matched lows)",
       "category": "price_action",
       "lean": "bullish",
-      "pairs": [
-        "NZD/CAD"
-      ],
-      "match_count": 1,
-      "low_information": false,
+      "pairs": [],
+      "match_count": 0,
+      "low_information": true,
       "detection_threshold": 0.0002
     },
     {
@@ -1098,10 +1096,9 @@
       "category": "price_action",
       "lean": "bullish",
       "pairs": [
-        "USD/CAD",
         "USD/CHF"
       ],
-      "match_count": 2,
+      "match_count": 1,
       "low_information": false,
       "detection_threshold": "today body inside prior bearish body"
     },
@@ -1111,8 +1108,8 @@
       "category": "price_action",
       "lean": "bearish",
       "pairs": [
+        "CAD/JPY",
         "CHF/JPY",
-        "EUR/USD",
         "GBP/AUD"
       ],
       "match_count": 3,
@@ -1125,9 +1122,10 @@
       "category": "price_action",
       "lean": "bullish",
       "pairs": [
-        "CAD/JPY"
+        "EUR/CAD",
+        "NZD/CAD"
       ],
-      "match_count": 1,
+      "match_count": 2,
       "low_information": false,
       "detection_threshold": 0.35
     },
@@ -1139,10 +1137,9 @@
       "pairs": [
         "AUD/USD",
         "EUR/GBP",
-        "EUR/NZD",
-        "NZD/CHF"
+        "EUR/NZD"
       ],
-      "match_count": 4,
+      "match_count": 3,
       "low_information": false,
       "detection_threshold": 0.35
     },
@@ -1273,9 +1270,9 @@
       "display_symbol": "AUD/CAD",
       "symbol": "AUDCAD",
       "category": "cross",
-      "rate": 0.98254,
-      "change_pips": -90.5,
-      "change_pct": -0.91,
+      "rate": 0.9845,
+      "change_pips": -70.9,
+      "change_pct": -0.72,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "atr_expansion",
@@ -1284,7 +1281,6 @@
         "inside_day",
         "macd_bear_cross",
         "macd_zero_cross_down",
-        "nr4",
         "price_cross_below_sma200",
         "sma200_below",
         "sma20_below",
@@ -1292,19 +1288,19 @@
         "sma50_rising",
         "sma9_below"
       ],
-      "scan_count": 13
+      "scan_count": 12
     },
     {
       "display_symbol": "AUD/CHF",
       "symbol": "AUDCHF",
       "category": "cross",
-      "rate": 0.5728,
-      "change_pips": 6.5,
-      "change_pct": 0.11,
+      "rate": 0.5742,
+      "change_pips": 20.5,
+      "change_pct": 0.36,
       "rate_asof": "2026-10-16",
       "scan_ids": [
-        "bb_breakout_down",
         "inside_day",
+        "marubozu_bullish",
         "nr4",
         "sma200_above",
         "sma20_below",
@@ -1318,70 +1314,72 @@
       "display_symbol": "AUD/JPY",
       "symbol": "AUDJPY",
       "category": "cross",
-      "rate": 109.44,
-      "change_pips": 9.0,
-      "change_pct": 0.08,
+      "rate": 109.59,
+      "change_pips": 24.0,
+      "change_pct": 0.22,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "inside_day",
         "nr4",
         "sma200_below",
-        "sma20_below",
+        "sma20_near",
         "sma50_below",
         "sma50_falling",
-        "sma9_below",
-        "sma9_cross_below_sma20"
+        "sma9_below"
       ],
-      "scan_count": 8
+      "scan_count": 7
     },
     {
       "display_symbol": "AUD/NZD",
       "symbol": "AUDNZD",
       "category": "cross",
-      "rate": 1.2307,
-      "change_pips": -3.5,
-      "change_pct": -0.03,
+      "rate": 1.2282,
+      "change_pips": -28.5,
+      "change_pct": -0.23,
       "rate_asof": "2026-10-16",
       "scan_ids": [
-        "inside_day",
+        "bb_breakout_down",
+        "donchian_low_20",
+        "lh_ll",
+        "lower_lows_3",
+        "marubozu_bearish",
         "nr4",
-        "pullback_3bar_uptrend",
+        "price_cross_below_sma50",
         "sma200_above",
         "sma20_below",
         "sma50_near",
         "sma50_rising",
         "sma9_below"
       ],
-      "scan_count": 8
+      "scan_count": 12
     },
     {
       "display_symbol": "AUD/USD",
       "symbol": "AUDUSD",
       "category": "major",
-      "rate": 0.69534,
-      "change_pips": -24.3,
-      "change_pct": -0.35,
+      "rate": 0.69182,
+      "change_pips": -59.5,
+      "change_pct": -0.85,
       "rate_asof": "2026-10-15",
       "scan_ids": [
         "evening_star",
         "lh_ll",
-        "nr4",
         "price_cross_below_sma20",
         "sma200_below",
-        "sma20_near",
+        "sma20_below",
         "sma50_below",
         "sma50_falling",
-        "sma9_near"
+        "sma9_below"
       ],
-      "scan_count": 9
+      "scan_count": 8
     },
     {
       "display_symbol": "CAD/CHF",
       "symbol": "CADCHF",
       "category": "cross",
-      "rate": 0.5831,
-      "change_pips": 3.5,
-      "change_pct": 0.06,
+      "rate": 0.5832,
+      "change_pips": 4.5,
+      "change_pct": 0.08,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "inside_day",
@@ -1399,20 +1397,20 @@
       "display_symbol": "CAD/JPY",
       "symbol": "CADJPY",
       "category": "cross",
-      "rate": 111.41,
-      "change_pips": 3.5,
-      "change_pct": 0.03,
+      "rate": 111.29,
+      "change_pips": -8.5,
+      "change_pct": -0.08,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "atr_contraction",
+        "bearish_harami",
         "inside_day",
-        "morning_star",
         "nr4",
-        "pullback_3bar_downtrend",
+        "shooting_star",
         "sma200_below",
         "sma20_near",
+        "sma50_below",
         "sma50_falling",
-        "sma50_near",
         "sma9_cross_above_sma20",
         "sma9_near",
         "stoch_overbought"
@@ -1423,39 +1421,36 @@
       "display_symbol": "CHF/JPY",
       "symbol": "CHFJPY",
       "category": "cross",
-      "rate": 191.0,
-      "change_pips": -12.0,
-      "change_pct": -0.06,
+      "rate": 190.77,
+      "change_pips": -35.0,
+      "change_pct": -0.18,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "atr_contraction",
         "bearish_harami",
         "inside_day",
         "nr4",
-        "shooting_star",
         "sma200_below",
         "sma20_near",
         "sma50_falling",
         "sma50_near",
-        "sma9_above",
+        "sma9_near",
         "stoch_overbought"
       ],
-      "scan_count": 11
+      "scan_count": 10
     },
     {
       "display_symbol": "EUR/AUD",
       "symbol": "EURAUD",
       "category": "cross",
-      "rate": 1.6198,
-      "change_pips": -14.0,
-      "change_pct": -0.09,
+      "rate": 1.6167,
+      "change_pips": -45.0,
+      "change_pct": -0.28,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "atr_expansion",
         "inside_day",
         "macd_bull_cross",
-        "nr4",
-        "nr7",
         "price_cross_below_sma50",
         "sma200_below",
         "sma20_near",
@@ -1463,20 +1458,20 @@
         "sma50_near",
         "sma9_above"
       ],
-      "scan_count": 11
+      "scan_count": 9
     },
     {
       "display_symbol": "EUR/CAD",
       "symbol": "EURCAD",
       "category": "cross",
-      "rate": 1.591,
-      "change_pips": -8.0,
-      "change_pct": -0.05,
+      "rate": 1.5916,
+      "change_pips": -2.0,
+      "change_pct": -0.01,
       "rate_asof": "2026-10-16",
       "scan_ids": [
-        "doji",
         "inside_day",
         "inverted_hammer",
+        "morning_star",
         "nr4",
         "shooting_star",
         "sma200_below",
@@ -1493,9 +1488,9 @@
       "display_symbol": "EUR/CHF",
       "symbol": "EURCHF",
       "category": "cross",
-      "rate": 0.9279,
-      "change_pips": 3.0,
-      "change_pct": 0.03,
+      "rate": 0.9282,
+      "change_pips": 6.0,
+      "change_pct": 0.06,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "inside_day",
@@ -1513,17 +1508,15 @@
       "display_symbol": "EUR/GBP",
       "symbol": "EURGBP",
       "category": "cross",
-      "rate": 0.8445,
-      "change_pips": -7.0,
-      "change_pct": -0.08,
+      "rate": 0.8439,
+      "change_pips": -13.0,
+      "change_pct": -0.15,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "evening_star",
-        "inside_day",
+        "lh_ll",
         "nr4",
-        "nr7",
         "rsi_oversold",
-        "shooting_star",
         "sma200_below",
         "sma20_below",
         "sma50_below",
@@ -1531,20 +1524,65 @@
         "sma9_near",
         "stoch_oversold"
       ],
-      "scan_count": 12
+      "scan_count": 10
     },
     {
       "display_symbol": "EUR/JPY",
       "symbol": "EURJPY",
       "category": "cross",
-      "rate": 177.312,
-      "change_pips": 48.4,
-      "change_pct": 0.27,
+      "rate": 177.16,
+      "change_pips": 33.2,
+      "change_pct": 0.19,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "atr_contraction",
+        "doji",
         "hh_hl",
         "nr4",
+        "sma200_below",
+        "sma20_near",
+        "sma50_below",
+        "sma50_falling",
+        "sma9_near"
+      ],
+      "scan_count": 9
+    },
+    {
+      "display_symbol": "EUR/NZD",
+      "symbol": "EURNZD",
+      "category": "cross",
+      "rate": 1.9861,
+      "change_pips": -92.3,
+      "change_pct": -0.46,
+      "rate_asof": "2026-10-16",
+      "scan_ids": [
+        "atr_contraction",
+        "bb_breakout_down",
+        "evening_star",
+        "lh_ll",
+        "price_cross_below_sma200",
+        "price_cross_below_sma50",
+        "sma200_below",
+        "sma20_below",
+        "sma50_near",
+        "sma50_rising",
+        "sma9_below",
+        "stoch_oversold"
+      ],
+      "scan_count": 12
+    },
+    {
+      "display_symbol": "EUR/USD",
+      "symbol": "EURUSD",
+      "category": "major",
+      "rate": 1.12128,
+      "change_pips": 18.3,
+      "change_pct": 0.16,
+      "rate_asof": "2026-10-15",
+      "scan_ids": [
+        "atr_expansion",
+        "hh_hl",
+        "higher_highs_3",
         "sma200_below",
         "sma20_near",
         "sma50_below",
@@ -1554,100 +1592,52 @@
       "scan_count": 8
     },
     {
-      "display_symbol": "EUR/NZD",
-      "symbol": "EURNZD",
-      "category": "cross",
-      "rate": 1.99214,
-      "change_pips": -31.9,
-      "change_pct": -0.16,
-      "rate_asof": "2026-10-16",
-      "scan_ids": [
-        "atr_contraction",
-        "evening_star",
-        "lh_ll",
-        "nr4",
-        "price_cross_below_sma50",
-        "sma200_above",
-        "sma20_near",
-        "sma50_near",
-        "sma50_rising",
-        "sma9_near",
-        "stoch_oversold"
-      ],
-      "scan_count": 11
-    },
-    {
-      "display_symbol": "EUR/USD",
-      "symbol": "EURUSD",
-      "category": "major",
-      "rate": 1.11945,
-      "change_pips": -6.7,
-      "change_pct": -0.06,
-      "rate_asof": "2026-10-14",
-      "scan_ids": [
-        "atr_expansion",
-        "bearish_harami",
-        "doji",
-        "outside_day",
-        "sma200_below",
-        "sma20_below",
-        "sma50_below",
-        "sma50_falling",
-        "sma9_near"
-      ],
-      "scan_count": 9
-    },
-    {
       "display_symbol": "GBP/AUD",
       "symbol": "GBPAUD",
       "category": "cross",
-      "rate": 1.9168,
-      "change_pips": -14.0,
-      "change_pct": -0.07,
+      "rate": 1.9138,
+      "change_pips": -44.0,
+      "change_pct": -0.23,
       "rate_asof": "2026-10-16",
       "scan_ids": [
+        "atr_expansion",
         "bearish_harami",
-        "doji",
         "inside_day",
         "nr4",
-        "nr7",
-        "shooting_star",
         "sma200_above",
         "sma20_above",
         "sma50_above",
         "sma50_falling",
         "sma9_above"
       ],
-      "scan_count": 11
+      "scan_count": 9
     },
     {
       "display_symbol": "GBP/CAD",
       "symbol": "GBPCAD",
       "category": "cross",
-      "rate": 1.8829,
-      "change_pips": -5.0,
-      "change_pct": -0.03,
+      "rate": 1.8849,
+      "change_pips": 15.0,
+      "change_pct": 0.08,
       "rate_asof": "2026-10-16",
       "scan_ids": [
-        "inside_day",
-        "inverted_hammer",
+        "hh_hl",
         "nr4",
-        "shooting_star",
         "sma200_above",
         "sma20_near",
         "sma50_near",
         "sma50_rising",
         "sma9_near"
       ],
-      "scan_count": 9
+      "scan_count": 7
     },
     {
       "display_symbol": "GBP/CHF",
       "symbol": "GBPCHF",
       "category": "cross",
-      "rate": 1.0982,
-      "change_pips": 6.5,
-      "change_pct": 0.06,
+      "rate": 1.0993,
+      "change_pips": 17.5,
+      "change_pct": 0.16,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "inside_day",
@@ -1665,60 +1655,60 @@
       "display_symbol": "GBP/JPY",
       "symbol": "GBPJPY",
       "category": "cross",
-      "rate": 209.83,
-      "change_pips": 7.0,
-      "change_pct": 0.03,
+      "rate": 209.86,
+      "change_pips": 10.0,
+      "change_pct": 0.05,
       "rate_asof": "2026-10-16",
       "scan_ids": [
-        "inside_day",
+        "hh_hl",
         "nr4",
         "pullback_3bar_downtrend",
         "sma200_below",
         "sma20_near",
         "sma50_falling",
         "sma50_near",
-        "sma9_near",
-        "tweezer_top"
-      ],
-      "scan_count": 9
-    },
-    {
-      "display_symbol": "GBP/NZD",
-      "symbol": "GBPNZD",
-      "category": "cross",
-      "rate": 2.3582,
-      "change_pips": -31.0,
-      "change_pct": -0.13,
-      "rate_asof": "2026-10-16",
-      "scan_ids": [
-        "inside_day",
-        "marubozu_bearish",
-        "nr4",
-        "sma200_above",
-        "sma20_near",
-        "sma50_above",
-        "sma50_rising",
         "sma9_near"
       ],
       "scan_count": 8
     },
     {
+      "display_symbol": "GBP/NZD",
+      "symbol": "GBPNZD",
+      "category": "cross",
+      "rate": 2.3529,
+      "change_pips": -84.0,
+      "change_pct": -0.36,
+      "rate_asof": "2026-10-16",
+      "scan_ids": [
+        "lh_ll",
+        "lower_lows_3",
+        "nr4",
+        "price_cross_below_sma20",
+        "sma200_above",
+        "sma20_near",
+        "sma50_near",
+        "sma50_rising",
+        "sma9_near"
+      ],
+      "scan_count": 9
+    },
+    {
       "display_symbol": "GBP/USD",
       "symbol": "GBPUSD",
       "category": "major",
-      "rate": 1.32533,
-      "change_pips": 23.3,
-      "change_pct": 0.18,
+      "rate": 1.32715,
+      "change_pips": 41.5,
+      "change_pct": 0.31,
       "rate_asof": "2026-10-15",
       "scan_ids": [
-        "atr_expansion",
-        "inside_day",
-        "marubozu_bullish",
+        "bullish_engulfing",
+        "hh_hl",
+        "higher_highs_3",
         "price_cross_above_sma20",
         "sma200_below",
         "sma20_near",
-        "sma50_below",
         "sma50_falling",
+        "sma50_near",
         "sma9_near"
       ],
       "scan_count": 9
@@ -1727,54 +1717,56 @@
       "display_symbol": "NZD/CAD",
       "symbol": "NZDCAD",
       "category": "cross",
-      "rate": 0.7977,
-      "change_pips": 14.5,
-      "change_pct": 0.18,
-      "rate_asof": "2026-10-15",
+      "rate": 0.8012,
+      "change_pips": 36.5,
+      "change_pct": 0.46,
+      "rate_asof": "2026-10-16",
       "scan_ids": [
-        "bb_squeeze",
-        "bullish_engulfing",
         "hh_hl",
+        "higher_highs_3",
+        "morning_star",
+        "price_cross_above_sma20",
+        "pullback_3bar_downtrend",
+        "rsi_cross_above_50",
         "sma200_below",
         "sma20_near",
-        "sma50_below",
         "sma50_falling",
-        "sma9_near",
-        "tweezer_bottom"
+        "sma50_near",
+        "sma9_above"
       ],
-      "scan_count": 9
+      "scan_count": 11
     },
     {
       "display_symbol": "NZD/CHF",
       "symbol": "NZDCHF",
       "category": "cross",
-      "rate": 0.4653,
-      "change_pips": -16.0,
-      "change_pct": -0.34,
-      "rate_asof": "2026-10-15",
+      "rate": 0.4673,
+      "change_pips": 25.0,
+      "change_pct": 0.54,
+      "rate_asof": "2026-10-16",
       "scan_ids": [
-        "bearish_engulfing",
-        "evening_star",
-        "lh_ll",
-        "price_cross_below_sma200",
-        "sma200_below",
+        "bullish_engulfing",
+        "inside_day",
+        "marubozu_bullish",
+        "price_cross_above_sma20",
+        "price_cross_above_sma200",
+        "sma200_above",
         "sma20_near",
         "sma50_below",
         "sma50_falling",
         "sma9_near"
       ],
-      "scan_count": 9
+      "scan_count": 10
     },
     {
       "display_symbol": "NZD/JPY",
       "symbol": "NZDJPY",
       "category": "cross",
-      "rate": 88.9,
-      "change_pips": 7.5,
-      "change_pct": 0.08,
+      "rate": 89.2,
+      "change_pips": 37.5,
+      "change_pct": 0.42,
       "rate_asof": "2026-10-16",
       "scan_ids": [
-        "atr_contraction",
         "bb_squeeze",
         "hh_hl",
         "nr4",
@@ -1784,91 +1776,95 @@
         "sma20_near",
         "sma50_below",
         "sma50_falling",
-        "sma9_near"
+        "sma9_above"
       ],
-      "scan_count": 11
+      "scan_count": 10
     },
     {
       "display_symbol": "NZD/USD",
       "symbol": "NZDUSD",
       "category": "major",
-      "rate": 0.56083,
-      "change_pips": -5.3,
-      "change_pct": -0.09,
-      "rate_asof": "2026-10-14",
+      "rate": 0.56204,
+      "change_pips": 12.1,
+      "change_pct": 0.22,
+      "rate_asof": "2026-10-15",
       "scan_ids": [
-        "doji",
-        "lower_lows_3",
-        "outside_day",
+        "bullish_engulfing",
+        "hh_hl",
+        "higher_highs_3",
+        "price_cross_above_sma20",
         "sma200_below",
         "sma20_near",
         "sma50_below",
         "sma50_falling",
         "sma9_near"
       ],
-      "scan_count": 8
+      "scan_count": 9
     },
     {
       "display_symbol": "USD/CAD",
       "symbol": "USDCAD",
       "category": "major",
-      "rate": 1.4193,
-      "change_pips": 6.5,
-      "change_pct": 0.05,
+      "rate": 1.418,
+      "change_pips": -6.5,
+      "change_pct": -0.05,
       "rate_asof": "2026-10-16",
       "scan_ids": [
-        "bullish_harami",
+        "atr_expansion",
         "inside_day",
         "nr4",
-        "sma200_above",
-        "sma20_near",
-        "sma50_above",
-        "sma50_rising",
-        "sma9_near"
-      ],
-      "scan_count": 8
-    },
-    {
-      "display_symbol": "USD/CHF",
-      "symbol": "USDCHF",
-      "category": "major",
-      "rate": 0.8277,
-      "change_pips": 9.5,
-      "change_pct": 0.11,
-      "rate_asof": "2026-10-16",
-      "scan_ids": [
-        "bullish_harami",
-        "inside_day",
-        "nr4",
-        "nr7",
-        "rsi_cross_above_50",
+        "pullback_3bar_uptrend",
         "sma200_above",
         "sma20_near",
         "sma50_above",
         "sma50_rising",
         "sma9_below"
       ],
-      "scan_count": 10
+      "scan_count": 9
+    },
+    {
+      "display_symbol": "USD/CHF",
+      "symbol": "USDCHF",
+      "category": "major",
+      "rate": 0.827,
+      "change_pips": 2.5,
+      "change_pct": 0.03,
+      "rate_asof": "2026-10-16",
+      "scan_ids": [
+        "bullish_harami",
+        "inside_day",
+        "nr4",
+        "nr7",
+        "sma200_above",
+        "sma20_near",
+        "sma50_above",
+        "sma50_rising",
+        "sma9_below"
+      ],
+      "scan_count": 9
     },
     {
       "display_symbol": "USD/JPY",
       "symbol": "USDJPY",
       "category": "major",
-      "rate": 158.15,
-      "change_pips": 16.0,
-      "change_pct": 0.1,
+      "rate": 157.87,
+      "change_pips": -12.0,
+      "change_pct": -0.08,
       "rate_asof": "2026-10-16",
       "scan_ids": [
         "atr_contraction",
         "inside_day",
+        "macd_bear_cross",
         "nr4",
+        "price_cross_below_sma20",
+        "pullback_3bar_uptrend",
         "sma200_below",
         "sma20_near",
         "sma50_falling",
         "sma50_near",
         "sma9_near"
       ],
-      "scan_count": 8
+      "scan_count": 11
     }
   ],
   "currency_strength": {
@@ -1891,8 +1887,8 @@
     },
     "by_currency": {
       "AUD": {
-        "technical_strength_score": -4,
-        "technical_strength_normalized": -0.5714,
+        "technical_strength_score": -5,
+        "technical_strength_normalized": -0.7143,
         "pairs_involved": 7,
         "technical_strength_label": "weak",
         "contributions": [
@@ -1904,32 +1900,39 @@
             "bearish_scan_count": 9
           },
           {
-            "display_symbol": "AUD/CHF",
-            "pair_lean": "bearish",
-            "contribution": -1,
-            "bullish_scan_count": 2,
-            "bearish_scan_count": 4
-          },
-          {
             "display_symbol": "AUD/JPY",
             "pair_lean": "bearish",
             "contribution": -1,
             "bullish_scan_count": 0,
-            "bearish_scan_count": 6
+            "bearish_scan_count": 4
+          },
+          {
+            "display_symbol": "AUD/NZD",
+            "pair_lean": "bearish",
+            "contribution": -1,
+            "bullish_scan_count": 2,
+            "bearish_scan_count": 8
           },
           {
             "display_symbol": "AUD/USD",
             "pair_lean": "bearish",
             "contribution": -1,
             "bullish_scan_count": 0,
-            "bearish_scan_count": 6
+            "bearish_scan_count": 8
           },
           {
-            "display_symbol": "AUD/NZD",
+            "display_symbol": "GBP/AUD",
+            "pair_lean": "bullish",
+            "contribution": -1,
+            "bullish_scan_count": 4,
+            "bearish_scan_count": 2
+          },
+          {
+            "display_symbol": "AUD/CHF",
             "pair_lean": "mixed",
             "contribution": 0,
             "bullish_scan_count": 3,
-            "bearish_scan_count": 2
+            "bearish_scan_count": 3
           },
           {
             "display_symbol": "EUR/AUD",
@@ -1937,21 +1940,14 @@
             "contribution": 0,
             "bullish_scan_count": 2,
             "bearish_scan_count": 3
-          },
-          {
-            "display_symbol": "GBP/AUD",
-            "pair_lean": "mixed",
-            "contribution": 0,
-            "bullish_scan_count": 4,
-            "bearish_scan_count": 3
           }
         ]
       },
       "CAD": {
-        "technical_strength_score": -1,
-        "technical_strength_normalized": -0.1429,
+        "technical_strength_score": -3,
+        "technical_strength_normalized": -0.4286,
         "pairs_involved": 7,
-        "technical_strength_label": "neutral",
+        "technical_strength_label": "weak",
         "contributions": [
           {
             "display_symbol": "AUD/CAD",
@@ -1964,29 +1960,29 @@
             "display_symbol": "CAD/JPY",
             "pair_lean": "bearish",
             "contribution": -1,
-            "bullish_scan_count": 2,
-            "bearish_scan_count": 4
-          },
-          {
-            "display_symbol": "EUR/CAD",
-            "pair_lean": "bearish",
-            "contribution": 1,
-            "bullish_scan_count": 3,
-            "bearish_scan_count": 5
+            "bullish_scan_count": 1,
+            "bearish_scan_count": 6
           },
           {
             "display_symbol": "GBP/CAD",
             "pair_lean": "bullish",
             "contribution": -1,
             "bullish_scan_count": 3,
-            "bearish_scan_count": 1
+            "bearish_scan_count": 0
+          },
+          {
+            "display_symbol": "NZD/CAD",
+            "pair_lean": "bullish",
+            "contribution": -1,
+            "bullish_scan_count": 6,
+            "bearish_scan_count": 3
           },
           {
             "display_symbol": "USD/CAD",
             "pair_lean": "bullish",
             "contribution": -1,
             "bullish_scan_count": 4,
-            "bearish_scan_count": 0
+            "bearish_scan_count": 1
           },
           {
             "display_symbol": "CAD/CHF",
@@ -1996,33 +1992,26 @@
             "bearish_scan_count": 1
           },
           {
-            "display_symbol": "NZD/CAD",
+            "display_symbol": "EUR/CAD",
             "pair_lean": "mixed",
             "contribution": 0,
-            "bullish_scan_count": 3,
-            "bearish_scan_count": 3
+            "bullish_scan_count": 4,
+            "bearish_scan_count": 5
           }
         ]
       },
       "CHF": {
-        "technical_strength_score": -1,
-        "technical_strength_normalized": -0.1429,
+        "technical_strength_score": -4,
+        "technical_strength_normalized": -0.5714,
         "pairs_involved": 7,
-        "technical_strength_label": "neutral",
+        "technical_strength_label": "weak",
         "contributions": [
-          {
-            "display_symbol": "AUD/CHF",
-            "pair_lean": "bearish",
-            "contribution": 1,
-            "bullish_scan_count": 2,
-            "bearish_scan_count": 4
-          },
           {
             "display_symbol": "CHF/JPY",
             "pair_lean": "bearish",
             "contribution": -1,
-            "bullish_scan_count": 1,
-            "bearish_scan_count": 5
+            "bullish_scan_count": 0,
+            "bearish_scan_count": 4
           },
           {
             "display_symbol": "GBP/CHF",
@@ -2033,17 +2022,24 @@
           },
           {
             "display_symbol": "NZD/CHF",
-            "pair_lean": "bearish",
-            "contribution": 1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 7
+            "pair_lean": "bullish",
+            "contribution": -1,
+            "bullish_scan_count": 5,
+            "bearish_scan_count": 2
           },
           {
             "display_symbol": "USD/CHF",
             "pair_lean": "bullish",
             "contribution": -1,
-            "bullish_scan_count": 5,
+            "bullish_scan_count": 4,
             "bearish_scan_count": 1
+          },
+          {
+            "display_symbol": "AUD/CHF",
+            "pair_lean": "mixed",
+            "contribution": 0,
+            "bullish_scan_count": 3,
+            "bearish_scan_count": 3
           },
           {
             "display_symbol": "CAD/CHF",
@@ -2062,18 +2058,11 @@
         ]
       },
       "EUR": {
-        "technical_strength_score": -4,
-        "technical_strength_normalized": -0.5714,
+        "technical_strength_score": -3,
+        "technical_strength_normalized": -0.4286,
         "pairs_involved": 7,
         "technical_strength_label": "weak",
         "contributions": [
-          {
-            "display_symbol": "EUR/CAD",
-            "pair_lean": "bearish",
-            "contribution": -1,
-            "bullish_scan_count": 3,
-            "bearish_scan_count": 5
-          },
           {
             "display_symbol": "EUR/GBP",
             "pair_lean": "bearish",
@@ -2089,11 +2078,11 @@
             "bearish_scan_count": 3
           },
           {
-            "display_symbol": "EUR/USD",
+            "display_symbol": "EUR/NZD",
             "pair_lean": "bearish",
             "contribution": -1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 5
+            "bullish_scan_count": 2,
+            "bearish_scan_count": 8
           },
           {
             "display_symbol": "EUR/AUD",
@@ -2103,6 +2092,13 @@
             "bearish_scan_count": 3
           },
           {
+            "display_symbol": "EUR/CAD",
+            "pair_lean": "mixed",
+            "contribution": 0,
+            "bullish_scan_count": 4,
+            "bearish_scan_count": 5
+          },
+          {
             "display_symbol": "EUR/CHF",
             "pair_lean": "mixed",
             "contribution": 0,
@@ -2110,17 +2106,17 @@
             "bearish_scan_count": 3
           },
           {
-            "display_symbol": "EUR/NZD",
+            "display_symbol": "EUR/USD",
             "pair_lean": "mixed",
             "contribution": 0,
-            "bullish_scan_count": 3,
+            "bullish_scan_count": 2,
             "bearish_scan_count": 3
           }
         ]
       },
       "GBP": {
-        "technical_strength_score": 3,
-        "technical_strength_normalized": 0.4286,
+        "technical_strength_score": 4,
+        "technical_strength_normalized": 0.5714,
         "pairs_involved": 7,
         "technical_strength_label": "strong",
         "contributions": [
@@ -2132,11 +2128,18 @@
             "bearish_scan_count": 6
           },
           {
+            "display_symbol": "GBP/AUD",
+            "pair_lean": "bullish",
+            "contribution": 1,
+            "bullish_scan_count": 4,
+            "bearish_scan_count": 2
+          },
+          {
             "display_symbol": "GBP/CAD",
             "pair_lean": "bullish",
             "contribution": 1,
             "bullish_scan_count": 3,
-            "bearish_scan_count": 1
+            "bearish_scan_count": 0
           },
           {
             "display_symbol": "GBP/CHF",
@@ -2149,25 +2152,18 @@
             "display_symbol": "GBP/JPY",
             "pair_lean": "bearish",
             "contribution": -1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 4
-          },
-          {
-            "display_symbol": "GBP/NZD",
-            "pair_lean": "bullish",
-            "contribution": 1,
-            "bullish_scan_count": 3,
-            "bearish_scan_count": 1
-          },
-          {
-            "display_symbol": "GBP/AUD",
-            "pair_lean": "mixed",
-            "contribution": 0,
-            "bullish_scan_count": 4,
+            "bullish_scan_count": 1,
             "bearish_scan_count": 3
           },
           {
             "display_symbol": "GBP/USD",
+            "pair_lean": "bullish",
+            "contribution": 1,
+            "bullish_scan_count": 4,
+            "bearish_scan_count": 2
+          },
+          {
+            "display_symbol": "GBP/NZD",
             "pair_lean": "mixed",
             "contribution": 0,
             "bullish_scan_count": 2,
@@ -2176,8 +2172,8 @@
         ]
       },
       "JPY": {
-        "technical_strength_score": 7,
-        "technical_strength_normalized": 1.0,
+        "technical_strength_score": 6,
+        "technical_strength_normalized": 0.8571,
         "pairs_involved": 7,
         "technical_strength_label": "strong",
         "contributions": [
@@ -2186,21 +2182,21 @@
             "pair_lean": "bearish",
             "contribution": 1,
             "bullish_scan_count": 0,
-            "bearish_scan_count": 6
+            "bearish_scan_count": 4
           },
           {
             "display_symbol": "CAD/JPY",
             "pair_lean": "bearish",
             "contribution": 1,
-            "bullish_scan_count": 2,
-            "bearish_scan_count": 4
+            "bullish_scan_count": 1,
+            "bearish_scan_count": 6
           },
           {
             "display_symbol": "CHF/JPY",
             "pair_lean": "bearish",
             "contribution": 1,
-            "bullish_scan_count": 1,
-            "bearish_scan_count": 5
+            "bullish_scan_count": 0,
+            "bearish_scan_count": 4
           },
           {
             "display_symbol": "EUR/JPY",
@@ -2213,135 +2209,135 @@
             "display_symbol": "GBP/JPY",
             "pair_lean": "bearish",
             "contribution": 1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 4
-          },
-          {
-            "display_symbol": "NZD/JPY",
-            "pair_lean": "bearish",
-            "contribution": 1,
-            "bullish_scan_count": 2,
-            "bearish_scan_count": 4
+            "bullish_scan_count": 1,
+            "bearish_scan_count": 3
           },
           {
             "display_symbol": "USD/JPY",
             "pair_lean": "bearish",
             "contribution": 1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 2
+            "bullish_scan_count": 1,
+            "bearish_scan_count": 4
+          },
+          {
+            "display_symbol": "NZD/JPY",
+            "pair_lean": "mixed",
+            "contribution": 0,
+            "bullish_scan_count": 3,
+            "bearish_scan_count": 4
           }
         ]
       },
       "NZD": {
-        "technical_strength_score": -4,
-        "technical_strength_normalized": -0.5714,
-        "pairs_involved": 7,
-        "technical_strength_label": "weak",
-        "contributions": [
-          {
-            "display_symbol": "GBP/NZD",
-            "pair_lean": "bullish",
-            "contribution": -1,
-            "bullish_scan_count": 3,
-            "bearish_scan_count": 1
-          },
-          {
-            "display_symbol": "NZD/CHF",
-            "pair_lean": "bearish",
-            "contribution": -1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 7
-          },
-          {
-            "display_symbol": "NZD/JPY",
-            "pair_lean": "bearish",
-            "contribution": -1,
-            "bullish_scan_count": 2,
-            "bearish_scan_count": 4
-          },
-          {
-            "display_symbol": "NZD/USD",
-            "pair_lean": "bearish",
-            "contribution": -1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 4
-          },
-          {
-            "display_symbol": "AUD/NZD",
-            "pair_lean": "mixed",
-            "contribution": 0,
-            "bullish_scan_count": 3,
-            "bearish_scan_count": 2
-          },
-          {
-            "display_symbol": "EUR/NZD",
-            "pair_lean": "mixed",
-            "contribution": 0,
-            "bullish_scan_count": 3,
-            "bearish_scan_count": 3
-          },
-          {
-            "display_symbol": "NZD/CAD",
-            "pair_lean": "mixed",
-            "contribution": 0,
-            "bullish_scan_count": 3,
-            "bearish_scan_count": 3
-          }
-        ]
-      },
-      "USD": {
         "technical_strength_score": 4,
         "technical_strength_normalized": 0.5714,
         "pairs_involved": 7,
         "technical_strength_label": "strong",
         "contributions": [
           {
+            "display_symbol": "AUD/NZD",
+            "pair_lean": "bearish",
+            "contribution": 1,
+            "bullish_scan_count": 2,
+            "bearish_scan_count": 8
+          },
+          {
+            "display_symbol": "EUR/NZD",
+            "pair_lean": "bearish",
+            "contribution": 1,
+            "bullish_scan_count": 2,
+            "bearish_scan_count": 8
+          },
+          {
+            "display_symbol": "NZD/CAD",
+            "pair_lean": "bullish",
+            "contribution": 1,
+            "bullish_scan_count": 6,
+            "bearish_scan_count": 3
+          },
+          {
+            "display_symbol": "NZD/CHF",
+            "pair_lean": "bullish",
+            "contribution": 1,
+            "bullish_scan_count": 5,
+            "bearish_scan_count": 2
+          },
+          {
+            "display_symbol": "GBP/NZD",
+            "pair_lean": "mixed",
+            "contribution": 0,
+            "bullish_scan_count": 2,
+            "bearish_scan_count": 3
+          },
+          {
+            "display_symbol": "NZD/JPY",
+            "pair_lean": "mixed",
+            "contribution": 0,
+            "bullish_scan_count": 3,
+            "bearish_scan_count": 4
+          },
+          {
+            "display_symbol": "NZD/USD",
+            "pair_lean": "mixed",
+            "contribution": 0,
+            "bullish_scan_count": 4,
+            "bearish_scan_count": 3
+          }
+        ]
+      },
+      "USD": {
+        "technical_strength_score": 1,
+        "technical_strength_normalized": 0.1429,
+        "pairs_involved": 7,
+        "technical_strength_label": "neutral",
+        "contributions": [
+          {
             "display_symbol": "AUD/USD",
             "pair_lean": "bearish",
             "contribution": 1,
             "bullish_scan_count": 0,
-            "bearish_scan_count": 6
+            "bearish_scan_count": 8
           },
           {
-            "display_symbol": "EUR/USD",
-            "pair_lean": "bearish",
-            "contribution": 1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 5
-          },
-          {
-            "display_symbol": "NZD/USD",
-            "pair_lean": "bearish",
-            "contribution": 1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 4
+            "display_symbol": "GBP/USD",
+            "pair_lean": "bullish",
+            "contribution": -1,
+            "bullish_scan_count": 4,
+            "bearish_scan_count": 2
           },
           {
             "display_symbol": "USD/CAD",
             "pair_lean": "bullish",
             "contribution": 1,
             "bullish_scan_count": 4,
-            "bearish_scan_count": 0
+            "bearish_scan_count": 1
           },
           {
             "display_symbol": "USD/CHF",
             "pair_lean": "bullish",
             "contribution": 1,
-            "bullish_scan_count": 5,
+            "bullish_scan_count": 4,
             "bearish_scan_count": 1
           },
           {
             "display_symbol": "USD/JPY",
             "pair_lean": "bearish",
             "contribution": -1,
-            "bullish_scan_count": 0,
-            "bearish_scan_count": 2
+            "bullish_scan_count": 1,
+            "bearish_scan_count": 4
           },
           {
-            "display_symbol": "GBP/USD",
+            "display_symbol": "EUR/USD",
             "pair_lean": "mixed",
             "contribution": 0,
             "bullish_scan_count": 2,
+            "bearish_scan_count": 3
+          },
+          {
+            "display_symbol": "NZD/USD",
+            "pair_lean": "mixed",
+            "contribution": 0,
+            "bullish_scan_count": 4,
             "bearish_scan_count": 3
           }
         ]
@@ -2349,13 +2345,13 @@
     },
     "ranking_strongest_to_weakest": [
       "JPY",
-      "USD",
       "GBP",
+      "NZD",
+      "USD",
       "CAD",
-      "CHF",
-      "AUD",
       "EUR",
-      "NZD"
+      "CHF",
+      "AUD"
     ]
   }
 }
