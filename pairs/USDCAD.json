@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-20T01:57:21Z",
+  "generated_at": "2026-10-20T06:13:20Z",
   "trade_date": "2026-10-20",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -5190,32 +5190,32 @@
       "date": "2026-10-20",
       "open": 1.411,
       "high": 1.411,
-      "low": 1.4089,
-      "close": 1.4089,
-      "sma_9": 1.41838,
-      "sma_20": 1.42091,
-      "sma_50": 1.40369,
-      "sma_200": 1.39204,
-      "rsi_14": 42.326742,
-      "macd": 0.001995,
-      "macd_signal": 0.004917,
-      "macd_hist": -0.002922,
-      "bb_upper": 1.43222,
-      "bb_middle": 1.42091,
-      "bb_lower": 1.4096,
-      "stoch_k": 10.936109,
-      "stoch_d": 10.349512
+      "low": 1.4079,
+      "close": 1.4079,
+      "sma_9": 1.41827,
+      "sma_20": 1.42086,
+      "sma_50": 1.40367,
+      "sma_200": 1.39203,
+      "rsi_14": 41.274772,
+      "macd": 0.001915,
+      "macd_signal": 0.004901,
+      "macd_hist": -0.002986,
+      "bb_upper": 1.4324,
+      "bb_middle": 1.42086,
+      "bb_lower": 1.40932,
+      "stoch_k": 9.493107,
+      "stoch_d": 9.868511
     }
   ],
   "latest_state": {
-    "rsi_14": 42.326742,
-    "stoch_k": 10.936109,
-    "stoch_d": 10.349512,
-    "macd": 0.001995,
-    "macd_signal": 0.004917,
-    "macd_hist": -0.002922,
-    "atr_14": 0.005673,
-    "bb_width_vs_6mo_low_pct": 35.7,
+    "rsi_14": 41.274772,
+    "stoch_k": 9.493107,
+    "stoch_d": 9.868511,
+    "macd": 0.001915,
+    "macd_signal": 0.004901,
+    "macd_hist": -0.002986,
+    "atr_14": 0.005745,
+    "bb_width_vs_6mo_low_pct": 36.5,
     "donchian_high_20": 1.4299,
     "donchian_low_20": 1.4068,
     "high_52w": 1.4299,
@@ -5223,7 +5223,6 @@
   },
   "scan_ids": [
     "bb_breakout_down",
-    "composite_trend_pullback_long",
     "inside_day",
     "marubozu_bearish",
     "nr4",
@@ -5234,11 +5233,8 @@
     "sma50_near",
     "sma50_rising",
     "sma9_below",
-    "stoch_oversold",
-    "stoch_oversold_turning_up"
+    "stoch_oversold"
   ],
-  "scan_count": 14,
-  "composites_matched": [
-    "composite_trend_pullback_long"
-  ]
+  "scan_count": 12,
+  "composites_matched": []
 }
