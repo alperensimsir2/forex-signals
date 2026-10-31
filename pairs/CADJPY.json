@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-10-30T07:23:50Z",
+  "generated_at": "2026-10-31T02:34:21Z",
   "trade_date": "2026-10-30",
   "display_symbol": "CAD/JPY",
   "symbol": "CADJPY",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-10-30",
       "open": 112.68,
-      "high": 112.9,
-      "low": 112.54,
-      "close": 112.74,
-      "sma_9": 112.352,
+      "high": 112.97,
+      "low": 112.38,
+      "close": 112.73,
+      "sma_9": 112.351,
       "sma_20": 111.874,
       "sma_50": 111.651,
       "sma_200": 114.178,
-      "rsi_14": 60.58019,
-      "macd": 0.275251,
-      "macd_signal": 0.144393,
-      "macd_hist": 0.130858,
-      "bb_upper": 113.188,
+      "rsi_14": 60.475394,
+      "macd": 0.274453,
+      "macd_signal": 0.144234,
+      "macd_hist": 0.13022,
+      "bb_upper": 113.186,
       "bb_middle": 111.874,
-      "bb_lower": 110.56,
-      "stoch_k": 87.510642,
-      "stoch_d": 88.287833
+      "bb_lower": 110.561,
+      "stoch_k": 87.359812,
+      "stoch_d": 88.237557
     }
   ],
   "latest_state": {
-    "rsi_14": 60.58019,
-    "stoch_k": 87.510642,
-    "stoch_d": 88.287833,
-    "macd": 0.275251,
-    "macd_signal": 0.144393,
-    "macd_hist": 0.130858,
-    "atr_14": 0.624468,
+    "rsi_14": 60.475394,
+    "stoch_k": 87.359812,
+    "stoch_d": 88.237557,
+    "macd": 0.274453,
+    "macd_signal": 0.144234,
+    "macd_hist": 0.13022,
+    "atr_14": 0.640897,
     "bb_width_vs_6mo_low_pct": 54.8,
     "donchian_high_20": 113.09,
     "donchian_low_20": 110.47,
@@ -5222,6 +5222,7 @@
     "low_52w": 110.14
   },
   "scan_ids": [
+    "doji",
     "lh_ll",
     "sma200_below",
     "sma20_above",
@@ -5229,8 +5230,7 @@
     "sma50_falling",
     "sma9_above",
     "stoch_overbought",
-    "stoch_overbought_turning_down",
-    "tweezer_bottom"
+    "stoch_overbought_turning_down"
   ],
   "scan_count": 9,
   "composites_matched": []
