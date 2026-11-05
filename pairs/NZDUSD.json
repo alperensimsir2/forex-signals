@@ -1,31 +1,11 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-04T07:41:05Z",
-  "trade_date": "2026-11-04",
+  "generated_at": "2026-11-05T03:35:00Z",
+  "trade_date": "2026-11-05",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2026-02-11",
-      "open": 0.6041,
-      "high": 0.6074,
-      "low": 0.6032,
-      "close": 0.6042,
-      "sma_9": 0.60167,
-      "sma_20": 0.60062,
-      "sma_50": 0.58716,
-      "sma_200": 0.58253,
-      "rsi_14": 62.689507,
-      "macd": 0.004978,
-      "macd_signal": 0.005375,
-      "macd_hist": -0.000397,
-      "bb_upper": 0.60953,
-      "bb_middle": 0.60062,
-      "bb_lower": 0.59171,
-      "stoch_k": 69.105691,
-      "stoch_d": 63.075881
-    },
     {
       "date": "2026-02-12",
       "open": 0.6049,
@@ -5205,16 +5185,36 @@
       "bb_lower": 0.55902,
       "stoch_k": 22.316968,
       "stoch_d": 30.357861
+    },
+    {
+      "date": "2026-11-04",
+      "open": 0.5591,
+      "high": 0.56457,
+      "low": 0.55826,
+      "close": 0.56236,
+      "sma_9": 0.56294,
+      "sma_20": 0.56575,
+      "sma_50": 0.56518,
+      "sma_200": 0.57966,
+      "rsi_14": 43.437715,
+      "macd": -0.00126,
+      "macd_signal": -0.000702,
+      "macd_hist": -0.000558,
+      "bb_upper": 0.57243,
+      "bb_middle": 0.56575,
+      "bb_lower": 0.55907,
+      "stoch_k": 22.74394,
+      "stoch_d": 25.67286
     }
   ],
   "latest_state": {
-    "rsi_14": 32.952665,
-    "stoch_k": 22.316968,
-    "stoch_d": 30.357861,
-    "macd": -0.001244,
-    "macd_signal": -0.000562,
-    "macd_hist": -0.000682,
-    "atr_14": 0.003495,
+    "rsi_14": 43.437715,
+    "stoch_k": 22.74394,
+    "stoch_d": 25.67286,
+    "macd": -0.00126,
+    "macd_signal": -0.000702,
+    "macd_hist": -0.000558,
+    "atr_14": 0.003696,
     "bb_width_vs_6mo_low_pct": 17.5,
     "donchian_high_20": 0.57102,
     "donchian_low_20": 0.55812,
@@ -5222,15 +5222,14 @@
     "low_52w": 0.5564
   },
   "scan_ids": [
-    "lh_ll",
-    "lower_lows_3",
+    "bullish_engulfing",
+    "hh_hl",
     "sma200_below",
     "sma20_below",
-    "sma20_cross_above_sma50",
-    "sma50_below",
     "sma50_falling",
-    "sma9_below"
+    "sma50_near",
+    "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 7,
   "composites_matched": []
 }
