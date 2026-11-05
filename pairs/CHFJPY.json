@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-05T03:35:00Z",
+  "generated_at": "2026-11-05T08:03:11Z",
   "trade_date": "2026-11-05",
   "display_symbol": "CHF/JPY",
   "symbol": "CHFJPY",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-11-05",
       "open": 193.81,
-      "high": 194.09,
+      "high": 194.14,
       "low": 193.71,
-      "close": 193.93,
-      "sma_9": 192.027,
-      "sma_20": 191.443,
-      "sma_50": 190.536,
-      "sma_200": 197.685,
-      "rsi_14": 68.233739,
-      "macd": 0.626255,
-      "macd_signal": 0.244536,
-      "macd_hist": 0.381719,
-      "bb_upper": 193.911,
-      "bb_middle": 191.443,
-      "bb_lower": 188.975,
-      "stoch_k": 90.380306,
-      "stoch_d": 86.857459
+      "close": 193.88,
+      "sma_9": 192.022,
+      "sma_20": 191.441,
+      "sma_50": 190.535,
+      "sma_200": 197.684,
+      "rsi_14": 68.009395,
+      "macd": 0.622266,
+      "macd_signal": 0.243738,
+      "macd_hist": 0.378528,
+      "bb_upper": 193.898,
+      "bb_middle": 191.441,
+      "bb_lower": 188.983,
+      "stoch_k": 90.015608,
+      "stoch_d": 86.735893
     }
   ],
   "latest_state": {
-    "rsi_14": 68.233739,
-    "stoch_k": 90.380306,
-    "stoch_d": 86.857459,
-    "macd": 0.626255,
-    "macd_signal": 0.244536,
-    "macd_hist": 0.381719,
-    "atr_14": 1.065558,
+    "rsi_14": 68.009395,
+    "stoch_k": 90.015608,
+    "stoch_d": 86.735893,
+    "macd": 0.622266,
+    "macd_signal": 0.243738,
+    "macd_hist": 0.378528,
+    "atr_14": 1.069129,
     "bb_width_vs_6mo_low_pct": 59.5,
     "donchian_high_20": 194.36,
     "donchian_low_20": 189.12,
@@ -5222,7 +5222,6 @@
     "low_52w": 187.46
   },
   "scan_ids": [
-    "bb_breakout_up",
     "inside_day",
     "nr4",
     "sma200_below",
@@ -5232,6 +5231,6 @@
     "sma9_above",
     "stoch_overbought"
   ],
-  "scan_count": 9,
+  "scan_count": 8,
   "composites_matched": []
 }

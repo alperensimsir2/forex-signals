@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-05T03:35:00Z",
+  "generated_at": "2026-11-05T08:03:11Z",
   "trade_date": "2026-11-05",
   "display_symbol": "EUR/AUD",
   "symbol": "EURAUD",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-11-05",
       "open": 1.6029,
-      "high": 1.6063,
+      "high": 1.6073,
       "low": 1.6022,
-      "close": 1.6042,
-      "sma_9": 1.59417,
-      "sma_20": 1.59984,
-      "sma_50": 1.60983,
+      "close": 1.6033,
+      "sma_9": 1.59407,
+      "sma_20": 1.59979,
+      "sma_50": 1.60981,
       "sma_200": 1.63584,
-      "rsi_14": 50.898949,
-      "macd": -0.003839,
-      "macd_signal": -0.005535,
-      "macd_hist": 0.001696,
-      "bb_upper": 1.6201,
-      "bb_middle": 1.59984,
-      "bb_lower": 1.57957,
-      "stoch_k": 60.618041,
-      "stoch_d": 51.206992
+      "rsi_14": 50.278066,
+      "macd": -0.003911,
+      "macd_signal": -0.005549,
+      "macd_hist": 0.001638,
+      "bb_upper": 1.62002,
+      "bb_middle": 1.59979,
+      "bb_lower": 1.57956,
+      "stoch_k": 59.869911,
+      "stoch_d": 50.957615
     }
   ],
   "latest_state": {
-    "rsi_14": 50.898949,
-    "stoch_k": 60.618041,
-    "stoch_d": 51.206992,
-    "macd": -0.003839,
-    "macd_signal": -0.005535,
-    "macd_hist": 0.001696,
-    "atr_14": 0.011094,
+    "rsi_14": 50.278066,
+    "stoch_k": 59.869911,
+    "stoch_d": 50.957615,
+    "macd": -0.003911,
+    "macd_signal": -0.005549,
+    "macd_hist": 0.001638,
+    "atr_14": 0.011166,
     "bb_width_vs_6mo_low_pct": 92.9,
     "donchian_high_20": 1.6269,
     "donchian_low_20": 1.5776,
@@ -5222,6 +5222,8 @@
     "low_52w": 1.5776
   },
   "scan_ids": [
+    "atr_expansion",
+    "doji",
     "inside_day",
     "nr4",
     "nr7",
@@ -5231,6 +5233,6 @@
     "sma50_near",
     "sma9_above"
   ],
-  "scan_count": 8,
+  "scan_count": 10,
   "composites_matched": []
 }
