@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-06T03:30:07Z",
+  "generated_at": "2026-11-06T08:07:24Z",
   "trade_date": "2026-11-06",
   "display_symbol": "GBP/CAD",
   "symbol": "GBPCAD",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-11-06",
       "open": 1.8847,
-      "high": 1.8868,
+      "high": 1.8873,
       "low": 1.8842,
-      "close": 1.8847,
-      "sma_9": 1.87623,
+      "close": 1.8846,
+      "sma_9": 1.87622,
       "sma_20": 1.87701,
       "sma_50": 1.87776,
       "sma_200": 1.86944,
-      "rsi_14": 57.736438,
-      "macd": 0.000497,
-      "macd_signal": -0.000949,
-      "macd_hist": 0.001446,
-      "bb_upper": 1.88916,
+      "rsi_14": 57.613584,
+      "macd": 0.000489,
+      "macd_signal": -0.00095,
+      "macd_hist": 0.00144,
+      "bb_upper": 1.88914,
       "bb_middle": 1.87701,
       "bb_lower": 1.86487,
-      "stoch_k": 94.199341,
-      "stoch_d": 86.461328
+      "stoch_k": 93.509887,
+      "stoch_d": 86.23151
     }
   ],
   "latest_state": {
-    "rsi_14": 57.736438,
-    "stoch_k": 94.199341,
-    "stoch_d": 86.461328,
-    "macd": 0.000497,
-    "macd_signal": -0.000949,
-    "macd_hist": 0.001446,
-    "atr_14": 0.007753,
+    "rsi_14": 57.613584,
+    "stoch_k": 93.509887,
+    "stoch_d": 86.23151,
+    "macd": 0.000489,
+    "macd_signal": -0.00095,
+    "macd_hist": 0.00144,
+    "atr_14": 0.007788,
     "bb_width_vs_6mo_low_pct": 44.4,
     "donchian_high_20": 1.8905,
     "donchian_low_20": 1.8602,
@@ -5222,8 +5222,11 @@
     "low_52w": 1.8013
   },
   "scan_ids": [
+    "bearish_harami",
     "doji",
     "ema_fast_cross_above_slow",
+    "hh_hl",
+    "higher_highs_3",
     "macd_zero_cross_up",
     "nr4",
     "sma200_above",
@@ -5231,9 +5234,8 @@
     "sma50_near",
     "sma50_rising",
     "sma9_above",
-    "stoch_overbought",
-    "tweezer_top"
+    "stoch_overbought"
   ],
-  "scan_count": 11,
+  "scan_count": 13,
   "composites_matched": []
 }
