@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-10T04:42:14Z",
+  "generated_at": "2026-11-10T08:34:21Z",
   "trade_date": "2026-11-10",
   "display_symbol": "AUD/JPY",
   "symbol": "AUDJPY",
@@ -5189,8 +5189,8 @@
     {
       "date": "2026-11-10",
       "open": 109.36,
-      "high": 109.45,
-      "low": 109.27,
+      "high": 109.47,
+      "low": 109.26,
       "close": 109.32,
       "sma_9": 109.818,
       "sma_20": 110.305,
@@ -5214,7 +5214,7 @@
     "macd": -0.333506,
     "macd_signal": -0.174314,
     "macd_hist": -0.159192,
-    "atr_14": 0.828636,
+    "atr_14": 0.830779,
     "bb_width_vs_6mo_low_pct": 49.2,
     "donchian_high_20": 111.55,
     "donchian_low_20": 108.2,
