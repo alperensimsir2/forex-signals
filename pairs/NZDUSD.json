@@ -1,31 +1,11 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-10T08:34:21Z",
-  "trade_date": "2026-11-10",
+  "generated_at": "2026-11-11T02:53:15Z",
+  "trade_date": "2026-11-11",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2026-02-17",
-      "open": 0.6032,
-      "high": 0.6051,
-      "low": 0.6007,
-      "close": 0.6032,
-      "sma_9": 0.6039,
-      "sma_20": 0.60287,
-      "sma_50": 0.58959,
-      "sma_200": 0.58276,
-      "rsi_14": 59.414894,
-      "macd": 0.003727,
-      "macd_signal": 0.004492,
-      "macd_hist": -0.000764,
-      "bb_upper": 0.6085,
-      "bb_middle": 0.60287,
-      "bb_lower": 0.59725,
-      "stoch_k": 70.720721,
-      "stoch_d": 71.996997
-    },
     {
       "date": "2026-02-18",
       "open": 0.6049,
@@ -5205,17 +5185,37 @@
       "bb_lower": 0.55326,
       "stoch_k": 28.872981,
       "stoch_d": 17.348216
+    },
+    {
+      "date": "2026-11-10",
+      "open": 0.5633,
+      "high": 0.56495,
+      "low": 0.55854,
+      "close": 0.56059,
+      "sma_9": 0.55906,
+      "sma_20": 0.56315,
+      "sma_50": 0.56352,
+      "sma_200": 0.57877,
+      "rsi_14": 46.565983,
+      "macd": -0.001995,
+      "macd_signal": -0.001777,
+      "macd_hist": -0.000217,
+      "bb_upper": 0.5731,
+      "bb_middle": 0.56315,
+      "bb_lower": 0.55319,
+      "stoch_k": 42.337896,
+      "stoch_d": 27.970928
     }
   ],
   "latest_state": {
-    "rsi_14": 51.29467,
-    "stoch_k": 28.872981,
-    "stoch_d": 17.348216,
-    "macd": -0.002174,
-    "macd_signal": -0.001723,
-    "macd_hist": -0.000451,
-    "atr_14": 0.00424,
-    "bb_width_vs_6mo_low_pct": 77.8,
+    "rsi_14": 46.565983,
+    "stoch_k": 42.337896,
+    "stoch_d": 27.970928,
+    "macd": -0.001995,
+    "macd_signal": -0.001777,
+    "macd_hist": -0.000217,
+    "atr_14": 0.004395,
+    "bb_width_vs_6mo_low_pct": 74.6,
     "donchian_high_20": 0.57102,
     "donchian_low_20": 0.5526,
     "high_52w": 0.6013,
@@ -5223,18 +5223,19 @@
   },
   "scan_ids": [
     "atr_expansion",
+    "bearish_harami",
+    "composite_trend_pullback_short",
     "hh_hl",
     "higher_highs_3",
-    "marubozu_bullish",
-    "morning_star",
-    "pullback_3bar_downtrend",
-    "rsi_cross_above_50",
+    "rsi_cross_below_50",
     "sma200_below",
     "sma20_near",
     "sma50_falling",
     "sma50_near",
-    "sma9_above"
+    "sma9_near"
   ],
-  "scan_count": 12,
-  "composites_matched": []
+  "scan_count": 11,
+  "composites_matched": [
+    "composite_trend_pullback_short"
+  ]
 }
