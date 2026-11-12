@@ -1,31 +1,11 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-11T07:55:11Z",
-  "trade_date": "2026-11-11",
+  "generated_at": "2026-11-12T03:57:51Z",
+  "trade_date": "2026-11-12",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2026-02-18",
-      "open": 0.6049,
-      "high": 0.6051,
-      "low": 0.5979,
-      "close": 0.6049,
-      "sma_9": 0.60409,
-      "sma_20": 0.60279,
-      "sma_50": 0.59007,
-      "sma_200": 0.58276,
-      "rsi_14": 62.135581,
-      "macd": 0.003622,
-      "macd_signal": 0.004318,
-      "macd_hist": -0.000696,
-      "bb_upper": 0.60825,
-      "bb_middle": 0.60279,
-      "bb_lower": 0.59734,
-      "stoch_k": 73.873874,
-      "stoch_d": 72.447447
-    },
     {
       "date": "2026-02-19",
       "open": 0.5968,
@@ -5205,37 +5185,51 @@
       "bb_lower": 0.55319,
       "stoch_k": 42.337896,
       "stoch_d": 27.970928
+    },
+    {
+      "date": "2026-11-11",
+      "open": 0.5606,
+      "high": 0.56139,
+      "low": 0.55598,
+      "close": 0.55627,
+      "sma_9": 0.55844,
+      "sma_20": 0.56254,
+      "sma_50": 0.56318,
+      "sma_200": 0.57863,
+      "rsi_14": 40.342236,
+      "macd": -0.002176,
+      "macd_signal": -0.001857,
+      "macd_hist": -0.000319,
+      "bb_upper": 0.57262,
+      "bb_middle": 0.56254,
+      "bb_lower": 0.55246,
+      "stoch_k": 45.808034,
+      "stoch_d": 39.006304
     }
   ],
   "latest_state": {
-    "rsi_14": 46.565983,
-    "stoch_k": 42.337896,
-    "stoch_d": 27.970928,
-    "macd": -0.001995,
-    "macd_signal": -0.001777,
-    "macd_hist": -0.000217,
-    "atr_14": 0.004395,
-    "bb_width_vs_6mo_low_pct": 74.6,
-    "donchian_high_20": 0.57102,
+    "rsi_14": 40.342236,
+    "stoch_k": 45.808034,
+    "stoch_d": 39.006304,
+    "macd": -0.002176,
+    "macd_signal": -0.001857,
+    "macd_hist": -0.000319,
+    "atr_14": 0.004468,
+    "bb_width_vs_6mo_low_pct": 77.0,
+    "donchian_high_20": 0.57076,
     "donchian_low_20": 0.5526,
-    "high_52w": 0.6013,
+    "high_52w": 0.6005,
     "low_52w": 0.5526
   },
   "scan_ids": [
     "atr_expansion",
-    "bearish_harami",
-    "composite_trend_pullback_short",
-    "hh_hl",
-    "higher_highs_3",
-    "rsi_cross_below_50",
+    "lh_ll",
     "sma200_below",
-    "sma20_near",
+    "sma20_below",
+    "sma50_below",
     "sma50_falling",
-    "sma50_near",
-    "sma9_near"
+    "sma9_below"
   ],
-  "scan_count": 11,
-  "composites_matched": [
-    "composite_trend_pullback_short"
-  ]
+  "scan_count": 7,
+  "composites_matched": []
 }
