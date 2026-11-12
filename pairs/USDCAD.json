@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-12T03:57:51Z",
+  "generated_at": "2026-11-12T08:33:14Z",
   "trade_date": "2026-11-12",
   "display_symbol": "USD/CAD",
   "symbol": "USDCAD",
@@ -5191,29 +5191,29 @@
       "open": 1.4251,
       "high": 1.4331,
       "low": 1.4244,
-      "close": 1.4249,
-      "sma_9": 1.41183,
-      "sma_20": 1.40569,
-      "sma_50": 1.41172,
-      "sma_200": 1.39585,
-      "rsi_14": 67.904339,
-      "macd": 0.002681,
-      "macd_signal": -0.000342,
-      "macd_hist": 0.003023,
-      "bb_upper": 1.4235,
-      "bb_middle": 1.40569,
-      "bb_lower": 1.38787,
-      "stoch_k": 90.760825,
-      "stoch_d": 92.111719
+      "close": 1.4257,
+      "sma_9": 1.41192,
+      "sma_20": 1.40572,
+      "sma_50": 1.41174,
+      "sma_200": 1.39586,
+      "rsi_14": 68.74934,
+      "macd": 0.002745,
+      "macd_signal": -0.000329,
+      "macd_hist": 0.003074,
+      "bb_upper": 1.42372,
+      "bb_middle": 1.40572,
+      "bb_lower": 1.38773,
+      "stoch_k": 91.420891,
+      "stoch_d": 92.331741
     }
   ],
   "latest_state": {
-    "rsi_14": 67.904339,
-    "stoch_k": 90.760825,
-    "stoch_d": 92.111719,
-    "macd": 0.002681,
-    "macd_signal": -0.000342,
-    "macd_hist": 0.003023,
+    "rsi_14": 68.74934,
+    "stoch_k": 91.420891,
+    "stoch_d": 92.331741,
+    "macd": 0.002745,
+    "macd_signal": -0.000329,
+    "macd_hist": 0.003074,
     "atr_14": 0.006623,
     "bb_width_vs_6mo_low_pct": 69.0,
     "donchian_high_20": 1.4331,
@@ -5224,10 +5224,12 @@
   "scan_ids": [
     "atr_expansion",
     "bb_breakout_up",
-    "bearish_harami",
+    "composite_failed_breakout",
     "doji",
     "hh_hl",
     "higher_highs_3",
+    "inverted_hammer",
+    "shooting_star",
     "sma200_above",
     "sma20_above",
     "sma50_above",
@@ -5236,6 +5238,8 @@
     "stoch_overbought",
     "stoch_overbought_turning_down"
   ],
-  "scan_count": 13,
-  "composites_matched": []
+  "scan_count": 15,
+  "composites_matched": [
+    "composite_failed_breakout"
+  ]
 }
