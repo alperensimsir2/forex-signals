@@ -1,31 +1,11 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-13T08:19:24Z",
+  "generated_at": "2026-11-14T03:24:51Z",
   "trade_date": "2026-11-13",
   "display_symbol": "NZD/USD",
   "symbol": "NZDUSD",
   "category": "major",
   "history": [
-    {
-      "date": "2026-02-20",
-      "open": 0.5972,
-      "high": 0.5985,
-      "low": 0.594,
-      "close": 0.5971,
-      "sma_9": 0.60236,
-      "sma_20": 0.60199,
-      "sma_50": 0.59079,
-      "sma_200": 0.58271,
-      "rsi_14": 46.775872,
-      "macd": 0.00224,
-      "macd_signal": 0.003668,
-      "macd_hist": -0.001428,
-      "bb_upper": 0.60804,
-      "bb_middle": 0.60199,
-      "bb_lower": 0.59595,
-      "stoch_k": 43.35339,
-      "stoch_d": 58.745424
-    },
     {
       "date": "2026-02-21",
       "open": 0.5979,
@@ -5205,21 +5185,41 @@
       "bb_lower": 0.55171,
       "stoch_k": 30.671051,
       "stoch_d": 39.60566
+    },
+    {
+      "date": "2026-11-13",
+      "open": 0.55445,
+      "high": 0.55476,
+      "low": 0.55201,
+      "close": 0.55247,
+      "sma_9": 0.55681,
+      "sma_20": 0.56087,
+      "sma_50": 0.56266,
+      "sma_200": 0.57827,
+      "rsi_14": 35.649566,
+      "macd": -0.002775,
+      "macd_signal": -0.002134,
+      "macd_hist": -0.000641,
+      "bb_upper": 0.57093,
+      "bb_middle": 0.56087,
+      "bb_lower": 0.55082,
+      "stoch_k": 15.034868,
+      "stoch_d": 30.504651
     }
   ],
   "latest_state": {
-    "rsi_14": 38.011885,
-    "stoch_k": 30.671051,
-    "stoch_d": 39.60566,
-    "macd": -0.00244,
-    "macd_signal": -0.001974,
-    "macd_hist": -0.000466,
-    "atr_14": 0.004369,
-    "bb_width_vs_6mo_low_pct": 76.2,
+    "rsi_14": 35.649566,
+    "stoch_k": 15.034868,
+    "stoch_d": 30.504651,
+    "macd": -0.002775,
+    "macd_signal": -0.002134,
+    "macd_hist": -0.000641,
+    "atr_14": 0.004253,
+    "bb_width_vs_6mo_low_pct": 77.0,
     "donchian_high_20": 0.57076,
-    "donchian_low_20": 0.5526,
+    "donchian_low_20": 0.55201,
     "high_52w": 0.5998,
-    "low_52w": 0.5526
+    "low_52w": 0.55201
   },
   "scan_ids": [
     "atr_expansion",
@@ -5230,8 +5230,10 @@
     "sma20_below",
     "sma50_below",
     "sma50_falling",
-    "sma9_below"
+    "sma9_below",
+    "stoch_oversold",
+    "three_black_crows"
   ],
-  "scan_count": 9,
+  "scan_count": 11,
   "composites_matched": []
 }
