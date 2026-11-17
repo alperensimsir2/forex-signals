@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-17T05:09:09Z",
+  "generated_at": "2026-11-17T09:25:53Z",
   "trade_date": "2026-11-17",
   "display_symbol": "USD/CHF",
   "symbol": "USDCHF",
@@ -5190,7 +5190,7 @@
       "date": "2026-11-17",
       "open": 0.8396,
       "high": 0.8413,
-      "low": 0.8392,
+      "low": 0.8385,
       "close": 0.8394,
       "sma_9": 0.83231,
       "sma_20": 0.82717,
@@ -5214,7 +5214,7 @@
     "macd": 0.003503,
     "macd_signal": 0.001352,
     "macd_hist": 0.002151,
-    "atr_14": 0.004823,
+    "atr_14": 0.004873,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 0.8413,
     "donchian_low_20": 0.8124,
@@ -5226,7 +5226,6 @@
     "doji",
     "hh_hl",
     "higher_highs_3",
-    "shooting_star",
     "sma200_above",
     "sma20_above",
     "sma50_above",
@@ -5234,6 +5233,6 @@
     "sma9_above",
     "stoch_overbought"
   ],
-  "scan_count": 11,
+  "scan_count": 10,
   "composites_matched": []
 }
