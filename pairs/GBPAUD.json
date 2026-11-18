@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-18T04:36:37Z",
+  "generated_at": "2026-11-18T08:43:51Z",
   "trade_date": "2026-11-18",
   "display_symbol": "GBP/AUD",
   "symbol": "GBPAUD",
@@ -5191,29 +5191,29 @@
       "open": 1.9605,
       "high": 1.9644,
       "low": 1.9589,
-      "close": 1.9622,
-      "sma_9": 1.94992,
-      "sma_20": 1.931,
-      "sma_50": 1.91189,
-      "sma_200": 1.90151,
-      "rsi_14": 74.844247,
-      "macd": 0.014549,
-      "macd_signal": 0.012131,
-      "macd_hist": 0.002418,
-      "bb_upper": 1.97878,
-      "bb_middle": 1.931,
-      "bb_lower": 1.88322,
-      "stoch_k": 97.361737,
-      "stoch_d": 96.830287
+      "close": 1.9609,
+      "sma_9": 1.94977,
+      "sma_20": 1.93094,
+      "sma_50": 1.91186,
+      "sma_200": 1.9015,
+      "rsi_14": 74.170091,
+      "macd": 0.014446,
+      "macd_signal": 0.01211,
+      "macd_hist": 0.002335,
+      "bb_upper": 1.97854,
+      "bb_middle": 1.93094,
+      "bb_lower": 1.88333,
+      "stoch_k": 96.520313,
+      "stoch_d": 96.549813
     }
   ],
   "latest_state": {
-    "rsi_14": 74.844247,
-    "stoch_k": 97.361737,
-    "stoch_d": 96.830287,
-    "macd": 0.014549,
-    "macd_signal": 0.012131,
-    "macd_hist": 0.002418,
+    "rsi_14": 74.170091,
+    "stoch_k": 96.520313,
+    "stoch_d": 96.549813,
+    "macd": 0.014446,
+    "macd_signal": 0.01211,
+    "macd_hist": 0.002335,
     "atr_14": 0.010857,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 1.9644,
@@ -5222,6 +5222,7 @@
     "low_52w": 1.8526
   },
   "scan_ids": [
+    "doji",
     "hh_hl",
     "higher_highs_3",
     "rsi_overbought",
@@ -5230,8 +5231,9 @@
     "sma50_above",
     "sma50_rising",
     "sma9_above",
-    "stoch_overbought"
+    "stoch_overbought",
+    "stoch_overbought_turning_down"
   ],
-  "scan_count": 9,
+  "scan_count": 11,
   "composites_matched": []
 }
