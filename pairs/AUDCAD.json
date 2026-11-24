@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-24T07:00:01Z",
+  "generated_at": "2026-11-24T11:15:11Z",
   "trade_date": "2026-11-24",
   "display_symbol": "AUD/CAD",
   "symbol": "AUDCAD",
@@ -5190,31 +5190,31 @@
       "date": "2026-11-24",
       "open": 0.95186,
       "high": 0.95303,
-      "low": 0.94961,
-      "close": 0.95178002119064,
-      "sma_9": 0.95666,
-      "sma_20": 0.9648,
-      "sma_50": 0.97786,
+      "low": 0.94955,
+      "close": 0.95086002349854,
+      "sma_9": 0.95656,
+      "sma_20": 0.96475,
+      "sma_50": 0.97784,
       "sma_200": 0.98492,
-      "rsi_14": 29.10086,
-      "macd": -0.007893,
-      "macd_signal": -0.006593,
-      "macd_hist": -0.0013,
-      "bb_upper": 0.98365,
-      "bb_middle": 0.9648,
-      "bb_lower": 0.94594,
-      "stoch_k": 9.015576,
-      "stoch_d": 6.334762
+      "rsi_14": 28.417187,
+      "macd": -0.007967,
+      "macd_signal": -0.006607,
+      "macd_hist": -0.001359,
+      "bb_upper": 0.98374,
+      "bb_middle": 0.96475,
+      "bb_lower": 0.94575,
+      "stoch_k": 7.971394,
+      "stoch_d": 5.986701
     }
   ],
   "latest_state": {
-    "rsi_14": 29.10086,
-    "stoch_k": 9.015576,
-    "stoch_d": 6.334762,
-    "macd": -0.007893,
-    "macd_signal": -0.006593,
-    "macd_hist": -0.0013,
-    "atr_14": 0.005511,
+    "rsi_14": 28.417187,
+    "stoch_k": 7.971394,
+    "stoch_d": 5.986701,
+    "macd": -0.007967,
+    "macd_signal": -0.006607,
+    "macd_hist": -0.001359,
+    "atr_14": 0.005515,
     "bb_width_vs_6mo_low_pct": 100.0,
     "donchian_high_20": 0.9796,
     "donchian_low_20": 0.94797,
@@ -5222,17 +5222,19 @@
     "low_52w": 0.94797
   },
   "scan_ids": [
-    "doji",
+    "composite_oversold_reversal",
     "inside_day",
     "rsi_oversold",
     "sma200_below",
     "sma20_below",
-    "sma50_below",
+    "sma50_extended_below",
     "sma50_falling",
     "sma9_below",
     "stoch_oversold",
     "stoch_oversold_turning_up"
   ],
   "scan_count": 10,
-  "composites_matched": []
+  "composites_matched": [
+    "composite_oversold_reversal"
+  ]
 }
