@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-25T05:32:22Z",
+  "generated_at": "2026-11-25T10:00:27Z",
   "trade_date": "2026-11-25",
   "display_symbol": "USD/JPY",
   "symbol": "USDJPY",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-11-25",
       "open": 159.2,
-      "high": 159.35,
-      "low": 159.12,
-      "close": 159.19,
-      "sma_9": 159.16,
-      "sma_20": 158.983,
-      "sma_50": 158.3,
+      "high": 159.5,
+      "low": 159.02,
+      "close": 159.32,
+      "sma_9": 159.174,
+      "sma_20": 158.989,
+      "sma_50": 158.303,
       "sma_200": 159.032,
-      "rsi_14": 54.929105,
-      "macd": 0.291924,
-      "macd_signal": 0.346463,
-      "macd_hist": -0.054539,
-      "bb_upper": 160.252,
-      "bb_middle": 158.983,
+      "rsi_14": 56.305213,
+      "macd": 0.302294,
+      "macd_signal": 0.348537,
+      "macd_hist": -0.046243,
+      "bb_upper": 160.264,
+      "bb_middle": 158.989,
       "bb_lower": 157.714,
-      "stoch_k": 58.234802,
-      "stoch_d": 53.781873
+      "stoch_k": 60.094602,
+      "stoch_d": 54.401807
     }
   ],
   "latest_state": {
-    "rsi_14": 54.929105,
-    "stoch_k": 58.234802,
-    "stoch_d": 53.781873,
-    "macd": 0.291924,
-    "macd_signal": 0.346463,
-    "macd_hist": -0.054539,
-    "atr_14": 0.726351,
+    "rsi_14": 56.305213,
+    "stoch_k": 60.094602,
+    "stoch_d": 54.401807,
+    "macd": 0.302294,
+    "macd_signal": 0.348537,
+    "macd_hist": -0.046243,
+    "atr_14": 0.744208,
     "bb_width_vs_6mo_low_pct": 39.7,
     "donchian_high_20": 160.18,
     "donchian_low_20": 157.21,
@@ -5222,8 +5222,6 @@
     "low_52w": 152.379
   },
   "scan_ids": [
-    "bearish_harami",
-    "doji",
     "inside_day",
     "sma200_above",
     "sma20_near",
@@ -5231,6 +5229,6 @@
     "sma50_rising",
     "sma9_near"
   ],
-  "scan_count": 8,
+  "scan_count": 6,
   "composites_matched": []
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-25T05:32:22Z",
+  "generated_at": "2026-11-25T10:00:27Z",
   "trade_date": "2026-11-25",
   "display_symbol": "EUR/JPY",
   "symbol": "EURJPY",
@@ -5190,7 +5190,7 @@
       "date": "2026-11-25",
       "open": 174.628,
       "high": 174.676,
-      "low": 174.26,
+      "low": 173.904,
       "close": 174.31399536133,
       "sma_9": 174.788,
       "sma_20": 175.875,
@@ -5224,8 +5224,6 @@
   "scan_ids": [
     "atr_expansion",
     "inside_day",
-    "nr4",
-    "nr7",
     "sma200_below",
     "sma20_below",
     "sma50_below",
@@ -5233,6 +5231,6 @@
     "sma9_near",
     "stoch_oversold"
   ],
-  "scan_count": 10,
+  "scan_count": 8,
   "composites_matched": []
 }
