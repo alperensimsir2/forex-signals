@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-26T05:15:05Z",
+  "generated_at": "2026-11-26T09:44:29Z",
   "trade_date": "2026-11-26",
   "display_symbol": "AUD/CHF",
   "symbol": "AUDCHF",
@@ -5189,32 +5189,32 @@
     {
       "date": "2026-11-26",
       "open": 0.5506,
-      "high": 0.5525,
+      "high": 0.5534,
       "low": 0.5501,
-      "close": 0.5521,
-      "sma_9": 0.55914,
-      "sma_20": 0.564,
+      "close": 0.5519,
+      "sma_9": 0.55912,
+      "sma_20": 0.56399,
       "sma_50": 0.57291,
       "sma_200": 0.56886,
-      "rsi_14": 28.580793,
-      "macd": -0.00572,
-      "macd_signal": -0.004382,
-      "macd_hist": -0.001338,
-      "bb_upper": 0.57681,
-      "bb_middle": 0.564,
-      "bb_lower": 0.55119,
-      "stoch_k": 21.341805,
-      "stoch_d": 17.828956
+      "rsi_14": 28.16172,
+      "macd": -0.005736,
+      "macd_signal": -0.004385,
+      "macd_hist": -0.001351,
+      "bb_upper": 0.57684,
+      "bb_middle": 0.56399,
+      "bb_lower": 0.55114,
+      "stoch_k": 21.099381,
+      "stoch_d": 17.748148
     }
   ],
   "latest_state": {
-    "rsi_14": 28.580793,
-    "stoch_k": 21.341805,
-    "stoch_d": 17.828956,
-    "macd": -0.00572,
-    "macd_signal": -0.004382,
-    "macd_hist": -0.001338,
-    "atr_14": 0.005287,
+    "rsi_14": 28.16172,
+    "stoch_k": 21.099381,
+    "stoch_d": 17.748148,
+    "macd": -0.005736,
+    "macd_signal": -0.004385,
+    "macd_hist": -0.001351,
+    "atr_14": 0.005351,
     "bb_width_vs_6mo_low_pct": 92.1,
     "donchian_high_20": 0.5744,
     "donchian_low_20": 0.5441,
@@ -5222,6 +5222,7 @@
     "low_52w": 0.5362
   },
   "scan_ids": [
+    "atr_expansion",
     "inside_day",
     "nr4",
     "nr7",
@@ -5232,6 +5233,6 @@
     "sma50_falling",
     "sma9_extended_below"
   ],
-  "scan_count": 9,
+  "scan_count": 10,
   "composites_matched": []
 }
