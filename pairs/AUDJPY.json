@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1.0",
-  "generated_at": "2026-11-27T05:13:02Z",
+  "generated_at": "2026-11-27T09:50:46Z",
   "trade_date": "2026-11-27",
   "display_symbol": "AUD/JPY",
   "symbol": "AUDJPY",
@@ -5108,9 +5108,9 @@
     },
     {
       "date": "2026-11-23",
-      "open": 104.89,
+      "open": 105.25,
       "high": 106.11,
-      "low": 101.22,
+      "low": 105.25,
       "close": 105.39,
       "sma_9": 106.626,
       "sma_20": 108.296,
@@ -5123,8 +5123,8 @@
       "bb_upper": 112.029,
       "bb_middle": 108.296,
       "bb_lower": 104.564,
-      "stoch_k": 19.174473,
-      "stoch_d": 9.08186
+      "stoch_k": 7.397659,
+      "stoch_d": 5.156256
     },
     {
       "date": "2026-11-24",
@@ -5143,8 +5143,8 @@
       "bb_upper": 111.774,
       "bb_middle": 108.051,
       "bb_lower": 104.328,
-      "stoch_k": 36.048858,
-      "stoch_d": 19.628303
+      "stoch_k": 13.51626,
+      "stoch_d": 8.191833
     },
     {
       "date": "2026-11-25",
@@ -5163,8 +5163,8 @@
       "bb_upper": 111.495,
       "bb_middle": 107.799,
       "bb_lower": 104.103,
-      "stoch_k": 51.650756,
-      "stoch_d": 35.624696
+      "stoch_k": 19.444573,
+      "stoch_d": 13.452831
     },
     {
       "date": "2026-11-26",
@@ -5183,54 +5183,53 @@
       "bb_upper": 111.129,
       "bb_middle": 107.555,
       "bb_lower": 103.98,
-      "stoch_k": 52.724741,
-      "stoch_d": 46.808118
+      "stoch_k": 22.999294,
+      "stoch_d": 18.653376
     },
     {
       "date": "2026-11-27",
       "open": 105.61,
-      "high": 106.18,
+      "high": 106.49,
       "low": 105.61,
-      "close": 106.07,
-      "sma_9": 105.731,
-      "sma_20": 107.31,
-      "sma_50": 109.147,
-      "sma_200": 111.91,
-      "rsi_14": 35.819512,
-      "macd": -1.19066,
-      "macd_signal": -1.104812,
-      "macd_hist": -0.085848,
-      "bb_upper": 110.556,
-      "bb_middle": 107.31,
-      "bb_lower": 104.063,
-      "stoch_k": 53.977725,
-      "stoch_d": 52.784407
+      "close": 106.4,
+      "sma_9": 105.768,
+      "sma_20": 107.326,
+      "sma_50": 109.154,
+      "sma_200": 111.912,
+      "rsi_14": 39.243091,
+      "macd": -1.164335,
+      "macd_signal": -1.099547,
+      "macd_hist": -0.064788,
+      "bb_upper": 110.55,
+      "bb_middle": 107.326,
+      "bb_lower": 104.103,
+      "stoch_k": 28.770596,
+      "stoch_d": 23.738154
     }
   ],
   "latest_state": {
-    "rsi_14": 35.819512,
-    "stoch_k": 53.977725,
-    "stoch_d": 52.784407,
-    "macd": -1.19066,
-    "macd_signal": -1.104812,
-    "macd_hist": -0.085848,
-    "atr_14": 1.086137,
+    "rsi_14": 39.243091,
+    "stoch_k": 28.770596,
+    "stoch_d": 23.738154,
+    "macd": -1.164335,
+    "macd_signal": -1.099547,
+    "macd_hist": -0.064788,
+    "atr_14": 0.913386,
     "bb_width_vs_6mo_low_pct": 91.3,
     "donchian_high_20": 111.12,
-    "donchian_low_20": 101.22,
+    "donchian_low_20": 104.34,
     "high_52w": 114.99,
-    "low_52w": 101.22
+    "low_52w": 104.34
   },
   "scan_ids": [
-    "atr_expansion",
     "hh_hl",
     "pullback_3bar_downtrend",
     "sma200_below",
     "sma20_below",
-    "sma50_extended_below",
+    "sma50_below",
     "sma50_falling",
-    "sma9_near"
+    "sma9_above"
   ],
-  "scan_count": 8,
+  "scan_count": 7,
   "composites_matched": []
 }
